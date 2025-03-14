@@ -1,19 +1,5 @@
 # modubot-talk
-##väiksem pealkiri
+##Taltech IT Kolledži robootikaringi näpuharjutused kõneleva roboti tegemiseks
 =======
-## väiksem pealkiri
-=======
-### elektriauto
 
-[.md ehk Markdown keel:](https://guides.github.com/features/mastering-markdown/)
-readme failide tegemiseks.
-
-#Panda
-=======
-## Elekter okidoki sinine nagu taevas, ilus
-### kass
-### mjau mjau
-# ඞඞඞ
-
-## Panda
 
