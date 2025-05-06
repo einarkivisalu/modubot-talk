@@ -2,7 +2,8 @@ Kiire meeldetuletus giti kasutamiseks :)
 
 
 ---PYCHARMI KAUDU---
-(visuaalne juhend: https://docs.google.com/document/d/1AdsLHl93dxJVtJG7vgIcLFs3AnAYVCk2eE5qZYORUxE/edit?usp=sharing)
+Visuaalne juhend: https://docs.google.com/document/d/1AdsLHl93dxJVtJG7vgIcLFs3AnAYVCk2eE5qZYORUxE/edit?usp=sharing
+Einari giti koolituse slaidid: https://livettu.sharepoint.com/:p:/r/sites/ModuBOT/Shared%20Documents/General/Giti_kasutamine.pptx?d=w7becef1b79ab421ebafa7795f78113e6&csf=1&web=1&e=5Ueds7
 
 
 Kui repo oma arvutisse kloonitud pole:
