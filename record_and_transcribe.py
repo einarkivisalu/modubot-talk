@@ -92,7 +92,7 @@ def record_and_transcribe(duration=5, samplerate=16000):
 
            print(f"Sa ütlesid: {transcription}")
            speak_text(f"Sa ütlesid: {transcription}")
-
+           return transcription
 
        except Exception as e:
            print("Viga transkriptsioonis:", e)

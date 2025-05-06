@@ -1,15 +1,26 @@
 
 void setup() {
-  Serial.begin(9600);
-  // Set up motor pins here
-}
+    Serial.begin(9600);
+    bluetoothSerial.begin(9600);
+
+    pinMode(errorLED, OUTPUT);
+    pinMode(Vcc, OUTPUT);
+    digitalWrite(Vcc, HIGH);
+
+
+    for (int i = 0; i < numSensors; i++) {
+        pinMode(trigPins[i], OUTPUT);
+        pinMode(echoPins[i], INPUT);
+    }
 
 void loop() {
   if (Serial.available() > 0) {
     char command = Serial.read();
-    if (command == 'vasakule') {
-      turnLeft();
+    if (command == 'Left') {
+      motors_left();
     }
+    if (command == 'Right') {
+      motors_right();
   }
 }
 
@@ -22,14 +33,12 @@ void motors_forward() {
     digitalWrite(mot2b, LOW);
 }
 
-
 void motors_back() {
     digitalWrite(mot1f, LOW);
     digitalWrite(mot2f, LOW);
     analogWrite(mot1b, mot_speed);
     analogWrite(mot2b, mot_speed);
 }
-
 
 void motors_stop() {
     digitalWrite(mot1f, LOW);
