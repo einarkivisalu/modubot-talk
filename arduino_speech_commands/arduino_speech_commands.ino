@@ -30,7 +30,7 @@ void motors_forward() {
     analogWrite(mot1f, mot_speed);
     analogWrite(mot2f, mot_speed);
     digitalWrite(mot1b, LOW);
-    digitalWrite(mot2b, LOW);
+    digitalWrite(mot2b, LOW)
 }
 
 void motors_back() {
