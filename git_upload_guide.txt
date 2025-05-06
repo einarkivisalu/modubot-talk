@@ -2,7 +2,6 @@ Kiire meeldetuletus giti kasutamiseks :)
 
 
 ---PYCHARMI KAUDU---
-
 (visuaalne juhend: https://docs.google.com/document/d/1AdsLHl93dxJVtJG7vgIcLFs3AnAYVCk2eE5qZYORUxE/edit?usp=sharing)
 
 
