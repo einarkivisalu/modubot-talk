@@ -20,7 +20,6 @@ Commitimine:
 
 
 
-
 ---COMMAND PROMPTI KAUDU---
 Kui repo oma arvutisse kloonitud pole:
 git clone https://github.com/einarkivisalu/modubot-talk.git
