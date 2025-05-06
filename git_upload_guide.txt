@@ -1,0 +1,32 @@
+Kiire meeldetuletus giti kasutamiseks :)
+
+
+---PYCHARMI KAUDU---
+
+(visuaalne juhend: https://docs.google.com/document/d/1AdsLHl93dxJVtJG7vgIcLFs3AnAYVCk2eE5qZYORUxE/edit?usp=sharing)
+
+Kui repo oma arvutisse kloonitud pole:
+get from version control -> repository URL (https://github.com/einarkivisalu/modubot-talk.git) -> clone
+
+Kui repo kloonitud on:
+open -> (leia üles kaust kuhu algselt repo kloonisid) -> ok
+
+Pullimine:
+(pycharmis ekraani üleval on main) -> update project -> merge incoming changes to current branch
+
+Commitimine:
+(pycharmis ekraani vasakul üleval on "commit") -> vali kõik failid mida giti saata tahad -> commit
+
+
+
+
+---COMMAND PROMPTI KAUDU---
+Kui repo oma arvutisse kloonitud pole:
+git clone https://github.com/einarkivisalu/modubot-talk.git
+cd modubot-talk
+
+Pullimine:
+git pull
+
+Commitimine:
+git push -m "muudatuste kirjeldus"
