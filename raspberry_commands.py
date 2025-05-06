@@ -20,5 +20,3 @@ def response(text: str):
         print("i love cats")
 
 response(text)
-
-/upload
