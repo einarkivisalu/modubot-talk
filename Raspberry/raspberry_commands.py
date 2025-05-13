@@ -1,3 +1,5 @@
+import RPi.GPIO as GPIO
+
 from record_and_transcribe import record_and_transcribe, speak_text
 import datetime
 import time
@@ -6,6 +8,24 @@ import threading
 
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM0', 9600)
+
+MicPin = 17
+RelayPin = 4
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(MicPin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(RelayPin, GPIO.OUT, initial=GPIO.LOW)
+
+
+class LedPin:
+    pass
+
+
+while True:
+    GPIO.output(LedPin, GPIO.input(MicPin))
+
 
 # Response function
 def response(text: str):
