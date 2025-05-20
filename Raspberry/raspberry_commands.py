@@ -1,15 +1,14 @@
 from record_and_transcribe import record_and_transcribe
-from time import time
+#from calender import *
 import time
 import serial
-import threading
 
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM0', 9600)
 
 # use "modubot" to activate robot
 def activation_word(text: str):
-    if "modubot" in text.lower():
+    if "tere" in text.lower():
         return response(text)
     else:
         return None
@@ -40,14 +39,14 @@ def voice_listener():
     while True:
         try:
             text = record_and_transcribe()
+            #calender = calender()
             if text:
-                response(text)
+                activation_word(text)
         except Exception as e:
             print(f"Voice error: {e}")
         time.sleep(1)  # Small delay to avoid tight loop if error happens
 
 # Start the voice listener in a separate thread
-listener_thread = threading.Thread(target=voice_listener, daemon=True)
-listener_thread.start()
+voice_listener()
 
 # push
