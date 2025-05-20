@@ -1,11 +1,18 @@
-from record_and_transcribe import record_and_transcribe, speak_text
-import datetime
+from record_and_transcribe import record_and_transcribe
+from time import time
 import time
 import serial
 import threading
 
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM0', 9600)
+
+# use "modubot" to activate robot
+def activation_word(text: str):
+    if "modubot" in text.lower():
+        return response(text)
+    else:
+        return None
 
 # Response function
 def response(text: str):
@@ -43,12 +50,3 @@ def voice_listener():
 listener_thread = threading.Thread(target=voice_listener, daemon=True)
 listener_thread.start()
 
-# Main loop to check time
-while True:
-    now = datetime.datetime.now()
-
-    if now.hour == 15 and now.minute == 0:
-        speak_text("Praegu on kell 15:00")
-        time.sleep(60)  # Wait a minute to avoid repeating during the same minute
-    else:
-        time.sleep(5)  # Light sleep to reduce CPU usage
