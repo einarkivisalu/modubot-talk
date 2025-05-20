@@ -55,4 +55,3 @@ void motors_right() {
 }
 
 }
-//push for opening straight from arduino ide
