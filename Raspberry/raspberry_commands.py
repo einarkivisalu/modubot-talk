@@ -1,5 +1,3 @@
-import RPi.GPIO as GPIO
-
 from record_and_transcribe import record_and_transcribe, speak_text
 import datetime
 import time
@@ -8,24 +6,6 @@ import threading
 
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM0', 9600)
-
-MicPin = 17
-RelayPin = 4
-
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
-
-GPIO.setup(MicPin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-GPIO.setup(RelayPin, GPIO.OUT, initial=GPIO.LOW)
-
-
-class LedPin:
-    pass
-
-
-while True:
-    GPIO.output(LedPin, GPIO.input(MicPin))
-
 
 # Response function
 def response(text: str):
@@ -68,7 +48,7 @@ while True:
     now = datetime.datetime.now()
 
     if now.hour == 15 and now.minute == 0:
-        speak_text("Praegu on kell 14:00")
+        speak_text("Praegu on kell 15:00")
         time.sleep(60)  # Wait a minute to avoid repeating during the same minute
     else:
         time.sleep(5)  # Light sleep to reduce CPU usage
