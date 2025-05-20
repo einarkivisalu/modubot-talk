@@ -3,7 +3,7 @@
 
 
 // Bluetooth Mega 2560 Serial1 (TX1=18, RX1=19)
-#define bluetoothSerial Serial1
+#define bluetoothSerial Serial;
 char bluetoothCommand;
 bool autopilotEnabled = false;
 
