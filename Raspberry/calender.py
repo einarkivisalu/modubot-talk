@@ -11,3 +11,4 @@ while True:
         time.sleep(60)  # Wait a minute to avoid repeating during the same minute
     else:
         time.sleep(60)  # Light sleep to reduce CPU usage
+
