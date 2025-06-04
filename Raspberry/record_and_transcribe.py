@@ -70,7 +70,7 @@ speak_text("Mudel on laetud ja valmis.")
 
 
 # --- Heli salvestamine ja transkribeerimine ---
-def record_and_transcribe(duration=5, samplerate=48000, device=0):
+def record_and_transcribe(duration=5, samplerate=16000, device=1):
     print("Kuulan nüüd...")
     speak_text("Kuulan")
 
@@ -86,7 +86,7 @@ def record_and_transcribe(duration=5, samplerate=48000, device=0):
 
         try:
             raw_audio, _ = sf.read(tmp.name)
-            inputs = processor(raw_audio, sampling_rate=48000, return_tensors="pt", return_attention_mask=True)
+            inputs = processor(raw_audio, sampling_rate=16000, return_tensors="pt", return_attention_mask=True)
             inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
             forced_decoder_ids = processor.get_decoder_prompt_ids(language="estonian", task="transcribe")
