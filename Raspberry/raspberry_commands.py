@@ -4,7 +4,7 @@ import time
 import serial
 
 # Set up serial connection
-arduino = serial.Serial('/dev/ttyACM0', 9600)
+arduino = serial.Serial('/dev/ttyACM1', 9600)
 
 # use "modubot" to activate robot
 def activation_word(text: str):
@@ -38,7 +38,7 @@ def response(text: str):
 def voice_listener():
     while True:
         try:
-            text = record_and_transcribe()
+            text = record_and_transcribe(samplerate=16000, device=1)
             #calender = calender()
             if text:
                 activation_word(text)
