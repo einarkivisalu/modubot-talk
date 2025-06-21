@@ -48,5 +48,3 @@ def voice_listener():
 
 # Start the voice listener in a separate thread
 voice_listener()
-
-# push
