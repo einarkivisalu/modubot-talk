@@ -2,6 +2,10 @@ from record_and_transcribe import record_and_transcribe
 import time
 import serial
 
+import RPi.GPIO as GPIO
+import threading
+
+
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM1', 9600)
 
@@ -48,8 +52,12 @@ def voice_listener():
 
 # thread to avoid objects AT ALL TIMES
 def avoid_objects():
+    # pull thread from arduino code
     while True:
-    #logic from arduimo_code_engineers.ino autopilot() - can pull code??
+
+
+
+
 
 # Start threads
 voice_listener()
