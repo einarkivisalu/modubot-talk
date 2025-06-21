@@ -1,5 +1,4 @@
 from record_and_transcribe import record_and_transcribe
-#from calender import *
 import time
 import serial
 
@@ -46,5 +45,12 @@ def voice_listener():
             print(f"Voice error: {e}")
         time.sleep(1)  # Small delay to avoid tight loop if error happens
 
-# Start the voice listener in a separate thread
+
+# thread to avoid objects AT ALL TIMES
+def avoid_objects():
+    while True:
+    #logic from arduimo_code_engineers.ino autopilot() - can pull code??
+
+# Start threads
 voice_listener()
+avoid_objects()
