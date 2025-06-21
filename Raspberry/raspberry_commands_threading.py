@@ -1,10 +1,8 @@
 from record_and_transcribe import record_and_transcribe
 import time
 import serial
-
 import RPi.GPIO as GPIO
 import threading
-
 
 # Set up serial connection
 arduino = serial.Serial('/dev/ttyACM1', 9600)
@@ -37,28 +35,36 @@ def response(text: str):
     else:
         print("i love cats")
 
-# Background thread function to continuously listen
+# Background thread to listen to voice commands
 def voice_listener():
     while True:
         try:
             text = record_and_transcribe(samplerate=16000, device=1)
-            #calender = calender()
             if text:
                 activation_word(text)
         except Exception as e:
             print(f"Voice error: {e}")
-        time.sleep(1)  # Small delay to avoid tight loop if error happens
+        time.sleep(1)
 
-
-# thread to avoid objects AT ALL TIMES
+# THREAD FOR AVOIDING OBJECTS AT ALL TIMES
 def avoid_objects():
-    # pull thread from arduino code
     while True:
+        try:
+            if arduino.in_waiting:
+                line = arduino.readline().decode().strip()
+                print(f"[Arduino] {line}")
+            time.sleep(0.1)
+        except Exception as e:
+            print(f"[Error] {e}")
+            break
 
+# Start both background threads
+threading.Thread(target=avoid_objects, daemon=True).start()
+threading.Thread(target=voice_listener, daemon=True).start()
 
-
-
-
-# Start threads
-voice_listener()
-avoid_objects()
+# Keep the main thread alive
+try:
+    while True:
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("Program exited.")
