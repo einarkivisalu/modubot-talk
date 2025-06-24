@@ -1,9 +1,8 @@
-from record_and_transcribe import speak_text
+from record_and_transcribe import record_and_transcribe
 import datetime
 import time
 import threading
 
-# Funktsioon, mis kontrollib kellaaega taustal
 def calendar_checker():
     while True:
         now = datetime.datetime.now()
@@ -16,7 +15,7 @@ def calendar_checker():
 # Käivitab kalenderi taustal
 threading.Thread(target=calendar_checker, daemon=True).start()
 
-# põhiprogramm
+# Põhiprogramm
 try:
     while True:
         time.sleep(1)
