@@ -46,7 +46,7 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 device_index = 0 if torch.cuda.is_available() else -1
 
-model_id = "openai/whisper-small"
+model_id = "openai/whisper-large-v3-turbo"  # enne oli whisper-small
 print("Laen mudeli...")
 
 model = AutoModelForSpeechSeq2Seq.from_pretrained(
@@ -113,7 +113,7 @@ def main():
     try:
         while True:
             time.sleep(1)
-            record_and_transcribe(duration=5, device=usb_mic_device_index)
+            record_and_transcribe(duration=3, device=usb_mic_device_index)
     except KeyboardInterrupt:
         print("Lõpetan. Nägemist!")
         speak_text("Lõpetan. Nägemist!")
