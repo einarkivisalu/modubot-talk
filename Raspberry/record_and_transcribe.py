@@ -113,7 +113,7 @@ def main():
     try:
         while True:
             time.sleep(1)
-            record_and_transcribe(duration=3, device=usb_mic_device_index)
+            record_and_transcribe(duration=5, device=usb_mic_device_index)
     except KeyboardInterrupt:
         print("Lõpetan. Nägemist!")
         speak_text("Lõpetan. Nägemist!")
