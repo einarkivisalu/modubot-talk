@@ -188,4 +188,4 @@ void motors_slows(int distance) {
   analogWrite(mot2f, speed);
   digitalWrite(mot1b, LOW);
   digitalWrite(mot2b, LOW);
-} make it so when  command comnes in, it executes it only once and then stops. object avoidance is executed too once
+}
