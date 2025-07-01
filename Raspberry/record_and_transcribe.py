@@ -70,7 +70,7 @@ speak_text("Mudel on laetud ja valmis.")
 
 
 # --- Heli salvestamine ja transkribeerimine ---
-def record_and_transcribe(duration=5, samplerate=16000, device=1):
+def record_and_transcribe(duration=3, samplerate=16000, device=1):
     print("Kuulan nüüd...")
     speak_text("Kuulan")
 

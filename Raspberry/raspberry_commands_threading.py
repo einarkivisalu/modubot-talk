@@ -5,11 +5,11 @@ import RPi.GPIO as GPIO
 import threading
 
 # Set up serial connection
-arduino = serial.Serial('/dev/ttyACM1', 9600)
+arduino = serial.Serial('/dev/ttyACM0', 9600)
 
 # use "modubot" to activate robot
 def activation_word(text: str):
-    if "tere" in text.lower():
+    if any(word in text.lower() for word in ["tere", "tera", "teere"]):
         return response(text)
     else:
         return None
