@@ -1,4 +1,4 @@
-from record_and_transcribe import record_and_transcribe
+from record_and_transcribe import speak_text
 import datetime
 import time
 import threading
@@ -6,7 +6,7 @@ import threading
 def calendar_checker():
     while True:
         now = datetime.datetime.now()
-        if now.hour == 15 and now.minute == 0:
+        if now.hour == 12 and now.minute == 55:
             speak_text("Praegu on kassiaeg")
             time.sleep(60)  # Väldib kordust sama minuti jooksul
         else:
