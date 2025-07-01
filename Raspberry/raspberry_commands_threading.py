@@ -39,7 +39,7 @@ def response(text: str):
 def voice_listener():
     while True:
         try:
-            text = record_and_transcribe(samplerate=16000, device=1)
+            text = record_and_transcribe(samplerate=16000, device=3)
             if text:
                 activation_word(text)
         except Exception as e:

@@ -4,7 +4,7 @@ import time
 import serial
 
 # Set up serial connection
-arduino = serial.Serial('/dev/ttyACM1', 9600)
+arduino = serial.Serial('/dev/ttyACM0', 9600)
 
 # use "modubot" to activate robot
 def activation_word(text: str):
