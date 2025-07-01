@@ -12,8 +12,7 @@ Praegune kood kõnesünteesiks. Text-to-speech ja speech-to-text.
 raspberry_commands_threading.py ja (avoid_objects_with_speech_commands.ino või AOWSC_continuous) 
 
 avoid_objects_with_speech_commands.ino == anna robotile käsklus, ta täidab seda 1x, samal ajal vältides objekte.
-AOWSC_continuous == robot täidab eelmist käsku kuni järgmise käsuni, samal ajal vältides objekte.
-
+AOWSC_continuous.ino == robot täidab eelmist käsku ja väldib objekte kuni järgmise käsuni, samal ajal vältides objekte. (vaja veel testida-mõelda parim algoritm/liikumine)
 
 ### Credits
 This project uses the FLEURS dataset by Google Research, licensed under CC BY 4.0.
