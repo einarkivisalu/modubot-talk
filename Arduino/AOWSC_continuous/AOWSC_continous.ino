@@ -51,26 +51,25 @@ void loop() {
     }
   }
 
-  // If a command was set, execute it once with obstacle check
   if (isMoving && currentCommand != "") {
+    // Check for obstacles continuously during movement
     int left = getDistance(trigPins[0], echoPins[0]);
     int center = getDistance(trigPins[1], echoPins[1]);
     int right = getDistance(trigPins[2], echoPins[2]);
 
     if (center <= distStop || left <= distStop || right <= distStop) {
-      // Obstacle detected: avoid it once
+      // Obstacle detected: avoid it first
       avoidObstacle(left, center, right);
-      motors_stop();
-    } else {
-      // No obstacle, execute the command once
+      // After avoidance, resume original command
       executeCommand(currentCommand);
-      delay(500);  // Move a bit (adjust as needed)
-      motors_stop();
+    } else if (center < distSlow || left < distSlow || right < distSlow) {
+      // Slow down smoothly if obstacle is near
+      int nearest = min(left, min(center, right));
+      motors_slows(nearest);
+    } else {
+      // No obstacle near, continue as per command
+      executeCommand(currentCommand);
     }
-
-    // Reset flags so it doesn’t repeat endlessly
-    isMoving = false;
-    currentCommand = "";
   }
 }
 
@@ -189,4 +188,4 @@ void motors_slows(int distance) {
   analogWrite(mot2f, speed);
   digitalWrite(mot1b, LOW);
   digitalWrite(mot2b, LOW);
-}
+} make it so when  command comnes in, it executes it only once and then stops. object avoidance is executed too once

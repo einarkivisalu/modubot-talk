@@ -52,14 +52,14 @@ def voice_listener():
 def calendar():
     while True:
         now = datetime.datetime.now()
-        if now.hour == 12 and now.minute == 55:
+        if now.hour == 17 and now.minute == 10:
             speak_text("Praegu on kassiaeg")
             time.sleep(60)  # Väldib kordust sama minuti jooksul
         else:
             time.sleep(60)
 
 # === START THREADS ===
-threading.Thread(target=calendar(), daemon=True).start()
+threading.Thread(target=calendar, daemon=True).start()
 threading.Thread(target=voice_listener, daemon=True).start()
 
 # Keep main thread alive
