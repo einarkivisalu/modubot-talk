@@ -51,25 +51,26 @@ void loop() {
     }
   }
 
+  // If a command was set, execute it once with obstacle check
   if (isMoving && currentCommand != "") {
-    // Check for obstacles continuously during movement
     int left = getDistance(trigPins[0], echoPins[0]);
     int center = getDistance(trigPins[1], echoPins[1]);
     int right = getDistance(trigPins[2], echoPins[2]);
 
     if (center <= distStop || left <= distStop || right <= distStop) {
-      // Obstacle detected: avoid it first
+      // Obstacle detected: avoid it once
       avoidObstacle(left, center, right);
-      // After avoidance, resume original command
-      executeCommand(currentCommand);
-    } else if (center < distSlow || left < distSlow || right < distSlow) {
-      // Slow down smoothly if obstacle is near
-      int nearest = min(left, min(center, right));
-      motors_slows(nearest);
+      motors_stop();
     } else {
-      // No obstacle near, continue as per command
+      // No obstacle, execute the command once
       executeCommand(currentCommand);
+      delay(500);  // Move a bit (adjust as needed)
+      motors_stop();
     }
+
+    // Reset flags so it doesn’t repeat endlessly
+    isMoving = false;
+    currentCommand = "";
   }
 }
 
