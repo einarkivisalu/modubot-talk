@@ -55,14 +55,14 @@ def speak_text(text, lang='et'):
 
 # --- Seadista mudel ---
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
-dtype=torch.float16 if torch.cuda.is_available() else torch.float32
+dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 device_index = 0 if torch.cuda.is_available() else -1
 
 model_id = "openai/whisper-small"
 print("Laen mudeli...")
 
 model = AutoModelForSpeechSeq2Seq.from_pretrained(
-    model_id, torch_dtype=dtype, low_cpu_mem_usage=True, use_safetensors=True
+    model_id, dtype=dtype, low_cpu_mem_usage=True, use_safetensors=True
 )
 model.to(device)
 
@@ -73,7 +73,7 @@ pipe = pipeline(
     model=model,
     tokenizer=processor.tokenizer,
     feature_extractor=processor.feature_extractor,
-    torch_dtype=dtype,
+    dtype=dtype,
     device=device_index,
 )
 
@@ -135,4 +135,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
