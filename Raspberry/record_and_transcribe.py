@@ -1,4 +1,4 @@
-
+import sys
 import time
 import tempfile
 import os
@@ -117,7 +117,6 @@ def record_and_transcribe(duration=3, device=None):
 
 # --- Peamine tsükkel ---
 def main():
-    # list_input_devices()  # Uncomment to see all available devices
     usb_mic_device_index = find_usb_mic()
 
     try:
@@ -125,8 +124,13 @@ def main():
             time.sleep(1)
             record_and_transcribe(duration=5, device=usb_mic_device_index)
     except KeyboardInterrupt:
-        print("Lõpetan. Nägemist!")
+        print("Peatamine kasutaja poolt.")
         speak_text("Lõpetan. Nägemist!")
+        try:
+            pygame.mixer.quit()
+        except Exception:
+            pass
+        sys.exit(0)
 
 
 if __name__ == "__main__":
