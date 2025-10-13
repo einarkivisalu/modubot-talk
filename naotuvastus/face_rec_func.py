@@ -40,7 +40,7 @@ def init_camera():
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
     cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('Y', 'U', 'Y', 'V'))
     if not cap.isOpened():
-        print("❌ Camera could not be opened")
+        print("Camera could not be opened")
         cap.release()
         exit(1)
     return cap
@@ -55,7 +55,7 @@ def main():
         while True:
             ret, frame = cap.read()
             if not ret:
-                print("❌ Failed to grab frame")
+                print("Failed to grab frame")
                 break
 
             resized_frame = cv2.resize(frame, (0,0), fx=1/cv_scaler, fy=1/cv_scaler)
