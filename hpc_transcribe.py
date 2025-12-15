@@ -9,8 +9,6 @@ import warnings
 #ignore whisper warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-
-
 audio_path = r"C:\Users\anett\Downloads\Jaaegparoodia.mp3"
 target_samplerate = 16000
 audio_chunk = 30      # max seconds for whisper models
@@ -72,3 +70,4 @@ for start in range(0, len(audio), step):
 total_end_time = time.perf_counter()
 print("\n\nFull transcription done.")
 print(f"\n Full transcription time: {total_end_time - total_start_time:.2f} seconds")
+
