@@ -1,3 +1,4 @@
+import os
 from transformers import pipeline
 import soundfile as sf
 import numpy as np
@@ -5,20 +6,37 @@ from scipy.signal import resample
 import time
 import warnings
 
+import torch
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
+
+# CHANGE (if needed)
+# set threads for hpc
+os.environ["OMP_NUM_THREADS"] = "24"
+os.environ["MKL_NUM_THREADS"] = "24"
+os.environ["NUMEXPR_NUM_THREADS"] = "24"
+
+
 #TODO fix warnings - warning "task=transcribe, but also have set `forced_decoder_ids.." comes from transformers library
 #ignore whisper warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
+
+#CHANGE
 audio_path = r"C:\Users\anett\Downloads\Jaaegparoodia.mp3"
+
 target_samplerate = 16000
 audio_chunk = 30      # max seconds for whisper models
-stride_secs = 5      # overlap to avoid cutting words
+stride_secs = 3      # overlap to avoid cutting words
 
 # Load pipeline
 asr_pipeline = pipeline(
     "automatic-speech-recognition",
-    model="openai/whisper-medium",
-    device=-1
+    model="openai/whisper-large-v3-turbo",
+
+    #CHANGE
+    device=0, ## CPU=-1, GPU=0
+    torch_dtype="float16" #memory usage
 )
 
 # Load audio
@@ -70,4 +88,3 @@ for start in range(0, len(audio), step):
 total_end_time = time.perf_counter()
 print("\n\nFull transcription done.")
 print(f"\n Full transcription time: {total_end_time - total_start_time:.2f} seconds")
-
