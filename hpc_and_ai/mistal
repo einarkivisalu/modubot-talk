@@ -1,0 +1,81 @@
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.2"
+
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, use_fast=True)
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+
+use_cuda = torch.cuda.is_available()
+torch_dtype = torch.bfloat16 if (use_cuda and torch.cuda.is_bf16_supported()) else torch.float16
+
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_ID,
+    torch_dtype=torch_dtype,
+    device_map="auto",
+    low_cpu_mem_usage=True
+)
+model.eval()
+
+# ----------------------
+# Better prompt (SYSTEM + USER)
+# ----------------------
+messages = [
+    {
+        "role": "system",
+        "content": (
+            "Sa oled sõbralik abiline. Vasta alati ainult eesti keeles. "
+            "Vastus peab olema 1–2 täislausega. "
+            "Ära korda juhiseid ega selgita oma reegleid; vasta otse küsimusele."
+        )
+    },
+    {
+        "role": "user",
+        "content": "Kuidas mu lastelastel läheb?"
+    }
+]
+
+# Prefer chat template if present; otherwise Mistral INST
+if hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template is not None:
+    prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+else:
+    # Mistral Instruct expects a single [INST] block; we inline system rules + question
+    sys = messages[0]["content"]
+    usr = messages[1]["content"]
+    prompt = f"<s>[INST] {sys}\n\nKüsimus: {usr} [/INST]"
+
+inputs = tokenizer(prompt, return_tensors="pt", padding=False)
+
+# move inputs to a cuda device if model is on cuda
+first_device = next(iter(model.hf_device_map.values()))
+if isinstance(first_device, str) and first_device.startswith("cuda"):
+    inputs = {k: v.to(first_device) for k, v in inputs.items()}
+elif use_cuda:
+    inputs = {k: v.to("cuda:0") for k, v in inputs.items()}
+
+with torch.inference_mode():
+    out = model.generate(
+        **inputs,
+        max_new_tokens=80,
+        do_sample=False,
+        repetition_penalty=1.15,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+
+gen_ids = out[0][inputs["input_ids"].shape[1]:]
+text = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+# Keep 1–2 sentences
+sentences, buf = [], ""
+for ch in text:
+    buf += ch
+    if ch in ".!?":
+        sentences.append(buf.strip())
+        buf = ""
+    if len(sentences) == 2:
+        break
+
+answer = " ".join(sentences) if sentences else text.split("\n")[0].strip()
+print(answer)
