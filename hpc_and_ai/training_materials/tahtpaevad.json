@@ -21,9 +21,9 @@
   },
   {
     "question": "Mis päeval on Eesti kirjanduse päev?",
-    "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril, kirjanik Anton Hansen-Tammsaare sünniaastapäeval."
+    "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril, kirjanik Anton Hansen Tammsaare sünniaastapäeval."
   },
-{
+  {
     "question": "Mis kuupäeval on Tartu rahu aastapäev?",
     "answer": "Tartu rahu aastapäeva tähistatakse teisel veebruaril."
   },
@@ -47,7 +47,6 @@
     "question": "Mis päeval on emakeelepäev?",
     "answer": "Emakeelepäev on neljateistkümnendal märtsil."
   },
-  
   {
     "question": "Mis päeval tähistatakse emadepäeva?",
     "answer": "Emadepäeva tähistatakse igal aastal mai teisel pühapäeval."
@@ -200,6 +199,7 @@
     "answer": "Taassünni päev on kuueteistkümnendal novembril."
   }
 ]
+
 
 
 
