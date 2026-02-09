@@ -11,12 +11,7 @@
     "question": "Mis päeval on kolmekuningapäev?",
     "answer": "Kolmekuningapäeva tähistatakse kuuendal jaanuaril."
   },
-  
   {
-    "question": "Millal on Eesti kirjanduse päev?",
-    "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril."
-  },
-    {
     "question": "Millal on Eesti kirjanduse päev?",
     "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril."
   },
@@ -28,22 +23,62 @@
     "question": "Mis päeval on Eesti kirjanduse päev?",
     "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril, kirjanik A. H. Tammsaare sünniaastapäeval."
   },
-
+{
+    "question": "Mis kuupäeval on Tartu rahu aastapäev?",
+    "answer": "Tartu rahu aastapäeva tähistatakse teisel veebruaril."
+  },
   {
-    "question": "Millal on Tartu rahulepingu aastapäev?",
+    "question": "Millal tähistatakse Tartu rahulepingu sõlmimist?",
+    "answer": "Seda olulist tähtpäeva peetakse igal aastal teisel veebruaril."
+  },
+  {
+    "question": "Mis päeval mälestatakse Tartu rahulepingu aastapäeva?",
     "answer": "Tartu rahulepingu aastapäev on teisel veebruaril."
   },
   {
-    "question": "Millal on emakeelepäev?",
-    "answer": "Emakeelepäev on neljateistkümnendal märtsil."
+    "question": "Mis kuupäeval tähistatakse emakeelepäeva?",
+    "answer": "Emakeelepäeva tähistatakse neljateistkümnendal märtsil."
   },
   {
-    "question": "Millal on emadepäev?",
-    "answer": "Emadepäev on mai teisel pühapäeval."
+    "question": "Millal peetakse Eestis emakeelepäeva?",
+    "answer": "Seda tähtpäeva peetakse igal aastal neljateistkümnendal märtsil, Kristjan Jaak Petersoni sünniaastapäeval."
+  },
+  {
+    "question": "Mis päeval on emakeelepäev?",
+    "answer": "Emakeelepäev on neljateistkümnendal märtsil."
+  },
+  
+  {
+    "question": "Mis päeval tähistatakse emadepäeva?",
+    "answer": "Emadepäeva tähistatakse igal aastal mai teisel pühapäeval."
+  },
+  {
+    "question": "Millal peetakse Eestis emadepäeva?",
+    "answer": "Emadepäeva peetakse mai teisel pühapäeval."
+  },
+  {
+    "question": "Millisele päevale langeb emadepäev?",
+    "answer": "Emadepäev on alati mai teisel pühapäeval."
   },
   {
     "question": "Millal on lastekaitsepäev?",
     "answer": "Lastekaitsepäev on esimesel juunil."
+  },
+  {
+    "question": "Mis kuupäeval on lastekaitsepäev?",
+    "answer": "Lastekaitsepäev on esimesel juunil."
+  },
+  {
+    "question": "Millal tähistatakse lastekaitsepäeva?",
+    "answer": "Lastekaitsepäeva tähistatakse igal aastal esimesel juunil."
+  },
+  {
+    "question": "Mis kuupäeval on Eesti lipu päev?",
+    "answer": "Eesti lipu päev on neljandal juunil."
+  },
+  {
+    "question": "Millal tähistatakse Eesti lipu päeva?",
+    "answer": "Eesti lipu päeva tähistatakse igal aastal neljandal juunil."
   },
   {
     "question": "Millal on Eesti lipu päev?",
@@ -54,20 +89,67 @@
     "answer": "Leinapäev on neljateistkümnendal juunil."
   },
   {
+    "question": "Mis kuupäeval on leinapäev?",
+    "answer": "Leinapäev on neljateistkümnendal juunil."
+  },
+  {
+    "question": "Millal tähistatakse leinapäeva?",
+    "answer": "Leinapäeva tähistatakse igal aastal neljateistkümnendal juunil."
+  },
+  {
     "question": "Millal on kommunismi ja natsismi ohvrite mälestuspäev?",
     "answer": "Kommunismi ja natsismi ohvrite mälestuspäev on kahekümne kolmandal augustil."
   },
   {
+    "question": "Mis kuupäeval on kommunismi ja natsismi ohvrite mälestuspäev?",
+    "answer": "Kommunismi ja natsismi ohvrite mälestuspäev on kahekümne kolmandal augustil."
+  },
+  {
+    "question": "Millal tähistatakse kommunismi ja natsismi ohvrite mälestuspäeva?",
+    "answer": "Seda mälestuspäeva tähistatakse igal aastal kahekümne kolmandal augustil."
+  },
+  {
+    "question": "Mis kuupäeval on kommunismi mälestuspäev?",
+    "answer": "Kommunismi ja natsismi ohvrite mälestuspäev on kahekümne kolmandal augustil."
+  },
+  {
+    "question": "Mis kuupäeval on natsismi ohvrite mälestuspäev?",
+    "answer": "Seda mälestuspäeva tähistatakse igal aastal kahekümne kolmandal augustil."
+  {
     "question": "Millal on vanavanemate päev?",
     "answer": "Vanavanemate päev on septembri teisel pühapäeval."
+  },
+  {
+    "question": "Mis kuupäeval on vanavanemate päev?",
+    "answer": "Vanavanemate päev on septembri teisel pühapäeval."
+  },
+  {
+    "question": "Millal tähistatakse vanavanemate päeva?",
+    "answer": "Vanavanemate päeva tähistatakse igal aastal septembri teisel pühapäeval."
   },
   {
     "question": "Millal on vastupanuvõitluse päev?",
     "answer": "Vastupanuvõitluse päev on kahekümne teisel septembril."
   },
   {
+    "question": "Mis kuupäeval on vastupanuvõitluse päev?",
+    "answer": "Vastupanuvõitluse päev on kahekümne teisel septembril."
+  },
+  {
+    "question": "Millal tähistatakse vastupanuvõitluse päeva?",
+    "answer": "Vastupanuvõitluse päeva tähistatakse igal aastal kahekümne teisel septembril."
+  },
+  {
     "question": "Millal on omavalitsuspäev?",
     "answer": "Omavalitsuspäev on esimesel oktoobril."
+  },
+  {
+    "question": "Mis kuupäeval on omavalitsuspäev?",
+    "answer": "Omavalitsuspäev on esimesel oktoobril."
+  },
+  {
+    "question": "Millal tähistatakse omavalitsuspäeva?",
+    "answer": "Omavalitsuspäeva tähistatakse igal aastal esimesel oktoobril."
   },
   {
     "question": "Millal on hõimupäev?",
@@ -118,6 +200,7 @@
     "answer": "Taassünni päev on kuueteistkümnendal novembril."
   }
 ]
+
 
 
 
