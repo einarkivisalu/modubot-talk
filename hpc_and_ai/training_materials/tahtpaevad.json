@@ -4,6 +4,15 @@
     "answer": "Kolmekuningapäev on kuuendal jaanuaril."
   },
   {
+    "question": "Mis kuupäeval tähistatakse kolmekuningapäeva?",
+    "answer": "Kolmekuningapäev on igal aastal kuuendal jaanuaril."
+  },
+  {
+    "question": "Mis päeval on kolmekuningapäev?",
+    "answer": "Kolmekuningapäeva tähistatakse kuuendal jaanuaril."
+  },
+  
+  {
     "question": "Millal on Eesti kirjanduse päev?",
     "answer": "Eesti kirjanduse päev on kolmekümnendal jaanuaril."
   },
@@ -64,3 +73,4 @@
     "answer": "Taassünni päev on kuueteistkümnendal novembril."
   }
 ]
+
