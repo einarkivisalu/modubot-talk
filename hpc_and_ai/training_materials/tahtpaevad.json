@@ -68,9 +68,26 @@
     "question": "Millal on isadepäev?",
     "answer": "Isadepäev on novembri teisel pühapäeval."
   },
+  { 
+    "question": "Millal tähistatakse isadepäeva?", 
+    "answer": "Isadepäeva tähistatakse novembri teisel pühapäeval." 
+  }, 
+  { 
+    "question": "Mis kuupäeval on isadepäev?", 
+    "answer": "Isadepäev on kalendris novembri teine pühapäev." 
+  },
+  { 
+    "question": "Millal tähistatakse taassünni päeva?", 
+    "answer": "Taassünni päeva peetakse kuueteistkümnendal novembril." 
+  }, 
+  { 
+    "question": "Mis kuupäeval on taassünni päev?", 
+    "answer": "Taassünni päev on kalendris kuueteistkümnes november." 
+  },
   {
     "question": "Millal on taassünni päev?",
     "answer": "Taassünni päev on kuueteistkümnendal novembril."
   }
 ]
+
 
