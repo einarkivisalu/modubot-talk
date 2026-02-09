@@ -61,8 +61,24 @@
     "answer": "Hõimupäev on oktoobri kolmandal laupäeval."
   },
   {
+    "question": "Mis kuupäeval on hõimupäev?",
+    "answer": "Hõimupäev on oktoobri kolmandal laupäeval."
+  },
+  {
+    "question": "Millal tähistatakse hõimupäeva?",
+    "answer": "Hõimupäeva tähistatakse igal aastal oktoobri kolmandal laupäeval."
+  },
+  {
     "question": "Millal on hingedepäev?",
     "answer": "Hingedepäev on teisel novembril."
+  },
+  {
+    "question": "Mis kuupäeval on hingedepäev?",
+    "answer": "Hingedepäev on teisel novembril."
+  },
+  {
+    "question": "Millal tähistatakse hingedepäeva?",
+    "answer": "Hingedepäeva tähistatakse igal aastal teisel novembril."
   },
   {
     "question": "Millal on isadepäev?",
@@ -89,5 +105,6 @@
     "answer": "Taassünni päev on kuueteistkümnendal novembril."
   }
 ]
+
 
 
