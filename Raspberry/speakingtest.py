@@ -26,7 +26,7 @@ def speak_text(text, lang='et'):
 
 
 def main():
-    text = "1991"
+    text = "Kell tiksub seinal tasa,\naeg sammub meiega kaasa.\nIga hetk on kingitus uus,\nnaeratus püsigu ikka su suus."
     speak_text(text)
 
 
