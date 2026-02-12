@@ -78,30 +78,31 @@ train_ds = train_ds.map(format_example)
 args = TrainingArguments(
     output_dir="checkpoint_lora", # saves training info, checkpoints
     per_device_train_batch_size=1, # 1 example on 1 gpu at a time (8gb gpu = 1, 12-16gb = 1-2, 16gb+ = 2-4)
-    gradient_accumulation_steps=8, # how many batches are collected, before gradient update
+    gradient_accumulation_steps=8, # how many batches are collected, before gradient update, noise
     learning_rate=2e-4,
-    num_train_epochs=3,
-    logging_steps=1,
-    save_steps=50,
-    fp16=False,                 # for bfloat16 GPUs set bf16=True instead
-    bf16=torch.cuda.is_available(),  # good default on modern GPUs
-    optim="paged_adamw_8bit",   # good with QLoRA
-    report_to="none",
+    num_train_epochs=3, # how many times dataset is looped over, 1epoch=3 loops, SLIGHT CHANCE OF OVERFIT WITH OUR DATASETS
+    logging_steps=1, # log loss after each step
+    save_steps=50, # save checkpoint
+    fp16=False, # for bfloat16 GPUs set bf16=True instead
+    bf16=torch.cuda.is_available(),  # bfloat16
+    #optim="paged_adamw_8bit",   # good with QLoRA , only for qlora
+    report_to="none", #visiualize training curve ("tensorboard", "wandb")
 )
 
-# training
+# training configs
 trainer = SFTTrainer(
     model=model,
     train_dataset=train_ds,
     peft_config=lora_config,
     args=args,
     dataset_text_field="text",
-    max_seq_length=512,
+    max_seq_length=512, # max token len
 )
 
+# start the training
 trainer.train()
 
-# Save LoRA adapter
+# Save LoRA adapter configs
 trainer.model.save_pretrained("gemma_skyblue_lora_adapter")
 tokenizer.save_pretrained("gemma_skyblue_lora_adapter")
 
