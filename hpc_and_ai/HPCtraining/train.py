@@ -17,7 +17,7 @@ import json
 model_id = "google/gemma-3-1b-it"
 
 # huggingface token
-hf_token = os.environ.get("HF_TOKEN", None)
+hf_token = "hf_xxxxxxxxxxxxxxxxxxxxxxxxx"
 
 """
 # QLoRA (4-bit) to save VRAM, quantinize model first and then train quantinized model (memory efficency turning training)
