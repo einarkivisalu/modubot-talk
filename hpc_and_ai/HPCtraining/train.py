@@ -14,7 +14,7 @@ from trl import SFTTrainer
 import json
 
 
-model_id = "google/gemma-3-4b-it"
+model_id = "google/gemma-3-1b-it"
 
 # huggingface token
 hf_token = os.environ.get("HF_TOKEN", None)
@@ -78,9 +78,9 @@ train_ds = train_ds.map(format_example)
 args = TrainingArguments(
     output_dir="checkpoint_lora", # saves training info, checkpoints
     per_device_train_batch_size=1, # 1 example on 1 gpu at a time (8gb gpu = 1, 12-16gb = 1-2, 16gb+ = 2-4)
-    gradient_accumulation_steps=8, # how many batches are collected, before gradient update, noise
-    learning_rate=2e-4,
-    num_train_epochs=3, # how many times dataset is looped over, 1epoch=3 loops, SLIGHT CHANCE OF OVERFIT WITH OUR DATASETS
+    gradient_accumulation_steps=4, #8, # how many batches are collected, before gradient update, noise
+    learning_rate=1e-5, #2e-4,
+    num_train_epochs=1, #3, # how many times dataset is looped over, 1epoch=3 loops, SLIGHT CHANCE OF OVERFIT WITH OUR DATASETS
     logging_steps=1, # log loss after each step
     save_steps=50, # save checkpoint
     fp16=False, # for bfloat16 GPUs set bf16=True instead
@@ -103,7 +103,7 @@ trainer = SFTTrainer(
 trainer.train()
 
 # Save LoRA adapter configs
-trainer.model.save_pretrained("gemma_skyblue_lora_adapter")
-tokenizer.save_pretrained("gemma_skyblue_lora_adapter")
+trainer.model.save_pretrained("gemma_1.0")
+tokenizer.save_pretrained("gemma_1.0")
 
 print("Done. Saved LoRA adapter to: gemma_skyblue_lora_adapter")
