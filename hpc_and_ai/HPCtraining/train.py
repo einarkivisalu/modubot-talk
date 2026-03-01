@@ -30,32 +30,36 @@ if not hf_token:
     )
 """
 
-
+"""
 # QLoRA (4-bit) to save VRAM, quantinize model first and then train quantinized model (memory efficency turning training)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",  # quantinizing format
     bnb_4bit_compute_dtype=torch.bfloat16,  # original format
 )
+"""
 
-tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token)
+tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token, trust_remote_code=True)
 
 # ensure pad token exists
 if tokenizer.pad_token_id is None:
-    tokenizer.pad_token_id = tokenizer.eos_token_id
+    tokenizer.add_special_tokens({"pad_token": tokenizer.eos_token})
+    added_tokens = True
+else:
+    added_tokens = False
 
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
-    quantization_config=bnb_config,
     device_map="auto",
     use_auth_token=hf_token,
+    trust_remote_code=True,
 )
 
 # Important for training with gradient checkpointing / stability
 model.config.use_cache = False
 
 # required for k-bit training (4-bit / 8-bit)
-model = prepare_model_for_kbit_training(model)
+#model = prepare_model_for_kbit_training(model)
 
 # PEFT LoRA config
 lora_config = LoraConfig(
@@ -109,7 +113,7 @@ args = TrainingArguments(
     num_train_epochs=1,  # how many times dataset is looped over, SLIGHT CHANCE OF OVERFIT WITH OUR DATASETS
     logging_steps=1,  # log loss after each step
     save_steps=50,  # save checkpoint
-    fp16=False,  # for float16 GPUs
+    #fp16=False,  # for float16 GPUs
     bf16=torch.cuda.is_available(),  # bfloat16 (better if supported)
     report_to="none",  # visualize training curve ("tensorboard", "wandb")
 )
