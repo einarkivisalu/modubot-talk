@@ -323,5 +323,125 @@
   {
     "question": "Mis oli Bauhausi koolkonna keskne idee?",
     "answer": "Bauhaus ühendas kunsti, käsitöö ja tehnoloogia, rõhutades funktsionaalsust ja lihtsust, mis mõjutas kogu 20. sajandi disaini."
+  },
+  {
+    "question": "Kuidas mõjutasid Vana-Kreeka kontrapost-poosid skulptuuri arengut?",
+    "answer": "Kontrapost tõi skulptuuri loomuliku kehahoiaku, kus raskus on ühel jalal ja keha liigub pehmelt vastassuunas, muutes figuurid elavamaks."
+  },
+  {
+    "question": "Mis oli Michelangelo skulptuuride tehniline eripära?",
+    "answer": "Michelangelo töötas marmoriga nii, et jättis mõnes kohas töö teadlikult lõpetamata, rõhutades figuuri vabanemist kivist."
+  },
+  {
+    "question": "Kuidas erinesid barokiajastu skulptuurid renessansiajastu omadest?",
+    "answer": "Barokk tõi skulptuuri liikumise, keerduvad poosid ja dramaatilise valgusemängu, samas kui renessanss keskendus harmooniale ja tasakaalule."
+  },
+  {
+    "question": "Mis oli Rodini panus modernsesse skulptuuri?",
+    "answer": "Rodin loobus ideaalsest ilust ja kujutas keha pinget, emotsioone ja ebatäiuslikkust, mis muutis skulptuuri psühholoogilisemaks."
+  },
+  {
+    "question": "Kuidas mõjutas pronksivalu areng antiikskulptuuri?",
+    "answer": "Pronks võimaldas luua dünaamilisi poose ja õhukesi detaile, mida kivist polnud võimalik saavutada."
+  },
+  {
+    "question": "Mis oli Egiptuse skulptuuri sümboolne eesmärk?",
+    "answer": "Egiptuse skulptuurid pidid tagama valitseja või jumaluse igavese kohalolu, mistõttu kujutati figuure jäigalt ja ajatutena."
+  },
+  {
+    "question": "Kuidas mõjutasid renessansiajastu anatoomiaõpingud skulptuuri?",
+    "answer": "Anatoomia uurimine võimaldas skulptoritel kujutada lihaste pinget ja keha liikumist täpsemalt kui kunagi varem."
+  },
+  {
+    "question": "Mis oli Henry Moore’i skulptuuride keskne idee?",
+    "answer": "Moore kasutas abstraktseid, orgaanilisi vorme, mis meenutasid looduslikke kujundeid ja rõhutasid tühiku rolli skulptuuris."
+  },
+  {
+    "question": "Kuidas mõjutasid gooti katedraalide figuurid Euroopa skulptuuri arengut?",
+    "answer": "Gooti figuurid muutusid piklikuks ja rütmiliseks, rõhutades vaimsust ja vertikaalsust."
+  },
+  {
+    "question": "Mis oli renessansiajastu skulptuuri suurim uuendus?",
+    "answer": "Skulptuur muutus taas vabalt seisvaks, kolmemõõtmeliseks teoseks, mida sai vaadata igast küljest — antiigi eeskujul."
+  },
+  {
+    "question": "Räägi mulle mõni detail Leonardo da Vinci elust.",
+    "answer": "Leonardo õppis Verrocchio töökojas, kus ta sai varakult tuntuks oma erakordse joonistusoskuse ja tehnilise uudishimu poolest."
+  },
+  {
+    "question": "Mis oli Vincent van Goghi elu üks pöördepunkte?",
+    "answer": "Van Gogh leidis maalimise alles täiskasvanuna, pärast mitut ebaõnnestunud ametit, kuid lõi seejärel üle 2000 teose vähem kui kümne aastaga."
+  },
+  {
+    "question": "Kuidas mõjutas Frida Kahlo elu tema loomingut?",
+    "answer": "Raske õnnetus ja krooniline valu kujundasid Kahlo kunstis sümbolistlikud, isiklikud ja psühholoogilised autoportreed."
+  },
+  {
+    "question": "Mis oli Michelangelo nooruspõlve eripära?",
+    "answer": "Michelangelo õppis Medici perekonna palees, kus ta sai ligipääsu antiikskulptuuridele ja humanistlikele õpetustele."
+  },
+  {
+    "question": "Kuidas mõjutas Pablo Picasso lapsepõlv tema kunstnikuteed?",
+    "answer": "Picasso isa oli kunstnik ja õpetaja, kes andis pojale juba varakult akadeemilise joonistuse põhialused."
+  },
+  {
+    "question": "Mis oli Rembrandti elu suurim väljakutse?",
+    "answer": "Rembrandt koges suuri rahalisi raskusi ja isiklikke kaotusi, mis kajastusid tema hiliste tööde sünges ja introspektiivses stiilis."
+  },
+  {
+    "question": "Kuidas mõjutasid Claude Monet’ elu tema maalid?",
+    "answer": "Monet elas aastaid Giverny aias, kus ta maalis valguse muutumist samadel motiividel, eriti vesiroosidel."
+  },
+  {
+    "question": "Mis oli Salvador Dalí kunstilise isiksuse kujunemise alus?",
+    "answer": "Dalí oli mõjutatud Freudist ja alateadvuse uurimisest, mis kujundas tema sürrealistlikud unenäopildid."
+  },
+  {
+    "question": "Kuidas mõjutasid Egon Schiele eluolud tema stiili?",
+    "answer": "Schiele kasutas teravaid jooni ja pinges poose, mis peegeldasid tema rahutut iseloomu ja ühiskonnakriitilist vaadet."
+  },
+  {
+    "question": "Mis oli Georgia O’Keeffe’i kunstilise stiili kujunemise põhjus?",
+    "answer": "O’Keeffe leidis inspiratsiooni Ameerika suurlinnade arhitektuurist ja hiljem New Mexico maastikest, mis kujundasid tema abstraktsed vormid."
+  },
+  {
+    "question": "Kuidas töötab kolmandiku reegel kunstis?",
+    "answer": "Kolmandiku reegel jagab pildi üheksaks ruuduks ja soovitab asetada olulised elemendid joontele või nende ristumiskohtadesse, et luua tasakaal ja pingestatus."
+  },
+  {
+    "question": "Mis on negatiivse ruumi roll kompositsioonis?",
+    "answer": "Negatiivne ruum annab objektidele hingamisruumi ja rõhutab nende kuju, aidates luua selge ja tasakaalustatud kompositsiooni."
+  },
+  {
+    "question": "Kuidas mõjutab värviteooria kunstiteose meeleolu?",
+    "answer": "Soojad värvid loovad energiat ja liikumist, külmad värvid rahu ja sügavust, kontrastid aga pinget ja fookust."
+  },
+  {
+    "question": "Mis on sümmeetrilise kompositsiooni tugevus?",
+    "answer": "Sümmeetria loob stabiilsuse ja harmoonia tunde, mis sobib pidulike ja monumentaalsete teoste jaoks."
+  },
+  {
+    "question": "Kuidas töötab rütm visuaalses kunstis?",
+    "answer": "Rütm tekib korduvate kujundite, värvide või joonte abil, mis juhivad vaataja pilku läbi teose."
+  },
+  {
+    "question": "Mis on fookuspunkti eesmärk kunstis?",
+    "answer": "Fookuspunkt tõmbab vaataja pilgu kõige olulisemale elemendile ja aitab mõista teose sõnumit."
+  },
+  {
+    "question": "Kuidas mõjutab diagonaalne kompositsioon teose dünaamikat?",
+    "answer": "Diagonaalid loovad liikumise ja energia tunde, muutes kompositsiooni elavamaks ja pingelisemaks."
+  },
+  {
+    "question": "Mis on visuaalne tasakaal kunstis?",
+    "answer": "Tasakaal tähendab, et teose elemendid jaotuvad nii, et ükski osa ei tundu liiga raske või domineeriv."
+  },
+  {
+    "question": "Kuidas töötab värvikontrast kompositsioonis?",
+    "answer": "Vastandvärvid, nagu sinine ja oranž, loovad tugeva visuaalse pinge ja tõmbavad pilku."
+  },
+  {
+    "question": "Mis on liinide roll kunstiteose ülesehituses?",
+    "answer": "Liinid juhivad vaataja pilku, loovad liikumist ja määravad teose struktuuri."
   }
 ]
