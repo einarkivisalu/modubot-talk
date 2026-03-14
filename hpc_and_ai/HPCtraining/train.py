@@ -1,138 +1,190 @@
-# pip install -U torch transformers accelerate peft trl datasets bitsandbytes
-
-# python -m pip install -U pip
-# python -m pip install -U bitsandbytes
+# training_fixed.py
+# Requirements (run before):
+# pip install -U pip
+# pip install -U torch transformers accelerate peft trl datasets bitsandbytes huggingface_hub
 
 import os
 import json
+import inspect
 import torch
 from datasets import Dataset
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    TrainingArguments,
-    BitsAndBytesConfig,
-)
-from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
+from peft import LoraConfig, prepare_model_for_kbit_training
 from trl import SFTTrainer
+from huggingface_hub import login
 
-
+# ------- Config -------
 model_id = "google/gemma-3-1b-it"
+facts_path = "huvitavad_faktid.json"   # adjust path if your file is named differently
+output_adapter_dir = "gemma_1.0_lora"
+checkpoint_dir = "checkpoint_lora"
 
-# huggingface token
-hf_token = "hf_"
-
-"""
+# ------- HF login -------
 hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
 if not hf_token:
-    raise RuntimeError(
-        "Windows (PowerShell): $env:HF_TOKEN='hf_xxx'"
-    )
-"""
+    raise RuntimeError("Set HF_TOKEN in environment, e.g. export HF_TOKEN='hf_xxx'")
 
-"""
-# QLoRA (4-bit) to save VRAM, quantinize model first and then train quantinized model (memory efficency turning training)
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",  # quantinizing format
-    bnb_4bit_compute_dtype=torch.bfloat16,  # original format
-)
-"""
+login(token=hf_token)
 
-tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=hf_token, trust_remote_code=True)
+# ------- Load tokenizer -------
+tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
 # ensure pad token exists
+added_tokens = False
 if tokenizer.pad_token_id is None:
     tokenizer.add_special_tokens({"pad_token": tokenizer.eos_token})
     added_tokens = True
-else:
-    added_tokens = False
 
-model = AutoModelForCausalLM.from_pretrained(
-    model_id,
-    device_map="auto",
-    use_auth_token=hf_token,
-    trust_remote_code=True,
-)
+# ------- Load model: try explicit Gemma causal class, fallback to AutoModelForCausalLM -------
+model = None
+try:
+    # Try explicit causal Gemma class (if available)
+    from transformers import Gemma3ForCausalLM  # type: ignore
+    print("Loading model using Gemma3ForCausalLM.from_pretrained(...)")
+    model = Gemma3ForCausalLM.from_pretrained(
+        model_id,
+        device_map="auto",
+        trust_remote_code=True,
+        ignore_mismatched_sizes=True,
+        low_cpu_mem_usage=True,
+    )
+except Exception as e:
+    print("Gemma3ForCausalLM not available or failed to load (falling back). Exception:", e)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        device_map="auto",
+        trust_remote_code=True,
+        ignore_mismatched_sizes=True,
+        low_cpu_mem_usage=True,
+    )
 
-# Important for training with gradient checkpointing / stability
+# ensure caches off for training
 model.config.use_cache = False
 
-# required for k-bit training (4-bit / 8-bit)
-#model = prepare_model_for_kbit_training(model)
+# If you plan QLoRA (k-bit) prepare model here:
+# model = prepare_model_for_kbit_training(model)
 
-# PEFT LoRA config
+# ------- PEFT LoRA config (do NOT call get_peft_model here) -------
+# We'll pass this config to SFTTrainer which will apply the adapter itself.
 lora_config = LoraConfig(
-    r=8,  # rank, how many directions the model is allowed to adjust in each weight matrix
-    lora_alpha=16,  # 16/8 = alpha/rank, lora influence
-    lora_dropout=0.05,  # The dropout probability for Lora layers, avoid overfit. (1 - treeningandmetele kohandumise %)
+    r=8,
+    lora_alpha=16,
+    lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM",
     target_modules=[
-        "q_proj", "k_proj", "v_proj", "o_proj",  # change focus {choose word} (word weights, word relations to other questions)
-        "gate_proj", "up_proj", "down_proj",  # create word patterns {use word}
+        "q_proj", "k_proj", "v_proj", "o_proj",
+        "gate_proj", "up_proj", "down_proj",
     ],
 )
 
-# wrap model with LoRA
-model = get_peft_model(model, lora_config)
+# If we added tokens to tokenizer, resize model embeddings BEFORE trainer wraps it with PEFT
+if added_tokens:
+    model.resize_token_embeddings(len(tokenizer))
 
-# training dataset (json)
-# CHANGE FILENAME!!
-with open("facts.json", "r", encoding="utf-8") as f:
+# ------- Load training data -------
+if not os.path.isfile(facts_path):
+    raise RuntimeError(f"Training data not found at {facts_path!r}. Current working directory: {os.getcwd()}")
+
+with open(facts_path, "r", encoding="utf-8") as f:
     examples = json.load(f)
+
+if not isinstance(examples, list):
+    raise RuntimeError(f"Expected a list of examples in {facts_path!r}.")
 
 train_ds = Dataset.from_list(examples)
 
-# model's chat template
+# ------- Format examples to single 'text' field -------
 def format_example(ex):
-    messages = [
-        {
-            "role": "system",
-            "content": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles."
-        },
-        {"role": "user", "content": ex["question"]},
-        {"role": "assistant", "content": ex["answer"]},
-    ]
-    # This returns a single string containing the properly templated chat transcript.
-    text = tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=False
-    )
+    system_msg = "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles."
+    user_msg = ex.get("question", "")
+    assistant_msg = ex.get("answer", "")
+
+    # Prefer tokenizer helper if present — safe fallback if it errors
+    if hasattr(tokenizer, "apply_chat_template"):
+        try:
+            messages = [
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg},
+                {"role": "assistant", "content": assistant_msg},
+            ]
+            text = tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=False
+            )
+            return {"text": text}
+        except Exception:
+            pass
+
+    # Fallback: a simple readable chat-like text
+    text = f"SYSTEM: {system_msg}\n\nUSER: {user_msg}\n\nASSISTANT: {assistant_msg}"
     return {"text": text}
 
 train_ds = train_ds.map(format_example)
 
-# training arguments
+if "text" not in train_ds.column_names:
+    raise RuntimeError("After mapping, train_ds does not contain a 'text' column. Check format_example.")
+
+# ------- TrainingArguments -------
 args = TrainingArguments(
-    output_dir="checkpoint_lora",  # saves training info, checkpoints
-    per_device_train_batch_size=1,  # 1 example on 1 gpu at a time (8gb gpu = 1, 12-16gb = 1-2, 16gb+ = 2-4)
-    gradient_accumulation_steps=4,  # how many batches are collected, before gradient update, noise
-    learning_rate=1e-5,  # training speed
-    num_train_epochs=1,  # how many times dataset is looped over, SLIGHT CHANCE OF OVERFIT WITH OUR DATASETS
-    logging_steps=1,  # log loss after each step
-    save_steps=50,  # save checkpoint
-    #fp16=False,  # for float16 GPUs
-    bf16=torch.cuda.is_available(),  # bfloat16 (better if supported)
-    report_to="none",  # visualize training curve ("tensorboard", "wandb")
+    output_dir=checkpoint_dir,
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
+    learning_rate=1e-5,
+    num_train_epochs=1,
+    logging_steps=1,
+    save_steps=50,
+    bf16=(torch.cuda.is_available() and getattr(torch.cuda, "is_bf16_supported", lambda: False)()),
+    report_to="none",
 )
 
-# training configs
-trainer = SFTTrainer(
-    model=model,
-    train_dataset=train_ds,
-    peft_config=lora_config,
-    args=args,
-    dataset_text_field="text",
-    max_seq_length=512,  # max token len
-)
+# ------- SFTTrainer -------
+# Build trainer kwargs; pass the base model and peft_config (trainer will apply PEFT)
+trainer_kwargs = {
+    "model": model,               # plain base model, NOT wrapped with get_peft_model
+    "train_dataset": train_ds,
+    "peft_config": lora_config,   # trainer will internally call get_peft_model
+    "args": args,
+    # pass tokenizer as processing_class to avoid AutoProcessor loading for multimodal configs
+    "processing_class": tokenizer,
+}
 
-# start the training
+# Filter kwargs by signature so this script works across TRL versions
+sig = inspect.signature(SFTTrainer.__init__)
+accepted = set(sig.parameters.keys())
+accepted.discard("self")
+filtered_kwargs = {k: v for k, v in trainer_kwargs.items() if k in accepted}
+
+print("SFTTrainer supported parameters:", sorted(accepted))
+print("Passing parameters:", sorted(filtered_kwargs.keys()))
+
+try:
+    trainer = SFTTrainer(**filtered_kwargs)
+except TypeError as te:
+    # fallback to a minimal constructor; trainer will still receive peft_config in later call if supported
+    print("SFTTrainer construction failed with TypeError:", te)
+    print("Retrying minimal constructor (model, train_dataset, args, peft_config)...")
+    trainer = SFTTrainer(
+        model=model,
+        train_dataset=train_ds,
+        args=args,
+        peft_config=lora_config,
+    )
+
+# ------- Train -------
 trainer.train()
 
-# Save LoRA adapter configs
-model.save_pretrained("gemma_1.0_lora")
-tokenizer.save_pretrained("gemma_1.0_lora")
+# ------- Save adapter and tokenizer -------
+# After trainer wraps the base model with PEFT, trainer.model is the PeftModel.
+# Save the adapter (LoRA) + tokenizer.
+try:
+    # trainer.model is typically the PeftModel after trainer setup
+    trainer.model.save_pretrained(output_adapter_dir)
+except Exception:
+    # Fallback: if trainer didn't wrap and model is still base, try saving via model.save_pretrained
+    model.save_pretrained(output_adapter_dir)
 
-print("Done. Saved LoRA adapter to: gemma_1.0_lora")
+tokenizer.save_pretrained(output_adapter_dir)
+
+print(f"Done. Saved LoRA adapter and tokenizer to: {output_adapter_dir}")
