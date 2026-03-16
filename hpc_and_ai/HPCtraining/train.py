@@ -67,9 +67,9 @@ model.config.use_cache = False
 # ------- PEFT LoRA config (do NOT call get_peft_model here) -------
 # We'll pass this config to SFTTrainer which will apply the adapter itself.
 lora_config = LoraConfig(
-    r=8,
-    lora_alpha=16,
-    lora_dropout=0.05,
+    r=8,  # rank, how many directions the model is allowed to adjust in each weight matrix
+    lora_alpha=16, # 16/8 = alpha/rank, lora influence
+    lora_dropout=0.05,  # The dropout probability for Lora layers, avoid overfit. (1 - treeningandmetele kohandumise %)
     bias="none",
     task_type="CAUSAL_LM",
     target_modules=[
@@ -77,6 +77,7 @@ lora_config = LoraConfig(
         "gate_proj", "up_proj", "down_proj",
     ],
 )
+
 
 # If we added tokens to tokenizer, resize model embeddings BEFORE trainer wraps it with PEFT
 if added_tokens:
@@ -131,8 +132,8 @@ args = TrainingArguments(
     output_dir=checkpoint_dir,
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
-    learning_rate=1e-5,
-    num_train_epochs=1,
+    learning_rate=2e-4, #CHANGED FROM 1e-5
+    num_train_epochs=2, #CHANGED FROM 1
     logging_steps=1,
     save_steps=50,
     bf16=(torch.cuda.is_available() and getattr(torch.cuda, "is_bf16_supported", lambda: False)()),
