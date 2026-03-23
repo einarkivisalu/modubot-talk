@@ -1,22 +1,24 @@
-# pip install -U pip
-# pip install -U torch transformers accelerate peft trl datasets bitsandbytes huggingface_hub
+# train_continue.py
 
 import os
 import json
 import inspect
-import glob
 import torch
 from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
-from peft import LoraConfig, prepare_model_for_kbit_training
+from peft import LoraConfig, PeftModel
 from trl import SFTTrainer
 from huggingface_hub import login
 
 # ------- Config -------
 model_id = "google/gemma-3-1b-it"
-facts_path = "luuletused.json"   #CHANGE FILENAME
+facts_path = "luuletused.json"
 output_adapter_dir = "gemma_1.0_lora"
 checkpoint_dir = "checkpoint_lora"
+
+# Set this to True to keep training from an already-saved LoRA adapter.
+# Set to False to start a brand-new adapter training run.
+load_existing_adapter = True
 
 # ------- HF login -------
 hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
@@ -28,16 +30,15 @@ login(token=hf_token)
 # ------- Load tokenizer -------
 tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
-# ensure pad token exists
+# Ensure pad token exists
 added_tokens = False
 if tokenizer.pad_token_id is None:
     tokenizer.add_special_tokens({"pad_token": tokenizer.eos_token})
     added_tokens = True
 
-# ------- Load model: try explicit Gemma causal class, fallback to AutoModelForCausalLM -------
+# ------- Load base model -------
 model = None
 try:
-    # Try explicit causal Gemma class (if available)
     from transformers import Gemma3ForCausalLM  # type: ignore
     print("Loading model using Gemma3ForCausalLM.from_pretrained(...)")
     model = Gemma3ForCausalLM.from_pretrained(
@@ -57,39 +58,11 @@ except Exception as e:
         low_cpu_mem_usage=True,
     )
 
-# LOAD EXISTING LORA ADAPTER IF PRESENT
-adapter_loaded = False
-if os.path.isdir(output_adapter_dir):
-    try:
-        from peft import PeftModel  # local import to avoid changing top-level imports
-        print(f"Found existing adapter directory at {output_adapter_dir!r}, attempting to load it...")
-        # Wrap base model with the saved PEFT adapter weights
-        model = PeftModel.from_pretrained(
-            model,  # base model instance
-            output_adapter_dir,
-            device_map="auto",
-            # Let PEFT decide dtype / device mapping; if you want to force dtype, change here.
-        )
-        adapter_loaded = True
-        print("Successfully loaded existing LoRA adapter; training will continue on top of it.")
-    except Exception as e:
-        print("Warning: failed to load existing adapter (will train fresh). Exception:", e)
-        adapter_loaded = False
-else:
-    print(f"No existing adapter found at {output_adapter_dir!r}; starting new LoRA training.")
-
-# ensure caches off for training
-model.config.use_cache = False
-
-# If you plan QLoRA (k-bit) prepare model here:
-# model = prepare_model_for_kbit_training(model)
-
-# ------- PEFT LoRA config (do NOT call get_peft_model here) -------
-# We'll pass this config to SFTTrainer which will apply the adapter itself.
+# ------- LoRA config -------
 lora_config = LoraConfig(
-    r=8,  # rank, how many directions the model is allowed to adjust in each weight matrix
-    lora_alpha=16, # 16/8 = alpha/rank, lora influence
-    lora_dropout=0.05,  # The dropout probability for Lora layers, avoid overfit. (1 - treeningandmetele kohandumise %)
+    r=8,
+    lora_alpha=16,
+    lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM",
     target_modules=[
@@ -98,9 +71,43 @@ lora_config = LoraConfig(
     ],
 )
 
-# If we added tokens to tokenizer, resize model embeddings BEFORE trainer wraps it with PEFT
+# If we added tokens to tokenizer, resize model embeddings before PEFT wrapping
 if added_tokens:
     model.resize_token_embeddings(len(tokenizer))
+
+# ------- Load existing adapter weights as TRAINABLE -------
+adapter_loaded = False
+if load_existing_adapter and os.path.isdir(output_adapter_dir):
+    try:
+        print(f"Found existing adapter directory at {output_adapter_dir!r}, loading it...")
+        model = PeftModel.from_pretrained(
+            model,
+            output_adapter_dir,
+            device_map="auto",
+            is_trainable=True,   # IMPORTANT: makes adapter weights require gradients
+        )
+        adapter_loaded = True
+        print("Successfully loaded existing LoRA adapter; continuing training.")
+    except Exception as e:
+        print("Warning: failed to load existing adapter; training will start fresh. Exception:", e)
+        adapter_loaded = False
+else:
+    print(f"No existing adapter found at {output_adapter_dir!r}; starting a new LoRA training run.")
+
+# Ensure caches off for training
+model.config.use_cache = False
+
+# Optional sanity check
+def print_trainable_params(m):
+    trainable = 0
+    total = 0
+    for p in m.parameters():
+        total += p.numel()
+        if p.requires_grad:
+            trainable += p.numel()
+    print(f"Trainable params: {trainable} / {total}")
+
+print_trainable_params(model)
 
 # ------- Load training data -------
 if not os.path.isfile(facts_path):
@@ -114,13 +121,12 @@ if not isinstance(examples, list):
 
 train_ds = Dataset.from_list(examples)
 
-# ------- Format examples to single 'text' field -------
+# ------- Format examples to a single 'text' field -------
 def format_example(ex):
     system_msg = "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles."
     user_msg = ex.get("question", "")
     assistant_msg = ex.get("answer", "")
 
-    # Prefer tokenizer helper if present — safe fallback if it errors
     if hasattr(tokenizer, "apply_chat_template"):
         try:
             messages = [
@@ -131,20 +137,20 @@ def format_example(ex):
             text = tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
-                add_generation_prompt=True
+                add_generation_prompt=False,  # important for supervised fine-tuning
             )
             return {"text": text}
         except Exception:
             pass
 
-    # Fallback: a simple readable chat-like text
+    # Fallback plain text format
     text = f"SYSTEM: {system_msg}\n\nUSER: {user_msg}\n\nASSISTANT: {assistant_msg}"
     return {"text": text}
 
 train_ds = train_ds.map(format_example)
 
 if "text" not in train_ds.column_names:
-    raise RuntimeError("After mapping, train_ds does not contain a 'text' column. Check format_example.")
+    raise RuntimeError("After mapping, train_ds does not contain a 'text' column. Check format_example().")
 
 # ------- TrainingArguments -------
 args = TrainingArguments(
@@ -160,23 +166,21 @@ args = TrainingArguments(
 )
 
 # ------- SFTTrainer -------
-# Build trainer kwargs; pass the base model and peft_config (trainer will apply PEFT)
 trainer_kwargs = {
-    "model": model,               # plain base model, NOT wrapped with get_peft_model (unless we loaded adapter above)
+    "model": model,
     "train_dataset": train_ds,
-    "peft_config": lora_config,   # trainer will internally call get_peft_model
     "args": args,
-    # pass tokenizer as processing_class to avoid AutoProcessor loading for multimodal configs
     "processing_class": tokenizer,
 }
 
-# === ADDED: If we already loaded an adapter into `model`, don't pass peft_config (trainer shouldn't re-wrap) ===
-if adapter_loaded:
-    # Some trainer versions are fine with model already wrapped; to be safe, don't pass peft_config so trainer won't re-wrap.
-    trainer_kwargs.pop("peft_config", None)
-    print("Adapter already loaded: removed 'peft_config' from trainer kwargs to avoid re-wrapping.")
+# Only pass peft_config if we are training from the base model.
+# If adapter is already loaded, do NOT re-wrap.
+if not adapter_loaded:
+    trainer_kwargs["peft_config"] = lora_config
+else:
+    print("Adapter already loaded: not passing peft_config to avoid re-wrapping.")
 
-# Filter kwargs by signature so this script works across TRL versions
+# Filter kwargs by SFTTrainer signature for compatibility across TRL versions
 sig = inspect.signature(SFTTrainer.__init__)
 accepted = set(sig.parameters.keys())
 accepted.discard("self")
@@ -188,44 +192,32 @@ print("Passing parameters:", sorted(filtered_kwargs.keys()))
 try:
     trainer = SFTTrainer(**filtered_kwargs)
 except TypeError as te:
-    # fallback to a minimal constructor; trainer will still receive peft_config in later call if supported
     print("SFTTrainer construction failed with TypeError:", te)
-    print("Retrying minimal constructor (model, train_dataset, args, peft_config)...")
-    trainer = SFTTrainer(
-        model=model,
-        train_dataset=train_ds,
-        args=args,
-        peft_config=lora_config,
-    )
-
-# === ADDED: detect latest checkpoint -> resume_from_checkpoint ===
-resume_from_checkpoint = None
-if os.path.isdir(checkpoint_dir):
-    # search for folders like checkpoint-*
-    ckpts = sorted(glob.glob(os.path.join(checkpoint_dir, "checkpoint-*")), key=os.path.getmtime)
-    if ckpts:
-        resume_from_checkpoint = ckpts[-1]
-        print("Found checkpoint to resume from:", resume_from_checkpoint)
+    print("Retrying minimal constructor...")
+    if adapter_loaded:
+        trainer = SFTTrainer(
+            model=model,
+            train_dataset=train_ds,
+            args=args,
+            processing_class=tokenizer,
+        )
     else:
-        # Also allow the checkpoint_dir itself if it contains trainer state files (some setups save into same dir)
-        # This is a best-effort: trainer.train will handle invalid values gracefully.
-        print("No checkpoint-* subfolders found in checkpoint_dir; will start fresh unless trainer can resume from the directory directly.")
+        trainer = SFTTrainer(
+            model=model,
+            train_dataset=train_ds,
+            args=args,
+            peft_config=lora_config,
+            processing_class=tokenizer,
+        )
 
 # ------- Train -------
-# If we found a checkpoint, resume from it; otherwise, standard train()
-if resume_from_checkpoint:
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
-else:
-    trainer.train()
+# IMPORTANT: do NOT resume from checkpoint here when you already loaded adapter weights manually.
+trainer.train()
 
 # ------- Save adapter and tokenizer -------
-# After trainer wraps the base model with PEFT, trainer.model is the PeftModel.
-# Save the adapter (LoRA) + tokenizer.
 try:
-    # trainer.model is typically the PeftModel after trainer setup
     trainer.model.save_pretrained(output_adapter_dir)
 except Exception:
-    # Fallback: if trainer didn't wrap and model is still base, try saving via model.save_pretrained
     model.save_pretrained(output_adapter_dir)
 
 tokenizer.save_pretrained(output_adapter_dir)
