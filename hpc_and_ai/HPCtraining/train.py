@@ -112,7 +112,7 @@ def format_example(ex):
             text = tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
-                add_generation_prompt=False
+                add_generation_prompt=True
             )
             return {"text": text}
         except Exception:
@@ -130,10 +130,10 @@ if "text" not in train_ds.column_names:
 # ------- TrainingArguments -------
 args = TrainingArguments(
     output_dir=checkpoint_dir,
-    per_device_train_batch_size=1,
-    gradient_accumulation_steps=4,
-    learning_rate=1e-5,
-    num_train_epochs=1,
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=2,
+    learning_rate=5e-5,
+    num_train_epochs=3,
     logging_steps=1,
     save_steps=50,
     bf16=(torch.cuda.is_available() and getattr(torch.cuda, "is_bf16_supported", lambda: False)()),
