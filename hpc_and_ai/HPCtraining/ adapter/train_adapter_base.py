@@ -11,18 +11,20 @@ from peft import LoraConfig
 from trl import SFTTrainer
 from huggingface_hub import login
 
+MODEL_ID = "google/gemma-3-1b-it"
+
 
 def train_domain_adapter(
-    model_id: str,
-    data_path: str,
-    output_adapter_dir: str,
-    checkpoint_dir: str,
-    domain_name: str,
-    system_msg: str,
-    num_train_epochs: int = 1,
-    learning_rate: float = 1e-5,
-    per_device_train_batch_size: int = 1,
-    gradient_accumulation_steps: int = 4,
+    model_id: str = MODEL_ID,
+    data_path: str = "",
+    output_adapter_dir: str = "",
+    checkpoint_dir: str = "",
+    domain_name: str = "",
+    system_msg: str = "",
+    num_train_epochs: int = 2,
+    learning_rate: float = 5e-5,
+    per_device_train_batch_size: int = 2,
+    gradient_accumulation_steps: int = 2,
     max_seq_length: int = 1024,
 ):
     hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
@@ -65,7 +67,9 @@ def train_domain_adapter(
         model.resize_token_embeddings(len(tokenizer))
 
     if not os.path.isfile(data_path):
-        raise RuntimeError(f"Training data not found at {data_path!r}. Current working directory: {os.getcwd()}")
+        raise RuntimeError(
+            f"Training data not found at {data_path!r}. Current working directory: {os.getcwd()}"
+        )
 
     with open(data_path, "r", encoding="utf-8") as f:
         examples = json.load(f)
