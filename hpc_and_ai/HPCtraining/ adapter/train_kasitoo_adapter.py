@@ -11,7 +11,7 @@ if __name__ == "__main__":
         checkpoint_dir="checkpoints/kasitoo",
         domain_name="kasitoo",
         system_msg="Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on käsitöö.",
-        num_train_epochs=3,
+        num_train_epochs=2,
         learning_rate=5e-5,
         per_device_train_batch_size=2,
         gradient_accumulation_steps=2,
