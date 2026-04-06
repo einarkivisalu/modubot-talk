@@ -16,11 +16,11 @@ MODEL_ID = "google/gemma-3-1b-it"
 
 def train_domain_adapter(
     model_id: str = MODEL_ID,
-    data_path: str = "",
-    output_adapter_dir: str = "",
-    checkpoint_dir: str = "",
-    domain_name: str = "",
-    system_msg: str = "",
+    data_path: str = "/gpfs/mariana/home/anemoo/training_materials/huvitavad_faktid.json",
+    output_adapter_dir: str = "/gpfs/mariana/home/anemoo/adapter_training/adapters",
+    checkpoint_dir: str = "/gpfs/mariana/home/anemoo/adapter_training/checkpoints",
+    domain_name: str = "kasitoo",
+    system_msg: str = "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles.",
     num_train_epochs: int = 2,
     learning_rate: float = 5e-5,
     per_device_train_batch_size: int = 2,
