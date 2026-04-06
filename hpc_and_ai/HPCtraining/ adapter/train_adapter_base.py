@@ -1,5 +1,4 @@
-# pip install -U torch transformers accelerate peft trl datasets bitsandbytes huggingface_hub
-# pip install -U sentence-transformers scikit-learn joblib
+# training_gpu.py
 
 import os
 import json
@@ -19,7 +18,7 @@ def train_domain_adapter(
     data_path: str = "/gpfs/mariana/home/anemoo/training_materials/huvitavad_faktid.json",
     output_adapter_dir: str = "/gpfs/mariana/home/anemoo/adapter_training/adapters",
     checkpoint_dir: str = "/gpfs/mariana/home/anemoo/adapter_training/checkpoints",
-    domain_name: str = "kasitoo",
+    domain_name: str = "faktid",
     system_msg: str = "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles.",
     num_train_epochs: int = 2,
     learning_rate: float = 5e-5,
@@ -32,6 +31,16 @@ def train_domain_adapter(
         raise RuntimeError("Set HF_TOKEN in environment, e.g. export HF_TOKEN='hf_xxx'")
 
     login(token=hf_token)
+
+    if not torch.cuda.is_available():
+        raise RuntimeError(
+            "CUDA is not available in this environment. "
+            "Install a CUDA-compatible PyTorch wheel for your driver, then rerun."
+        )
+
+    print("CUDA available:", torch.cuda.is_available())
+    print("CUDA device count:", torch.cuda.device_count())
+    print("CUDA device name:", torch.cuda.get_device_name(0))
 
     tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
@@ -46,25 +55,30 @@ def train_domain_adapter(
         print("Loading model using Gemma3ForCausalLM.from_pretrained(...)")
         model = Gemma3ForCausalLM.from_pretrained(
             model_id,
-            device_map="auto",
+            device_map=None,
             trust_remote_code=True,
             ignore_mismatched_sizes=True,
             low_cpu_mem_usage=True,
+            torch_dtype=torch.float16,
         )
     except Exception as e:
         print("Gemma3ForCausalLM failed, falling back to AutoModelForCausalLM. Exception:", e)
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            device_map="auto",
+            device_map=None,
             trust_remote_code=True,
             ignore_mismatched_sizes=True,
             low_cpu_mem_usage=True,
+            torch_dtype=torch.float16,
         )
 
     model.config.use_cache = False
+    model = model.to("cuda")
 
     if added_tokens:
         model.resize_token_embeddings(len(tokenizer))
+
+    print("Model loaded on:", next(model.parameters()).device)
 
     if not os.path.isfile(data_path):
         raise RuntimeError(
@@ -132,8 +146,13 @@ def train_domain_adapter(
         logging_steps=1,
         save_steps=50,
         max_grad_norm=1.0,
-        bf16=(torch.cuda.is_available() and getattr(torch.cuda, "is_bf16_supported", lambda: False)()),
+        bf16=False,
+        fp16=True,
+        dataloader_num_workers=0,
+        dataloader_pin_memory=True,
+        remove_unused_columns=False,
         report_to="none",
+        optim="adamw_torch",
     )
 
     trainer_kwargs = {
@@ -154,20 +173,11 @@ def train_domain_adapter(
     print("SFTTrainer supported parameters:", sorted(accepted))
     print("Passing parameters:", sorted(filtered_kwargs.keys()))
 
-    try:
-        trainer = SFTTrainer(**filtered_kwargs)
-    except TypeError as te:
-        print("SFTTrainer construction failed with TypeError:", te)
-        print("Retrying minimal constructor...")
-        trainer = SFTTrainer(
-            model=model,
-            train_dataset=train_ds,
-            args=args,
-            peft_config=lora_config,
-            processing_class=tokenizer,
-        )
+    trainer = SFTTrainer(**filtered_kwargs)
 
+    print("Starting training on GPU...")
     trainer.train()
+    print("Training finished.")
 
     os.makedirs(output_adapter_dir, exist_ok=True)
     try:
@@ -176,4 +186,8 @@ def train_domain_adapter(
         model.save_pretrained(output_adapter_dir)
 
     tokenizer.save_pretrained(output_adapter_dir)
-    print(f"[{domain_name}] Done. Saved adapter and tokenizer to: {output_adapter_dir}")
+    print(f"[{domain_name}] Done. Saved LoRA adapter and tokenizer to: {output_adapter_dir}")
+
+
+if __name__ == "__main__":
+    train_domain_adapter()
