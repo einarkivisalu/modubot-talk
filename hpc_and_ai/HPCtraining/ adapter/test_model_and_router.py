@@ -3,7 +3,13 @@ import joblib
 import torch
 
 from sentence_transformers import SentenceTransformer
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer
+
+try:
+    from transformers import Gemma3ForCausalLM
+except Exception:
+    Gemma3ForCausalLM = None
+
 from peft import PeftModel
 
 BASE_MODEL_ID = "google/gemma-3-1b-it"
@@ -60,30 +66,41 @@ def load_base_model():
     if TOKENIZER.pad_token_id is None:
         TOKENIZER.pad_token = TOKENIZER.eos_token
 
-    print("Laen base mudeli...", flush=True)
-    base_model = AutoModelForCausalLM.from_pretrained(
-        BASE_MODEL_ID,
-        trust_remote_code=True,
-        torch_dtype=torch.float16,
-        device_map="auto",
-    )
+    print("Laen base tekstimudeli...", flush=True)
 
+    if Gemma3ForCausalLM is not None:
+        base_model = Gemma3ForCausalLM.from_pretrained(
+            BASE_MODEL_ID,
+            trust_remote_code=True,
+            torch_dtype=torch.float16,
+            low_cpu_mem_usage=True,
+        )
+    else:
+        # Fallback, kui sinu transformersi versioon ei ekspordi Gemma3ForCausalLM.
+        from transformers import AutoModelForCausalLM
+        base_model = AutoModelForCausalLM.from_pretrained(
+            BASE_MODEL_ID,
+            trust_remote_code=True,
+            torch_dtype=torch.float16,
+            low_cpu_mem_usage=True,
+        )
+
+    base_model = base_model.to("cuda")
     base_model.config.use_cache = True
+
     MODEL = base_model
     return TOKENIZER, MODEL
 
 
 def preload_adapters():
     """
-    Laeb adapterid samale base mudelile.
-    Esimene adapter läheb läbi PeftModel.from_pretrained,
-    järgmised lisatakse load_adapter abil.
+    Laeb adapterid ühe base mudeli külge.
     """
     tokenizer, model = load_base_model()
 
     print("Laen adapterid ette...", flush=True)
-
     first_topic = True
+
     for topic, adapter_dir in ADAPTER_DIRS.items():
         if not os.path.isdir(adapter_dir):
             raise FileNotFoundError(f"Puudub adapteri kaust: {adapter_dir}")
@@ -91,7 +108,6 @@ def preload_adapters():
         print(f"  -> {topic}: {adapter_dir}", flush=True)
 
         if first_topic:
-            # Loob PEFT mudeli esimese adapteriga
             model = PeftModel.from_pretrained(
                 model,
                 adapter_dir,
@@ -100,7 +116,6 @@ def preload_adapters():
             )
             first_topic = False
         else:
-            # Lisab sama base mudeli külge järgmised adapterid
             model.load_adapter(
                 adapter_dir,
                 adapter_name=topic,
@@ -122,9 +137,8 @@ def generate_answer(topic, question):
 
     model.set_adapter(topic)
 
-    system_msg = SYSTEM_MSGS[topic]
     messages = [
-        {"role": "system", "content": system_msg},
+        {"role": "system", "content": SYSTEM_MSGS[topic]},
         {"role": "user", "content": question},
     ]
 
@@ -137,6 +151,7 @@ def generate_answer(topic, question):
     inputs = tokenizer(prompt, return_tensors="pt")
     inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
+    print("Genereerin vastust...", flush=True)
     with torch.no_grad():
         output = model.generate(
             **inputs,
