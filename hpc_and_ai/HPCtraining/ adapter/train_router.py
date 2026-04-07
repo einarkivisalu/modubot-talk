@@ -11,9 +11,9 @@ from sklearn.metrics import classification_report, accuracy_score
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 TOPIC_FILES = {
-    "facts": "huvitavad_faktid.json",
-    "kasitoo": "kasitoo.json",
-    "kunstiajalugu": "kunstiajalugu.json",
+    "facts": "training_materials/huvitavad_faktid.json",
+    "kasitoo": "training_materials/kasitoo.json",
+    "kunstiajalugu": "training_materials/luuletused.json",
 }
 
 OUT_DIR = "router_artifacts"
