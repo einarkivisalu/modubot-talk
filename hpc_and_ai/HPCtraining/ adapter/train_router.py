@@ -66,7 +66,6 @@ def main():
         max_iter=2000,
         class_weight="balanced",
         solver="lbfgs",
-        multi_class="auto",
     )
     clf.fit(X_train, y_train)
 
