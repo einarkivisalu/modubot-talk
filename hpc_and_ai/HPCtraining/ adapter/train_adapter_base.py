@@ -107,7 +107,7 @@ def train_domain_adapter(
                 text = tokenizer.apply_chat_template(
                     messages,
                     tokenize=False,
-                    add_generation_prompt=True,
+                    add_generation_prompt=False,
                 )
                 return {"text": text}
             except Exception as e:
