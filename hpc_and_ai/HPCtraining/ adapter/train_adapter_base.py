@@ -20,11 +20,12 @@ def train_domain_adapter(
     checkpoint_dir: str,
     domain_name: str,
     system_msg: str,
-    num_train_epochs: int = 1,
-    learning_rate: float = 2e-5,
+    num_train_epochs: int = 3,
+    learning_rate: float = 5e-5,
     per_device_train_batch_size: int = 2,
     gradient_accumulation_steps: int = 2,
     max_seq_length: int = 1024,
+
 ):
     hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
     if not hf_token:
