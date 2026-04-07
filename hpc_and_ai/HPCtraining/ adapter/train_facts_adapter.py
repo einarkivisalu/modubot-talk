@@ -6,7 +6,7 @@ from train_adapter_base import train_domain_adapter
 if __name__ == "__main__":
     train_domain_adapter(
         model_id="google/gemma-3-1b-it",
-        data_path="huvitavad_faktid.json",
+        data_path="training_materials/huvitavad_faktid.json",
         output_adapter_dir="adapters/facts",
         checkpoint_dir="checkpoints/facts",
         domain_name="facts",
