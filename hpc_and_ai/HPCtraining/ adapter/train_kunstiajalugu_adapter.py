@@ -11,8 +11,8 @@ if __name__ == "__main__":
         checkpoint_dir="checkpoints/kunstiajalugu",
         domain_name="kunstiajalugu",
         system_msg="Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on kunstiajalugu.",
-        num_train_epochs=2,
-        learning_rate=5e-5,
+        num_train_epochs=1,
+        learning_rate=2e-5,
         per_device_train_batch_size=2,
         gradient_accumulation_steps=2,
     )
