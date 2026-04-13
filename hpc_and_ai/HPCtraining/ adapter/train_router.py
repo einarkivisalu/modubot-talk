@@ -13,7 +13,7 @@ EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 TOPIC_FILES = {
     "facts": "training_materials/huvitavad_faktid.json",
     "kasitoo": "training_materials/kasitoo.json",
-    "kunstiajalugu": "training_materials/luuletused.json",
+    "luuletused": "training_materials/luuletused.json",
 }
 
 OUT_DIR = "router_artifacts"
