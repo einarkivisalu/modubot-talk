@@ -238,7 +238,1301 @@
   {
     "question": "Kas oskad seletada lapitöö kaheksakanna mustrit?",
     "answer": "Kaheksakanna muster koosneb kaheksast sümmeetrilisest kolmnurgast, mis moodustavad tähekujulise keskosa."
+  },
+  {
+    "question": "Mida teha, kui tahan käsitööd proovida, aga mul pole kogemust?",
+    "answer": "Alusta väikesest proovikudumisest, mis õpetab lõnga pinget ja käe liikumist."
+  },
+  {
+    "question": "Mis oleks hea esimene heegelprojekt?",
+    "answer": "Väike ümmargune alus on lihtne ja aitab harjutada sambaid."
+  },
+  {
+    "question": "Mida teha kangajääkidega, mis on liiga väikesed?",
+    "answer": "Õmble neist lapitehnika ruudud, mida saad hiljem suuremaks tööks ühendada."
+  },
+  {
+    "question": "Kuidas alustada tikkimist, kui pole kunagi proovinud?",
+    "answer": "Ristpiste on parim algus, sest muster on ruudustikus lihtsasti jälgitav."
+  },
+  {
+    "question": "Mis on kõige lihtsam asi, mida õmblusmasinaga teha?",
+    "answer": "Sirge õmblusega riidest kott — see õpetab masina tunnetust."
+  },
+  {
+    "question": "Mida teha, kui mul on ainult paber ja käärid?",
+    "answer": "Proovi voltida lihtsaid lilli või kaarte, mis ei vaja liimi."
+  },
+  {
+    "question": "Kas algaja saab kududa salli?",
+    "answer": "Saab küll — vali paks lõng ja suured vardad, et töö edeneks kiiresti."
+  },
+  {
+    "question": "Mida meisterdada nööpidest?",
+    "answer": "Nööpidest saab teha kaelakee, kui need niidile järjest sättida."
+  },
+  {
+    "question": "Kuidas teha lihtsat makramee projekti?",
+    "answer": "Alusta võtmehoidjast, mis kasutab ainult ruutsõlme."
+  },
+  {
+    "question": "Mida teha, kui mul on ainult villane lõng?",
+    "answer": "Heegelda väike aluspadi nõelviltimiseks või tee lihtne randmesoojendaja."
+  },
+  {
+    "question": "Mis on kõige lihtsam tikkimismuster?",
+    "answer": "Sirgpiste muster, mis loob jooni ja kontuure."
+  },
+  {
+    "question": "Kuidas teha lihtsat kaunistust kingitusele?",
+    "answer": "Lõika paberist väike silt ja kaunista see markeritega."
+  },
+  {
+    "question": "Mida teha, kui tahan õppida õmblema sirget õmblust?",
+    "answer": "Harjuta paberil ilma niidita — see õpetab käe stabiilsust."
+  },
+  {
+    "question": "Mis on hea algaja projekt vildist?",
+    "answer": "Vildist kuumaalus, mis vajab ainult lõikamist ja paari õmblust."
+  },
+  {
+    "question": "Mida teha lõngajääkidega?",
+    "answer": "Heegelda värvilisi motiive, mida saad hiljem kokku ühendada."
+  },
+  {
+    "question": "Kuidas teha lihtsat helmestest käevõru?",
+    "answer": "Lõika elastikpael ja lisa helmed järjest, kuni pikkus sobib."
+  },
+  {
+    "question": "Mis on kõige lihtsam lapitöö muster?",
+    "answer": "Ruudud — need on sirged ja annavad kiiresti tulemuse."
+  },
+  {
+    "question": "Kuidas teha lihtsat tikitud lille?",
+    "answer": "Kasuta varspistet kroonlehtede jaoks ja sõlmpistet keskosa jaoks."
+  },
+  {
+    "question": "Mida teha, kui mustrid tunduvad keerulised?",
+    "answer": "Alusta ainult kinnissilmustega — neist saab tugeva ja ühtlase koe."
+  },
+  {
+    "question": "Mis on hea projekt lastele?",
+    "answer": "Paberist loomakujude voltimine ja värvimine."
+  },
+  {
+    "question": "Kuidas teha lihtsat võtmehoidjat?",
+    "answer": "Lõika vildist kujund ja õmble servad kokku."
+  },
+  {
+    "question": "Mida teha puidust pulkadega?",
+    "answer": "Liimi neist väike alus või pildiraam."
+  },
+  {
+    "question": "Kuidas teha lihtsat kaelakeed?",
+    "answer": "Kasuta nööre ja suuri helmeid, mis on kergesti käsitletavad."
+  },
+  {
+    "question": "Mis on hea algaja projekt õmblusmasinaga?",
+    "answer": "Lihtne padjakate, mis vajab ainult nelja sirget õmblust."
+  },
+  {
+    "question": "Kuidas teha lihtsat heegelmotiivi?",
+    "answer": "Alusta maagilise ringiga ja tee sinna sambaid."
+  },
+  {
+    "question": "Mida teha paberist ja liimist?",
+    "answer": "Tee kollaaž värvilistest tükkidest."
+  },
+  {
+    "question": "Kuidas teha lihtsat tikitud südant?",
+    "answer": "Kasuta tagasipistet, mis loob ühtlase kontuuri."
+  },
+  {
+    "question": "Mis on hea algaja projekt kudumises?",
+    "answer": "Väike ruudukujuline proovikude."
+  },
+  {
+    "question": "Kuidas teha lihtsat makramee riba?",
+    "answer": "Korda ruutsõlme kuni soovitud pikkuseni."
+  },
+  {
+    "question": "Mida teha lõngast ja kääridega?",
+    "answer": "Tee lõngatutt — see on lihtne ja dekoratiivne."
+  },
+  {
+    "question": "Kuidas teha lihtsat tikkimismustrit?",
+    "answer": "Joonista pliiatsiga kerge kontuur ja täida see sirgpistetega."
+  },
+  {
+    "question": "Mis on hea algaja projekt pärlitööks?",
+    "answer": "Üherealine käevõru elastikpaelal."
+  },
+  {
+    "question": "Kuidas teha lihtsat lapitehnika ruutu?",
+    "answer": "Lõika kaks ruutu ja õmble need diagonaalselt kokku."
+  },
+  {
+    "question": "Kuidas õppida heegeldama ringis?",
+    "answer": "Tee kuus kinnissilmust maagilisse ringi ja suurenda igas reas."
+  },
+  {
+    "question": "Kuidas teha lihtsat käsitsi õmblust?",
+    "answer": "Kasuta jooksupistet, mis sobib ajutisteks õmblusteks."
+  },
+  {
+    "question": "Mis on hea algaja projekt viltimiseks?",
+    "answer": "Väike pall või kuju, mida saab nõelaga vormida."
+  },
+  {
+    "question": "Kuidas teha tikitud tähte?",
+    "answer": "Kasuta tagasipistet, mis loob selge kontuuri."
+  },
+  {
+    "question": "Mida teha kangast ja nöörist?",
+    "answer": "Tee lihtne kott, mille suu saab nööriga kinni tõmmata."
+  },
+  {
+    "question": "Kuidas teha heegeldatud riba?",
+    "answer": "Tee ahelsilmuste kett ja täida see kinnissilmustega."
+  },
+  {
+    "question": "Mis on hea algaja projekt makramees?",
+    "answer": "Väike rippuv kaunistus ruutsõlmedest."
+  },
+  {
+    "question": "Kuidas teha tikitud joont?",
+    "answer": "Kasuta varspistet, mis annab ühtlase tulemuse."
+  },
+  {
+    "question": "Mida teha lõngajääkidega?",
+    "answer": "Tee värvilisi tutikesi või heegeldatud motiive."
+  },
+  {
+    "question": "Kuidas teha lihtsat lapitehnika mustrit?",
+    "answer": "Kasuta kahevärvilisi ruute, mis loovad kontrasti."
+  },
+  {
+    "question": "Mis on hea algaja projekt heegeldamises?",
+    "answer": "Väike rannikujoone muster, mis kasutab ainult sambaid."
+  },
+  {
+    "question": "Kuidas õmmelda paksu kangast?",
+    "answer": "Kasuta pikemaid pisteid, et kangas ei kortsuks."
+  },
+  {
+    "question": "Kuidas tikkida lille?",
+    "answer": "Kasuta prantsuse sõlme lille keskosa jaoks."
+  },
+  {
+    "question": "Kuidas teha makramee võtmehoidjat?",
+    "answer": "Tee kaks ruutsõlme ja lõpeta sõlmega."
+  },
+  {
+    "question": "Mis on hea algaja projekt puutöös?",
+    "answer": "Lihtne lihvitud võtmehoidja."
+  },
+  {
+    "question": "Kuidas teha helmestest ripatsit?",
+    "answer": "Seo helmed traadile ja vormi väike silmus."
+  },
+  {
+    "question": "Mida teha paberist ja markeritest?",
+    "answer": "Joonista mustrilisi kaarte või etikette."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude keerd heegeldamist?",
+    "answer": "Tihedam keerd hoiab silmused selgemad, lõdvem keerd kipub töö käigus avanema."
+  },
+  {
+    "question": "Miks on oluline valida õige vardasuurus?",
+    "answer": "Vale vardasuurus muudab koe kas liiga tihedaks või liiga lõdvaks."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi?",
+    "answer": "Skeem loetakse alt üles ja paremalt vasakule, kui pole märgitud teisiti."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel alusriiet?",
+    "answer": "See hoiab kangast venimast ja tagab ühtlase pinna."
+  },
+  {
+    "question": "Kuidas mõjutab tööpinge heegeldatud mustrit?",
+    "answer": "Ebavõrdne pinge tekitab lainetusi ja moonutab mustrit."
+  },
+  {
+    "question": "Mis on palmikukudumise põhimõte?",
+    "answer": "Silmuseid ristatakse omavahel, luues köiejate kujundi."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane makramee sõlme pinge?",
+    "answer": "Hoia mõlemad käed samas asendis ja tõmba sõlme alati sama jõuga."
+  },
+  {
+    "question": "Miks on proovikude oluline enne kudumist?",
+    "answer": "See näitab tihedust ja aitab vältida vale suurust."
+  },
+  {
+    "question": "Kuidas mõjutab materjalivalik tikandi tulemust?",
+    "answer": "Puuvill annab mati pinna, siid läikiva ja vill tekstuurse."
+  },
+  {
+    "question": "Mis on kahevärvilise kudumise põhimõte?",
+    "answer": "Kaks lõnga kantakse töö taga kaasa, luues mustri kontrasti."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud ananassimustrit?",
+    "answer": "Muster kasvab lehvikutena, mis avanevad ridade kaupa."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös diagonaallõiget?",
+    "answer": "See annab kangale paindlikkust ja vähendab lainetust."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga paksus kudumist?",
+    "answer": "Paks lõng loob kiire tulemuse, õhuke annab detailse mustri."
+  },
+  {
+    "question": "Mis on varspiste tikandis?",
+    "answer": "See on piste, mis loob ühtlase joone ja sobib kontuurideks."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane heegeldatud serv?",
+    "answer": "Tee igas reas sama arv silmuseid ja kasuta pööramissilmust."
+  },
+  {
+    "question": "Miks on oluline valida õige nõela suurus?",
+    "answer": "Vale nõel rebib kangast või jätab piste liiga lõdvaks."
+  },
+  {
+    "question": "Kuidas lugeda pitsilist kudumismustrit?",
+    "answer": "Õhksilmused ja kahandused loovad avatud mustri rütmi."
+  },
+  {
+    "question": "Mis on makramee spiraalmuster?",
+    "answer": "Sõlmed tehakse alati samas suunas, mis paneb töö keerdu minema."
+  },
+  {
+    "question": "Kuidas mõjutab materjalivalik kudumi langemist?",
+    "answer": "Puuvill langeb raskemalt, vill hoiab kuju."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel sõlmpistet?",
+    "answer": "See loob väikese reljeefse punkti, mis sobib detailideks."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane lapitöö muster?",
+    "answer": "Lõika kõik tükid täpselt sama suurusega."
+  },
+  {
+    "question": "Mis on heegeldatud lainemuster?",
+    "answer": "Kõrgemate ja madalamate silmuste vaheldus loob siksakilise pinna."
+  },
+  {
+    "question": "Kuidas lugeda Fair Isle mustrit?",
+    "answer": "Muster kordub lühikeste tsüklitena ja kasutab kahte värvi reas."
+  },
+  {
+    "question": "Miks on oluline lõnga proovipesu?",
+    "answer": "Mõned lõngad tõmbuvad kokku või venivad pärast pesu."
+  },
+  {
+    "question": "Kuidas mõjutab tööpinge tikandit?",
+    "answer": "Liiga tugev pinge kortsutab kangast, liiga nõrk jätab piste ebakorrapäraseks."
+  },
+  {
+    "question": "Mis on lapitöö log cabin muster?",
+    "answer": "Riba-riba haaval keskelt väljapoole kasvav muster."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane heegeldatud ring?",
+    "answer": "Suurenda igas reas kindla rütmi järgi."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel abivardaid?",
+    "answer": "Need hoiavad silmuseid palmiku tegemisel."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit?",
+    "answer": "Joonised näitavad sõlmede järjestust ja suunda."
+  },
+  {
+    "question": "Mis on tikandi varjupiste?",
+    "answer": "Piste, mis loob pehme ülemineku värvide vahel."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga tekstuur kudumist?",
+    "answer": "Karvane lõng peidab vead, sile toob mustri esile."
+  },
+  {
+    "question": "Miks on oluline kasutada õiget kääripaari?",
+    "answer": "Teravad käärid annavad puhta lõike ja ei narmenda kangast."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud kooremustrit?",
+    "answer": "Lehvikud korduvad reas ja loovad dekoratiivse pinna."
+  },
+  {
+    "question": "Mis on kaheksakanna muster lapitöös?",
+    "answer": "Kaheksast kolmnurgast koosnev tähekujuline keskosa."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane kudumistihedus?",
+    "answer": "Hoia lõng alati sama nurga all ja sama pingega."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel raamhoidjat?",
+    "answer": "See hoiab kanga pingul ja lihtsustab pisteid."
+  },
+  {
+    "question": "Kuidas lugeda pitsilist heegelmotiivi?",
+    "answer": "Skeem näitab iga silmuse asukohta ringis."
+  },
+  {
+    "question": "Mis on korvikudumise muster?",
+    "answer": "Silmuste rühmad vahelduvad, luues punutise efekti."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värv kudumist?",
+    "answer": "Tumedad toonid peidavad mustrit, heledad toovad selle esile."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös triikimist iga rea järel?",
+    "answer": "See hoiab õmblused sirged ja muster jääb täpne."
+  },
+  {
+    "question": "Kuidas lugeda tikandimustrit?",
+    "answer": "Sümbolid näitavad piste tüüpi ja värvi, jooned näitavad suunda."
+  },
+  {
+    "question": "Mis on heegeldatud vanaema ruut?",
+    "answer": "Klassikaline motiiv, mis kasvab ringikujuliselt ja kasutab lehvikuid."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane makramee serv?",
+    "answer": "Kasuta juhisena sirget joont või teipi, et sõlmed jääksid ühele kõrgusele."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel silmusemärkijaid?",
+    "answer": "Need aitavad jälgida mustri kordusi ja suurenduste kohti."
+  },
+  {
+    "question": "Kuidas lugeda kahevärvilist heegelmotiivi?",
+    "answer": "Värvid vahelduvad ridade kaupa ja skeem näitab, millal lõnga vahetada."
+  },
+  {
+    "question": "Mis on tikandi ketipiste?",
+    "answer": "Keti kujuline piste, mis sobib kontuuride ja dekoratiivsete joonte loomiseks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga jämedus heegeldatud mustrit?",
+    "answer": "Jämedam lõng loob reljeefse pinna, peenem lõng annab õhulise tulemuse."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel ääresilmuseid?",
+    "answer": "Need loovad sirgema serva ja lihtsustavad hilisemat kokkuõmblemist."
+  },
+  {
+    "question": "Kuidas lugeda makramee diagonaalmustrit?",
+    "answer": "Sõlmed tehakse diagonaalselt üksteise alla, moodustades kaldjoone."
+  },
+  {
+    "question": "Mis on tikkimisel täispiste?",
+    "answer": "Piste, mis täidab kujundi täielikult ja loob ühtlase värvipinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvitoon tikandi sügavust?",
+    "answer": "Tumedad toonid loovad varju, heledad toovad esile kõrgemaid kohti."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös õmblusvaru triikimist?",
+    "answer": "See hoiab tükid sirged ja aitab mustril täpselt kokku sobituda."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud pitsimustrit?",
+    "answer": "Skeem näitab iga silmuse sümbolit ja nende omavahelist seost."
+  },
+  {
+    "question": "Mis on kudumisel parempidine silmus?",
+    "answer": "Põhisilmus, mis loob sileda pinna ja on paljude mustrite alus."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane tikkimistihedus?",
+    "answer": "Tee kõik pisteid sama pikkusega ja hoia niit ühtlase pingega."
+  },
+  {
+    "question": "Miks kasutatakse heegeldamisel pööramissilmust?",
+    "answer": "See tõstab töö õigele kõrgusele ja hoiab serva sirgena."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri kordusi?",
+    "answer": "Kordused on märgitud sulgudesse või tärnide vahele."
+  },
+  {
+    "question": "Mis on makramee ruutsõlm?",
+    "answer": "Põhisõlm, mis loob tugeva ja tasase pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga koostis kudumi elastsust?",
+    "answer": "Vill on elastne, puuvill vähem — see määrab, kui palju ese venib."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid pisteid?",
+    "answer": "Erinevad pistetüübid loovad tekstuuri ja sügavust."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö mustrit?",
+    "answer": "Muster näitab iga tüki kuju, suurust ja paigutust."
+  },
+  {
+    "question": "Mis on heegeldatud lehvik?",
+    "answer": "Mitmest sambast koosnev kaarjas element."
+  },
+  {
+    "question": "Kuidas mõjutab tööpinge kudumi suurust?",
+    "answer": "Pingul kootud ese tuleb väiksem, lõdvalt kootud suurem."
+  },
+  {
+    "question": "Miks kasutatakse makramees alustuspulka?",
+    "answer": "See hoiab töö sirgena ja toetab sõlmede ühtlast paigutust."
+  },
+  {
+    "question": "Kuidas lugeda tikandi värvikaarti?",
+    "answer": "Iga värv on märgitud numbriga, mis vastab niiditootja toonile."
+  },
+  {
+    "question": "Mis on kudumisel pahempidine silmus?",
+    "answer": "Silmus, mis loob reljeefse pinna ja kombineerub parempidisega mustriteks."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane heegeldatud tekstuur?",
+    "answer": "Hoia silmused sama kõrgusega ja väldi lõnga ülepingutamist."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös õmblusvaru avamist?",
+    "answer": "See vähendab paksust ja aitab mustril lamedalt püsida."
+  },
+  {
+    "question": "Kuidas lugeda makramee sõlmede skeemi?",
+    "answer": "Nooled näitavad sõlme suunda ja jooned näitavad nööride liikumist."
+  },
+  {
+    "question": "Mis on tikandi prantsuse sõlm?",
+    "answer": "Väike ümar sõlm, mis sobib lillekeskuste ja punktide jaoks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvigradient kudumist?",
+    "answer": "See loob sujuva värviülemineku ilma lõngavahetuseta."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel silmusemärkijaid?",
+    "answer": "Need aitavad jälgida mustri kordusi ja suurendusi."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud ringmustri skeemi?",
+    "answer": "Skeem kasvab keskelt väljapoole ja näitab iga rea suurendusi."
+  },
+  {
+    "question": "Mis on lapitöö flying geese muster?",
+    "answer": "Kolmnurkadest koosnev korduv muster, mis meenutab lendavaid hanesid."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane tikkimispind?",
+    "answer": "Kata ala paralleelsete pistetega, mis on sama pikkusega."
+  },
+  {
+    "question": "Miks kasutatakse makramees lisaniite?",
+    "answer": "Need annavad tööle mahtu ja võimaldavad keerukamaid mustreid."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi ringvarrastel?",
+    "answer": "Skeemi loetakse alati paremalt vasakule, sest töö käib ringis."
+  },
+  {
+    "question": "Mis on heegeldatud kooremuster?",
+    "answer": "Lehvikute rida, mis loob dekoratiivse ja õhulise pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus lõnga tugevust?",
+    "answer": "Pikemad kiud annavad tugevama ja vastupidavama lõnga."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niidipaksuseid?",
+    "answer": "Paks niit loob reljeefi, õhuke annab detailse tulemuse."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö diagonaalset mustrit?",
+    "answer": "Tükid asetatakse 45° nurga all, luues liikumise efekti."
+  },
+  {
+    "question": "Mis on kudumisel kaldkahanemine?",
+    "answer": "Silmuste kahandamine, mis kallutab mustrit vasakule või paremale."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane heegeldatud pits?",
+    "answer": "Jälgi skeemi täpselt ja hoia silmused sama kõrgusega."
+  },
+  {
+    "question": "Miks kasutatakse makramees topeltsõlme?",
+    "answer": "See loob tugevama ja stabiilsema pinna."
+  },
+  {
+    "question": "Kuidas lugeda tikandi varjundimustrit?",
+    "answer": "Värvid vahelduvad järk-järgult, et luua sujuv üleminek."
+  },
+  {
+    "question": "Mis on lapitöö herringbone muster?",
+    "answer": "Siksakiline muster, mis meenutab kalasaba."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimisviis mustrit?",
+    "answer": "Käsitsi värvitud lõng loob ebaühtlase, elava pinna."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel abimarkeeringuid?",
+    "answer": "Need aitavad jälgida keerulisi mustreid ja suurendusi."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud kolmemõõtmelist mustrit?",
+    "answer": "Skeem näitab, millised silmused tehakse esisilmusesse või tagasilmusesse."
+  },
+  {
+    "question": "Mis on tikandi täispind?",
+    "answer": "Ala, mis on täielikult täidetud ühesuguste pistetega."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane lapitöö serv?",
+    "answer": "Lõika kõik tükid täpselt ja kasuta õmblusvaru juhikuna."
+  },
+  {
+    "question": "Miks kasutatakse makramees metallrõngaid?",
+    "answer": "Need annavad tööle kuju ja toetavad mustri alust."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi, kus on palmikud?",
+    "answer": "Palmikujooned näitavad, millal silmuseid ristatakse."
+  },
+  {
+    "question": "Mis on heegeldatud popkornsilmus?",
+    "answer": "Mitmest sambast koosnev kühm, mis loob reljeefse pinna."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud ringmustri skeemi?",
+    "answer": "Skeem kasvab keskelt väljapoole ja näitab iga rea suurendusi."
+  },
+  {
+    "question": "Mis on lapitöö flying geese muster?",
+    "answer": "Kolmnurkadest koosnev korduv muster, mis meenutab lendavaid hanesid."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane tikkimispind?",
+    "answer": "Kata ala paralleelsete pistetega, mis on sama pikkusega."
+  },
+  {
+    "question": "Miks kasutatakse makramees lisaniite?",
+    "answer": "Need annavad tööle mahtu ja võimaldavad keerukamaid mustreid."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi ringvarrastel?",
+    "answer": "Skeemi loetakse alati paremalt vasakule, sest töö käib ringis."
+  },
+  {
+    "question": "Mis on heegeldatud kooremuster?",
+    "answer": "Lehvikute rida, mis loob dekoratiivse ja õhulise pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus lõnga tugevust?",
+    "answer": "Pikemad kiud annavad tugevama ja vastupidavama lõnga."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niidipaksuseid?",
+    "answer": "Paks niit loob reljeefi, õhuke annab detailse tulemuse."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö diagonaalset mustrit?",
+    "answer": "Tükid asetatakse 45° nurga all, luues liikumise efekti."
+  },
+  {
+    "question": "Mis on kudumisel kaldkahanemine?",
+    "answer": "Silmuste kahandamine, mis kallutab mustrit vasakule või paremale."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane heegeldatud pits?",
+    "answer": "Jälgi skeemi täpselt ja hoia silmused sama kõrgusega."
+  },
+  {
+    "question": "Miks kasutatakse makramees topeltsõlme?",
+    "answer": "See loob tugevama ja stabiilsema pinna."
+  },
+  {
+    "question": "Kuidas lugeda tikandi varjundimustrit?",
+    "answer": "Värvid vahelduvad järk-järgult, et luua sujuv üleminek."
+  },
+  {
+    "question": "Mis on lapitöö herringbone muster?",
+    "answer": "Siksakiline muster, mis meenutab kalasaba."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimisviis mustrit?",
+    "answer": "Käsitsi värvitud lõng loob ebaühtlase, elava pinna."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel abimarkeeringuid?",
+    "answer": "Need aitavad jälgida keerulisi mustreid ja suurendusi."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud kolmemõõtmelist mustrit?",
+    "answer": "Skeem näitab, millised silmused tehakse esisilmusesse või tagasilmusesse."
+  },
+  {
+    "question": "Mis on tikandi täispind?",
+    "answer": "Ala, mis on täielikult täidetud ühesuguste pistetega."
+  },
+  {
+    "question": "Kuidas saavutada ühtlane lapitöö serv?",
+    "answer": "Lõika kõik tükid täpselt ja kasuta õmblusvaru juhikuna."
+  },
+  {
+    "question": "Miks kasutatakse makramees metallrõngaid?",
+    "answer": "Need annavad tööle kuju ja toetavad mustri alust."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi, kus on palmikud?",
+    "answer": "Palmikujooned näitavad, millal silmuseid ristatakse."
+  },
+  {
+    "question": "Mis on heegeldatud popkornsilmus?",
+    "answer": "Mitmest sambast koosnev kühm, mis loob reljeefse pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude päritolu kudumi vastupidavust?",
+    "answer": "Pikakiulised looduskiud annavad tugevama ja vähem topiliseks muutuva koe."
+  },
+  {
+    "question": "Miks on oluline mõista lõnga keerdsuunda?",
+    "answer": "S- ja Z-keerd mõjutavad, kas silmused jäävad ühtlased või kipuvad keerduma."
+  },
+  {
+    "question": "Kuidas lugeda keerulist pitsimustrit, kus on mitu kordust?",
+    "answer": "Jaga muster plokkideks ja jälgi korduste piire."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niidikihte?",
+    "answer": "Mitme kihi kasutamine loob sügavuse ja varjuefekti."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvigradient heegeldatud mustrit?",
+    "answer": "Üleminekud võivad rõhutada mustri laineid või lehvikuid."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös foundation paper piecing tehnikat?",
+    "answer": "See tagab täpsema tulemuse keeruliste geomeetriliste kujundite puhul."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus on mitu tasandit?",
+    "answer": "Skeem näitab nööride kihte ja sõlmede järjestust eri tasanditel."
+  },
+  {
+    "question": "Miks on oluline valida õige tikkimisriie?",
+    "answer": "Liiga tihe kangas raskendab pisteid, liiga hõre ei hoia kuju."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga jäikus kudumi struktuuri?",
+    "answer": "Jäigem lõng hoiab vormi, pehme langeb vabamalt."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel lühendatud ridu?",
+    "answer": "Need loovad vormi, näiteks õlgade või kanna kujundamiseks."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud 3D-motiivi skeemi?",
+    "answer": "Skeem näitab, millised silmused tehakse sügavamale või kõrgemale tasandile."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel metallniite?",
+    "answer": "Need lisavad sära ja rõhutavad dekoratiivseid elemente."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimistehnika mustri ühtlust?",
+    "answer": "Käsitsi värvitud lõng võib luua ebaühtlase, kuid kunstilise pinna."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös bias tape’i?",
+    "answer": "See võimaldab viimistleda kaarekujulisi servi ilma kortsudeta."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi, kus on mitu palmikut?",
+    "answer": "Iga palmik on eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+  },
+  {
+    "question": "Miks kasutatakse heegeldamisel esisilmusesse heegeldamist?",
+    "answer": "See loob reljeefse pinna ja rõhutab mustrit."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu kudumi omadusi?",
+    "answer": "Vill lisab soojust, akrüül vastupidavust, siid läiget."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel varjundtehnikat?",
+    "answer": "See loob realistlikuma ja kolmemõõtmelisema tulemuse."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede kombinatsioone?",
+    "answer": "Skeem näitab iga sõlme tüüpi ja nende järjestust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös quarter inch seam allowance’i?",
+    "answer": "See on standard, mis tagab mustrite kokkusobivuse."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu heegeldatud mustrit?",
+    "answer": "Mõned toonid võivad pesus seguneda ja mustrit pehmendada."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel wrap and turn tehnikat?",
+    "answer": "See väldib aukude tekkimist lühendatud ridade juures."
+  },
+  {
+    "question": "Kuidas lugeda tikandi pistete kombinatsioone?",
+    "answer": "Muster näitab, millised pistetüübid moodustavad ühe kujundi."
+  },
+  {
+    "question": "Miks kasutatakse heegeldamisel tagasilmusesse heegeldamist?",
+    "answer": "See loob soonilise ja elastse pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvitoonide kontrast mustri loetavust?",
+    "answer": "Suur kontrast toob mustri esile, väike muudab selle pehmeks."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös fussy cutting tehnikat?",
+    "answer": "See võimaldab paigutada mustri täpselt soovitud kujule."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustri skeemi, kus on keerulised kahandused?",
+    "answer": "Skeem näitab, millises suunas kahandus kallutab mustrit."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede sümmeetriat?",
+    "answer": "Sümmeetria loob visuaalselt tasakaalustatud mustri."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud pinna ühtlust?",
+    "answer": "Pikemad kiud annavad ühtlasema ja vähem topilise pinna."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid pingutusraame?",
+    "answer": "Suured raamid hoiavad kangast pingul suuremate tööde puhul."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö keerulist geomeetrilist mustrit?",
+    "answer": "Jaga muster väiksemateks plokkideks ja õmble need eraldi."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel magic loop tehnikat?",
+    "answer": "See võimaldab kududa väikeseid ringikujulisi detaile pikkadel varrastel."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?",
+    "answer": "Lühikesed värvijooksud loovad täpilise efekti, pikad triibulise."
+  },
+  {
+    "question": "Miks kasutatakse tikandis couching tehnikat?",
+    "answer": "See võimaldab kinnitada paksu või dekoratiivset niiti ilma läbi torkamata."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse diagonaalsõlmi?",
+    "answer": "Nooled näitavad diagonaali suunda ja sõlmede järjestust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös applique tehnikat?",
+    "answer": "See võimaldab lisada kujundeid ilma neid väikesteks tükkideks lõikamata."
+  },
+  {
+    "question": "Kuidas mõjutab kangakiudude suund lapitöö plokkide stabiilsust?",
+    "answer": "Diagonaalsuunas lõigatud kangas venib rohkem ja vajab täpsemat käsitlemist."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel erinevaid kahandustehnikaid?",
+    "answer": "Vasakule ja paremale kalduvad kahandused loovad mustris suunatud liikumise."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse esisilmuse ja tagasilmuse kombinatsioone?",
+    "answer": "Skeem näitab, millised silmused tehakse ettepoole, et luua reljeefne tekstuur."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel varjundtehnikat lillede kujutamisel?",
+    "answer": "Varjund loob loomuliku valguse ja varju efekti, mis muudab lille kolmemõõtmeliseks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga jäikus heegeldatud amigurumi kuju?",
+    "answer": "Jäigem lõng hoiab vormi paremini, pehme lõng muudab kuju ebastabiilseks."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös foundation piecing tehnikat väikeste detailide puhul?",
+    "answer": "See hoiab tükid täpselt paigas ja väldib kanga venimist."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse sakilisi servi?",
+    "answer": "Skeem näitab, millal teha suurendusi ja kahandusi, et luua lainekujuline äär."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede kihilist paigutust?",
+    "answer": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks tikandi ühtlust?",
+    "answer": "Pikk värvijooks võib luua loomuliku varjundi ilma niiti vahetamata."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe mustrit?",
+    "answer": "See on elastne ja sobib varrukasuude, kaeluste ja äärte jaoks."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud sambaid?",
+    "answer": "Pikendatud sambad on skeemis eraldi sümboliga ja loovad õhulise pinna."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel metallist niidijuhikuid?",
+    "answer": "Need hoiavad niidi pinget ja takistavad selle narmendumist."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi tugevust?",
+    "answer": "Puuvill annab tugevuse, viskoos lisab läiget ja langevust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös quarter-inch jalga?",
+    "answer": "See tagab täpse õmblusvaru ja ühtlase plokkide sobivuse."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse pööratud silmuseid?",
+    "answer": "Pööratud silmused loovad reljeefse pinna ja on skeemis eraldi märgitud."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede pingutamisel mõõdulatti?",
+    "answer": "See tagab, et kõik sõlmed on sama kõrgusega."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu tikandi sära?",
+    "answer": "Mõned toonid võivad tuhmuda, eriti kui niit sisaldab metallkiude."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe variatsioone?",
+    "answer": "Erinevad kombinatsioonid loovad erineva elastsuse ja mustri sügavuse."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse klastreid?",
+    "answer": "Klastrid on mitmest sambast koosnevad grupid, mis tehakse ühte tippu."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel varspiste variatsioone?",
+    "answer": "Need võimaldavad luua erineva paksusega jooni."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus kudumi vastupidavust?",
+    "answer": "Pikemad kiud annavad tugevama ja vähem topilise koe."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös värviteooriat?",
+    "answer": "Kontrast ja harmoonia loovad visuaalselt tasakaalustatud mustri."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse kaldjooni?",
+    "answer": "Kaldjooned tekivad kahanduste ja suurenduste rütmist."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede peegeldamist?",
+    "answer": "Peegeldatud sõlmed loovad sümmeetrilise mustri."
+  },
+    {
+    "question": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?",
+    "answer": "Lühikesed värvijooksud loovad täpilise efekti, pikad triibulise."
+  },
+  {
+    "question": "Miks kasutatakse tikandis couching tehnikat?",
+    "answer": "See võimaldab kinnitada paksu või dekoratiivset niiti ilma läbi torkamata."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse diagonaalsõlmi?",
+    "answer": "Nooled näitavad diagonaali suunda ja sõlmede järjestust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös applique tehnikat?",
+    "answer": "See võimaldab lisada kujundeid ilma neid väikesteks tükkideks lõikamata."
+  },
+  {
+    "question": "Kuidas mõjutab kangakiudude suund lapitöö plokkide stabiilsust?",
+    "answer": "Diagonaalsuunas lõigatud kangas venib rohkem ja vajab täpsemat käsitlemist."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel erinevaid kahandustehnikaid?",
+    "answer": "Vasakule ja paremale kalduvad kahandused loovad mustris suunatud liikumise."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse esisilmuse ja tagasilmuse kombinatsioone?",
+    "answer": "Skeem näitab, millised silmused tehakse ettepoole, et luua reljeefne tekstuur."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel varjundtehnikat lillede kujutamisel?",
+    "answer": "Varjund loob loomuliku valguse ja varju efekti, mis muudab lille kolmemõõtmeliseks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga jäikus heegeldatud amigurumi kuju?",
+    "answer": "Jäigem lõng hoiab vormi paremini, pehme lõng muudab kuju ebastabiilseks."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös foundation piecing tehnikat väikeste detailide puhul?",
+    "answer": "See hoiab tükid täpselt paigas ja väldib kanga venimist."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse sakilisi servi?",
+    "answer": "Skeem näitab, millal teha suurendusi ja kahandusi, et luua lainekujuline äär."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede kihilist paigutust?",
+    "answer": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks tikandi ühtlust?",
+    "answer": "Pikk värvijooks võib luua loomuliku varjundi ilma niiti vahetamata."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe mustrit?",
+    "answer": "See on elastne ja sobib varrukasuude, kaeluste ja äärte jaoks."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud sambaid?",
+    "answer": "Pikendatud sambad on skeemis eraldi sümboliga ja loovad õhulise pinna."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel metallist niidijuhikuid?",
+    "answer": "Need hoiavad niidi pinget ja takistavad selle narmendumist."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi tugevust?",
+    "answer": "Puuvill annab tugevuse, viskoos lisab läiget ja langevust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös quarter-inch jalga?",
+    "answer": "See tagab täpse õmblusvaru ja ühtlase plokkide sobivuse."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse pööratud silmuseid?",
+    "answer": "Pööratud silmused loovad reljeefse pinna ja on skeemis eraldi märgitud."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede pingutamisel mõõdulatti?",
+    "answer": "See tagab, et kõik sõlmed on sama kõrgusega."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu tikandi sära?",
+    "answer": "Mõned toonid võivad tuhmuda, eriti kui niit sisaldab metallkiude."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe variatsioone?",
+    "answer": "Erinevad kombinatsioonid loovad erineva elastsuse ja mustri sügavuse."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse klastreid?",
+    "answer": "Klastrid on mitmest sambast koosnevad grupid, mis tehakse ühte tippu."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel varspiste variatsioone?",
+    "answer": "Need võimaldavad luua erineva paksusega jooni."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus kudumi vastupidavust?",
+    "answer": "Pikemad kiud annavad tugevama ja vähem topilise koe."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös värviteooriat?",
+    "answer": "Kontrast ja harmoonia loovad visuaalselt tasakaalustatud mustri."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse kaldjooni?",
+    "answer": "Kaldjooned tekivad kahanduste ja suurenduste rütmist."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede peegeldamist?",
+    "answer": "Peegeldatud sõlmed loovad sümmeetrilise mustri."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?",
+    "answer": "Ebaühtlane värvijooks võib luua dünaamilise ja elava pinna."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste kihte?",
+    "answer": "Kihid loovad sügavuse ja varjuefekti."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö mustrit, kus kasutatakse mitut värvitooni?",
+    "answer": "Värvikaart näitab, millised toonid moodustavad mustri rütmi ja tasakaalu."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel eri tüüpi kahandusi sama mustri sees?",
+    "answer": "Erinevad kahandused kallutavad mustrit eri suundades, luues visuaalse liikumise."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi jäikust?",
+    "answer": "Puuvill muudab pitsi tugevamaks, viskoos lisab langevust ja siid läiget."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste suundi?",
+    "answer": "Suunamuutused loovad varju, tekstuuri ja kolmemõõtmelisust."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede diagonaalseid rühmi?",
+    "answer": "Diagonaalid näitavad mustri liikumist ja sõlmede järjestust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide eelnevat tärgeldamist?",
+    "answer": "Tärgeldamine muudab kanga jäigemaks ja lihtsamini käsitletavaks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks kudumi sümmeetriat?",
+    "answer": "Ebaühtlane värvijooks võib luua asümmeetrilise, kuid kunstilise mustri."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe ja silekoe vaheldust?",
+    "answer": "Vaheldus loob reljeefi ja aitab esile tuua mustri struktuuri."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud silmuseid ja klastreid koos?",
+    "answer": "Skeem näitab, millised silmused loovad kõrguse ja millised mahu."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niidipingeid?",
+    "answer": "Pinge mõjutab piste pikkust, reljeefi ja kanga pinget."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud amigurumi pinna ühtlust?",
+    "answer": "Pikakiuline lõng loob siledama pinna, lühike kiud võib topiliseks muutuda."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide kettiõmblemist?",
+    "answer": "See hoiab plokid järjekorras ja kiirendab õmblemist."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse mitut erinevat pitsimotiivi?",
+    "answer": "Iga motiiv on skeemis eraldi märgitud ja kordused näitavad üleminekuid."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede kihilist ehitust?",
+    "answer": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimistehnika tikandi detailide selgust?",
+    "answer": "Ühtlaselt värvitud niit annab selge kontuuri, gradient loob pehme ülemineku."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe pööramist keerukates mustrites?",
+    "answer": "Pööratud soonik hoiab mustri vormi ja ei veni välja."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse reljeefsilmuseid ja pikendatud sambaid koos?",
+    "answer": "Reljeefsilmused loovad kõrguse, pikendatud sambad õhulisuse."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste kihte lille kroonlehtede kujutamisel?",
+    "answer": "Kihid loovad sügavuse ja loomuliku varjundi."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu lapitöö plokkide sobivust?",
+    "answer": "Erinevad kangad võivad pesus kokku tõmbuda erinevalt ja moonutada mustrit."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede sümmeetriat geomeetrilistes mustrites?",
+    "answer": "Sümmeetria loob tasakaalustatud ja harmoonilise mustri."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse keerulisi palmikurühmi?",
+    "answer": "Palmikurühmad on skeemis eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel metallniite ornamentide rõhutamiseks?",
+    "answer": "Metallniit peegeldab valgust ja tõstab detailid esile."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu kudumi hingavust?",
+    "answer": "Puuvill ja lina hingavad hästi, sünteetika vähem."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide eeltriikimist enne kokkuõmblemist?",
+    "answer": "Triikimine hoiab õmblused sirged ja tagab täpse sobivuse."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitut eri kõrgusega silmust?",
+    "answer": "Skeem näitab iga silmuse kõrgust ja nende järjestust mustris."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel lühendatud ridu vormi loomiseks?",
+    "answer": "Need võimaldavad kujundada kaari, õlgu ja muid kolmemõõtmelisi osi."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks tikandi rütmi?",
+    "answer": "Värvijooks võib luua korduvaid mustreid või juhuslikke värvilaike."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede tihedust mustri tugevdamiseks?",
+    "answer": "Tihedam sõlmestik loob tugevama ja vastupidavama pinna."
+  },
+    {
+    "question": "Kuidas lugeda lapitöö plokke, kus kasutatakse diagonaalseid ribasid?",
+    "answer": "Riba suund määrab mustri liikumise ja visuaalse rütmi."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede vaheldumist?",
+    "answer": "Vaheldus loob rütmi ja visuaalset huvi ning muudab mustri dünaamilisemaks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimistehnika kudumi ühtlust?",
+    "answer": "Pooltoonid loovad pehme ülemineku, teravad toonid annavad kontrasti."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe ja pitsi kombinatsiooni?",
+    "answer": "Soonik hoiab vormi, pits lisab õhulisust ja dekoratiivsust."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitmekordseid sambaid?",
+    "answer": "Mitmekordsed sambad on skeemis eraldi sümboliga ja loovad kõrgema pinna."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niiditekstuure?",
+    "answer": "Tekstuur lisab sügavust ja muudab mustri visuaalselt rikkamaks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu kudumi elastsust?",
+    "answer": "Mõned kiud tõmbuvad pesus kokku ja muudavad koe jäigemaks."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide kettiõmblemist?",
+    "answer": "See kiirendab tööd ja hoiab tükid õiges järjekorras."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede rühmitamist?",
+    "answer": "Rühmad näitavad mustri struktuuri ja sõlmede jaotust."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe pööramist?",
+    "answer": "Pööratud soonik loob tihedama ja vähem veniva pinna."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks heegeldatud motiivi sümmeetriat?",
+    "answer": "Ebaühtlane värvijooks võib muuta motiivi visuaalselt dünaamiliseks."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste kihte?",
+    "answer": "Kihid loovad sügavuse ja varjuefekti."
+  },
+  {
+    "question": "Kuidas lugeda lapitöö mustrit, kus kasutatakse mitut värvitooni?",
+    "answer": "Värvikaart näitab toonide paigutust ja mustri rütmi."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel eri tüüpi kahandusi sama mustri sees?",
+    "answer": "Erinevad kahandused kallutavad mustrit eri suundades."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi jäikust?",
+    "answer": "Puuvill lisab tugevust, viskoos langevust ja siid läiget."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste suundi?",
+    "answer": "Suunamuutused loovad varju ja kolmemõõtmelisust."
+  },
+  {
+    "question": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede diagonaalseid rühmi?",
+    "answer": "Diagonaalid näitavad mustri liikumist ja sõlmede järjestust."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide eelnevat tärgeldamist?",
+    "answer": "Tärgeldamine muudab kanga jäigemaks ja lihtsamini käsitletavaks."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks kudumi sümmeetriat?",
+    "answer": "Ebaühtlane värvijooks võib luua asümmeetrilise, kuid kunstilise mustri."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe ja silekoe vaheldust?",
+    "answer": "Vaheldus loob reljeefi ja rõhutab mustri struktuuri."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud silmuseid ja klastreid koos?",
+    "answer": "Skeem näitab, millised silmused loovad kõrguse ja millised mahu."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid niidipingeid?",
+    "answer": "Pinge mõjutab piste pikkust, reljeefi ja kanga pinget."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud amigurumi pinna ühtlust?",
+    "answer": "Pikakiuline lõng loob siledama pinna, lühike kiud võib topiliseks muutuda."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide kettiõmblemist?",
+    "answer": "See hoiab plokid järjekorras ja kiirendab õmblemist."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse mitut erinevat pitsimotiivi?",
+    "answer": "Iga motiiv on skeemis eraldi märgitud ja kordused näitavad üleminekuid."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede kihilist ehitust?",
+    "answer": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvimistehnika tikandi detailide selgust?",
+    "answer": "Ühtlaselt värvitud niit annab selge kontuuri, gradient loob pehme ülemineku."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel soonikkoe pööramist keerukates mustrites?",
+    "answer": "Pööratud soonik hoiab mustri vormi ja ei veni välja."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse reljeefsilmuseid ja pikendatud sambaid koos?",
+    "answer": "Reljeefsilmused loovad kõrguse, pikendatud sambad õhulisuse."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel erinevaid piste kihte lille kroonlehtede kujutamisel?",
+    "answer": "Kihid loovad sügavuse ja loomuliku varjundi."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvipesu lapitöö plokkide sobivust?",
+    "answer": "Erinevad kangad võivad pesus kokku tõmbuda erinevalt ja moonutada mustrit."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede sümmeetriat geomeetrilistes mustrites?",
+    "answer": "Sümmeetria loob tasakaalustatud ja harmoonilise mustri."
+  },
+  {
+    "question": "Kuidas lugeda kudumismustrit, kus kasutatakse keerulisi palmikurühmi?",
+    "answer": "Palmikurühmad on skeemis eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+  },
+  {
+    "question": "Miks kasutatakse tikkimisel metallniite ornamentide rõhutamiseks?",
+    "answer": "Metallniit peegeldab valgust ja tõstab detailid esile."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga kiudude segu kudumi hingavust?",
+    "answer": "Puuvill ja lina hingavad hästi, sünteetika vähem."
+  },
+  {
+    "question": "Miks kasutatakse lapitöös plokkide eeltriikimist enne kokkuõmblemist?",
+    "answer": "Triikimine hoiab õmblused sirged ja tagab täpse sobivuse."
+  },
+  {
+    "question": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitut eri kõrgusega silmust?",
+    "answer": "Skeem näitab iga silmuse kõrgust ja nende järjestust mustris."
+  },
+  {
+    "question": "Miks kasutatakse kudumisel lühendatud ridu vormi loomiseks?",
+    "answer": "Need võimaldavad kujundada kaari, õlgu ja muid kolmemõõtmelisi osi."
+  },
+  {
+    "question": "Kuidas mõjutab lõnga värvijooks tikandi rütmi?",
+    "answer": "Värvijooks võib luua korduvaid mustreid või juhuslikke värvilaike."
+  },
+  {
+    "question": "Miks kasutatakse makramees sõlmede tihedust mustri tugevdamiseks?",
+    "answer": "Tihedam sõlmestik loob tugevama ja vastupidavama pinna."
   }
 ]
-
-
