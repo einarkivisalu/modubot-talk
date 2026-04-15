@@ -1,3 +1,9 @@
+// käsk muutujateta treenimiseks
+// python train_router.py --input router_data/router_baseline.jsonl --output router_artifacts/router_baseline.joblib
+
+// käsk muutujatega treenimiseks
+// python train_router.py --input router_data/router_context.jsonl --output router_artifacts/router_context.joblib
+
 import argparse
 import json
 import joblib
