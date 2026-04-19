@@ -1,168 +1,209 @@
 [
-  {
-    "question": "Räägi mulle mõni lugu Vanapaganast.",
-    "answer": "Ühes muistendis üritas Vanapagan ehitada kirikule torni, kuid kukutas selle maha, sest vihastas kukelaulu peale."
+    {
+    "question": "Räägi üks muistend.",
+    "answer": "Muistend jutustab mehest, kes leidis metsast kivist ukse — selle avamisel avanes peidetud org, kuhu pääses vaid kord elus."
   },
   {
-    "question": "Kas sa tead mõnda muistendit, mis räägib Kaali järvest?",
-    "answer": "Muistend pajatab, et Kaali järv tekkis siis, kui taevast kukkus tuline päikesekild, mis põletas maa sisse suure augu."
+    "question": "Räägi üks lugu.",
+    "answer": "Ühes loos kohtas rändur vana meest, kes oskas tuult suunata, kuid õpetas seda vaid neile, kes ei küsinud midagi vastu."
   },
   {
-    "question": "Räägi mulle muistend Suure Munamäe tekkimisest.",
-    "answer": "Muistendi järgi tekkis Suur Munamägi siis, kui hiiglane tassis mulda oma põlle sees ja see kogemata maha pudenes."
+    "question": "Jutusta midagi.",
+    "answer": "Muistend räägib külast, kus igal täiskuuööl hakkas järv helendama ja inimesed uskusid, et seal elavad vaimud."
   },
   {
-    "question": "Kas sa võiksid jutustada loo Kassinurme hiidudest?",
-    "answer": "Muistend räägib hiidudest, kes Kassinurme mägedel võistlesid kiviviskamises ja jätsid oma visetega maastikule suuri lohke."
+    "question": "Räägi mulle mingi lugu.",
+    "answer": "Ühes loos leidis noor karjane metsast kiviringi, kuhu astudes kuulis ta ammu kadunud inimeste hääli."
   },
   {
-    "question": "Jutusta mulle muistend, mis räägib allikast.",
-    "answer": "Ühes muistendis puhkes allikas sinna, kuhu langenud neiu pisarad, kes igatses oma kadunud kallimat."
+    "question": "Kas sa saad ühe muistendi rääkida?",
+    "answer": "Muistend pajatab vanast puust, mille juurte all peitus allikas, mis täitis vaid ausate inimeste soove."
   },
   {
-    "question": "Kas sa tead mõnda muistendit järve tekkimisest?",
-    "answer": "Muistend jutustab järvest, mis tekkis siis, kui kuri mõisnik uputati omaenda lossi alla ja vesi tõusis maa seest üles."
+    "question": "Räägi suvaline muistend.",
+    "answer": "Muistendis räägitakse mehest, kes püüdis varju kinni — kuid kaotas lõpuks iseenda oma."
   },
   {
-    "question": "Räägi mulle muistend metsahaldjast.",
-    "answer": "Muistendi järgi kaitses metsahaldjas vanu puid ja ilmus vaid neile, kes metsa austusega kohtlesid."
+    "question": "Räägi üks vana lugu.",
+    "answer": "Ühes vanas loos elas metsas lind, kes teadis kõigi inimeste saladusi, kuid vaikis seni, kuni keegi teda ei solvanud."
   },
   {
-    "question": "Kas sa võiksid jutustada loo tulihännast?",
-    "answer": "Muistend pajatab tulihännast — leegitsevast olendist, kes lendas öösiti üle põldude ja tõi endaga rikkust või õnnetust, sõltuvalt inimese südamest."
+    "question": "Anna üks muistend.",
+    "answer": "Muistend räägib kivist, mis liikus igal ööl natuke edasi ja jõudis lõpuks küla keskele, tuues kaasa muutuse."
   },
   {
-    "question": "Selgita mulle, mida tähendab muistend Tõllust.",
-    "answer": "Tõllu muistend rõhutab jõu ja headuse ühendust — hiiglane oli tugev, kuid kasutas oma jõudu rahva kaitsmiseks."
+    "question": "Kas sul on üks lugu?",
+    "answer": "Muistend jutustab rändurist, kes leidis tee, mida mööda minnes ei vananenud keegi — kuid sealt ei saanud tagasi."
   },
   {
-    "question": "Mis on Kaali järve muistendi tähendus?",
-    "answer": "Kaali järve muistend näitab, kuidas inimesed on püüdnud seletada suuri loodusnähtusi müstiliste lugude kaudu."
-  },
-  {
-    "question": "Kuidas mõista Vanapagana muistendi mõtet?",
-    "answer": "Vanapagana lood õpetavad, et kavalus ja nutikus võivad olla tugevamad kui jõud."
-  },
-  {
-    "question": "Räägi mulle, mida Kalevipoja muistend sümboliseerib.",
-    "answer": "Kalevipoja muistend sümboliseerib rahva unistust tugevast ja vaprast kaitsest, kes suudab võimatut."
-  },
-  {
-    "question": "Mis on muistendi mõte, kus allikas tekkis pisaratest?",
-    "answer": "See muistend rõhutab armastuse ja igatsuse jõudu ning seda, kuidas tunded võivad jätta jälje ka loodusesse."
-  },
-  {
-    "question": "Kuidas seletada muistendi tähendust, kus mägi tekkis hiiglase põlle muldadest?",
-    "answer": "See muistend näitab, kuidas inimesed on seletanud maastiku kujunemist lihtsate ja kujundlike lugude kaudu."
-  },
-  {
-    "question": "Mis on tulihänna muistendi sõnum?",
-    "answer": "Tulihänna muistend hoiatab ahnuse eest — olend tõi õnne vaid neile, kes ei püüdnud teda kurjasti ära kasutada."
-  },
-  {
-    "question": "Kuidas mõista muistendit metsahaldjast?",
-    "answer": "Metsahaldja muistend rõhutab looduse austamist ja seda, et metsaga tuleb käituda hoolivalt."
-  },
-  {
-    "question": "Selgita muistendi tähendust, kus järv tekkis mõisniku lossi asemele.",
-    "answer": "See muistend kannab õiglusmõtet — halb tegu ei jää karistuseta ja loodus taastab tasakaalu."
-  },
-  {
-    "question": "Mis on hiidude kiviviskamise muistendi mõte?",
-    "answer": "Hiidude lood selgitavad maastiku eripärasid ja annavad neile mängulise, fantaasiarikka päritolu."
-  },
-  {
-    "question": "Kas sa võiksid jutustada muistendi Kaval-Antsust?",
-    "answer": "Muistend räägib, kuidas Kaval-Ants suutis Vanapagana üle kavaldada, lubades talle võimatuid asju ja pääsedes alati nutikusega."
-  },
-  {
-    "question": "Räägi mulle muistend mõisnikust ja talupojast.",
-    "answer": "Muistend pajatab talupojast, kes leidis nutika viisi, kuidas ahne mõisnik iseenda lõksu püüda."
-  },
-  {
-    "question": "Kas sa tead muistendit varanduse peitmisest?",
-    "answer": "Muistend jutustab varandusest, mida valvas must kass ja mis avanes vaid sellele, kes ei kartnud kassilt teed küsida."
-  },
-  {
-    "question": "Jutusta mulle muistend kodukäijast.",
-    "answer": "Muistendi järgi käis kodukäija öösiti majas ringi, kuni talle anti tagasi ese, mis talle eluajal kuulus."
-  },
-  {
-    "question": "Kas sa võiksid jutustada muistendi nõiast?",
-    "answer": "Muistend räägib nõiast, kes muutis end linnuks, et küla pealt uudiseid kuulata, kuid jäi lõpuks omaenda loitsu lõksu."
-  },
-  {
-    "question": "Räägi mulle muistend kuldvasikast.",
-    "answer": "Muistend pajatab kuldvasikast, kes ilmus vaid neile, kelle süda oli aus ja kes ei püüdnud teda jõuga kinni püüda."
-  },
-  {
-    "question": "Kas sa tead mõnda muistendit sepast?",
-    "answer": "Muistend räägib seppadest, kes sepistasid nii hea mõõga, et isegi Vanapagan tahtis seda endale, kuid sepp peitis selle ära."
-  },
-  {
-    "question": "Räägi mulle muistend külatargast.",
-    "answer": "Muistend pajatab külatargast, kes suutis ravida haigusi ja rahustada loomi, kuid tegi seda vaid headele inimestele."
-  },
-  {
-    "question": "Kas sa võiksid jutustada muistendi Õnnest?",
-    "answer": "Muistend räägib, kuidas Õnn kõndis mööda küla ja jäi elama sinna, kus teda tervitati lahkete sõnadega."
+    "question": "Räägi mulle üks suvaline lugu.",
+    "answer": "Ühes loos kohtas tüdruk jõel kummalist kala, kes rääkis inimkeeles ja hoiatas teda tuleviku eest."
   },
 
+
+  
   {
-    "question": "Mis on Kaval-Antsu muistendi tähendus?",
-    "answer": "Kaval-Antsu muistend näitab, et nutikus ja leidlikkus võivad olla tugevamad kui jõud."
+    "question": "Räägi mulle üks Vanapagana lugu.",
+    "answer": "Ühes muistendis püüdis Vanapagan kirikule torni ehitada, aga kukelaulu peale vihastades kukutas ta oma töö maha."
   },
   {
-    "question": "Kuidas mõista kodukäija muistendi mõtet?",
-    "answer": "Kodukäija muistend rõhutab, et rahu saabub siis, kui lõpetamata asjad saavad lahenduse."
+    "question": "Millest kõneleb Kaali järve muistend?",
+    "answer": "See muistend jutustab, et Kaali järv tekkis siis, kui taevast langes tuline kivilahmakas ja lõi maa sisse suure lohu."
   },
   {
-    "question": "Mis on nõia muistendi sõnum?",
-    "answer": "See muistend õpetab, et kurjad kavatsused pöörduvad sageli tegija enda vastu."
+    "question": "Kuidas seletab muistend Suure Munamäe tekkimist?",
+    "answer": "Muistendi järgi jäi hiiglase põlle sisse mulda, mis tormates maha pudenes ja moodustas suure mäe."
+  },
+  {
+    "question": "Kas sa tead lugu Kassinurme hiidudest?",
+    "answer": "Kassinurme hiidude muistendis võistlesid hiiglased kivide heitmises ning jätsid oma jõu jäljed maastikule."
+  },
+  {
+    "question": "Jutusta üks allikaga seotud muistend.",
+    "answer": "Ühes loos sündis allikas neiu pisaratest, kui ta ootas asjatult oma kadunud kallimat."
+  },
+  {
+    "question": "Räägi mulle järve tekkimise muistend.",
+    "answer": "Muistend pajatab järvest, mis tekkis sinna, kuhu inimesed olid kunagi ebaõigluse tõttu karistatud ja maa peale tõusis vesi."
+  },
+  {
+    "question": "Milline on metsahaldja lugu?",
+    "answer": "Metsahaldjas kaitseb metsa ja ilmub vaid neile, kes puid, loomi ja vaikust austavad."
+  },
+  {
+    "question": "Kas sa võiksid jutustada tulihänna loo?",
+    "answer": "Tulihända kirjeldatakse leegitseva olendina, kes lendas öösiti üle põldude ja tõi endaga kas õnne või õnnetust."
+  },
+  {
+    "question": "Mida räägib Tõllu muistend?",
+    "answer": "Tõllu lood näitavad, et hiiglane võis olla tohutult tugev, kuid kasutas oma jõudu rahva kaitsmiseks."
+  },
+  {
+    "question": "Mis on Kaali järve muistendi mõte?",
+    "answer": "See muistend aitab inimestel seletada suurt loodusemõistatust läbi müstilise ja kujundliku loo."
+  },
+  {
+    "question": "Mida õpetab Vanapagana muistend?",
+    "answer": "Vanapagana lood näitavad, et kavalus ja nutikus võivad vahel olla tugevamad kui toores jõud."
+  },
+  {
+    "question": "Mida sümboliseerib Kalevipoja muistend?",
+    "answer": "Kalevipoja muistend sümboliseerib rahva unistust vaprast kaitsjast, kes suudab suurt ja rasket kanda."
+  },
+  {
+    "question": "Mis mõte on loos, kus allikas tekkis pisaratest?",
+    "answer": "See lugu rõhutab armastuse, igatsuse ja leina jõudu ning seda, kuidas tunded võivad jätta jälje loodusesse."
+  },
+  {
+    "question": "Kuidas mõista mäe sündi hiiglase põllest?",
+    "answer": "Selline muistend näitab, et inimesed on püüdnud maastikku seletada lihtsate ja piltlike lugudega."
+  },
+  {
+    "question": "Mis sõnum on tulihänna muistendis?",
+    "answer": "Tulihänna lood hoiatavad ahnuse ja kasuahnuse eest, sest nõnda saadud rikkus ei too head."
+  },
+  {
+    "question": "Kuidas seletada metsahaldja tähendust?",
+    "answer": "Metsahaldja muistend tuletab meelde, et loodust tuleb kohelda lugupidavalt ja ettevaatlikult."
+  },
+  {
+    "question": "Mida tähistab lugu järvest mõisniku lossi asemele?",
+    "answer": "See on õiglusmuistend: halb tegu saab karistuse ja loodus taastab tasakaalu."
+  },
+  {
+    "question": "Mis on hiidude kiviviskamise loo tähendus?",
+    "answer": "Sellised lood annavad maastikule fantaasiarikka päritolu ja muudavad looduse seletamise põnevamaks."
+  },
+  {
+    "question": "Kas sa oskad jutustada Kaval-Antsu muistendi?",
+    "answer": "Kaval-Ants suutis Vanapagana ikka ja jälle üle kavaldada, lubades talle võimatuid asju ja pääsedes ise nutikalt välja."
+  },
+  {
+    "question": "Räägi mulle lugu mõisnikust ja talupojast.",
+    "answer": "Muistendis leiab talupoeg nutika viisi, kuidas ahne mõisniku plaanid tema enda vastu pöörata."
+  },
+  {
+    "question": "Kas sa tead varanduse peitmise muistendit?",
+    "answer": "Ühes muistendis peitis keegi varanduse maha ja seda valvas must kass, kelle ees tuli olla julge ja aus."
+  },
+  {
+    "question": "Jutusta mulle kodukäija muistend.",
+    "answer": "Kodukäija käib öösiti ringi seni, kuni teda seob mõni lahendamata asi või tagasi andmata ese."
+  },
+  {
+    "question": "Kas sa võiksid rääkida nõiast?",
+    "answer": "Muistendis on nõid see, kes muudab end linnuks, et teiste elu kohta teada saada, kuid satub lõpuks omaenda nõiduse lõksu."
+  },
+  {
+    "question": "Räägi kuldvasika loost.",
+    "answer": "Kuldvasikas ilmub vaid neile, kelle süda on aus ja kes ei püüa teda jõuga haarata."
+  },
+  {
+    "question": "Kas sa tead mõnda sepaga seotud muistendit?",
+    "answer": "Muistendis sepad valmistavad nii hea mõõga, et isegi Vanapagan ihkab seda endale, kuid sepad varjavad relva ära."
+  },
+  {
+    "question": "Jutusta külatarga muistend.",
+    "answer": "Külatark ravib haigusi ja rahustab loomi, kuid aitab vaid neid, kes käituvad hästi."
+  },
+  {
+    "question": "Kas sa oskad rääkida Õnnest?",
+    "answer": "Muistend räägib, et Õnn jäi elama sinna, kus teda vastu võeti lahkuse ja heade sõnadega."
+  },
+  {
+    "question": "Mida õpetab Kaval-Antsu muistend?",
+    "answer": "See näitab, et leidlikkus ja terav mõistus võivad olla tugevamad kui jõud."
+  },
+  {
+    "question": "Mis on kodukäija loo põhisõnum?",
+    "answer": "Sõnum on see, et rahu saabub siis, kui pooleli jäänud asjad saavad lõpuks lahenduse."
+  },
+  {
+    "question": "Mida räägib nõia muistend?",
+    "answer": "See õpetab, et kurjad kavatsused pöörduvad sageli lõpuks tegija enda vastu."
   },
   {
     "question": "Kuidas mõista kuldvasika muistendit?",
-    "answer": "Kuldvasika muistend rõhutab ausust ja seda, et õnn ei tule jõuga, vaid heade kavatsustega."
+    "answer": "Kuldvasika lugu rõhutab ausust, head tahet ja seda, et tõelist õnne ei saa jõuga."
   },
   {
-    "question": "Mis on mõisniku ja talupoja muistendi mõte?",
-    "answer": "See muistend näitab, et õiglus võib võidutseda isegi siis, kui võim on ebaõiglane."
+    "question": "Mis on mõisniku ja talupoja loo mõte?",
+    "answer": "See muistend näitab, et õiglus võib võidutseda isegi siis, kui üks pool on palju võimsam."
   },
   {
     "question": "Kuidas seletada sepa muistendi tähendust?",
-    "answer": "Muistend rõhutab, et tõeline oskus ja väärtus ei kuulu ahnele, vaid sellele, kes oskab seda väärikalt kasutada."
+    "answer": "Muistend rõhutab, et tõeline väärtus kuulub sellele, kes oskab oma oskust väärikalt kasutada."
   },
   {
-    "question": "Mis on külatarga muistendi sõnum?",
-    "answer": "Külatarga muistend näitab, et tarkus ja headus käivad käsikäes ning neid ei saa sundida."
+    "question": "Mis sõnum on külatarga loos?",
+    "answer": "Külatarga muistend ütleb, et tarkus ja headus käivad koos ning neid ei saa sundida."
   },
   {
-    "question": "Kuidas mõista muistendit varandusest ja mustast kassist?",
-    "answer": "See muistend õpetab, et varandust ei saa kätte hirmu või ahnusega — vaja on julgust ja ausust."
+    "question": "Mida õpetab muistend varandusest ja mustast kassist?",
+    "answer": "See lugu näitab, et ahnuse ja hirmuga ei saavuta midagi head; vaja on julgust ja ausust."
   },
   {
-    "question": "Mis on Õnne muistendi tähendus?",
-    "answer": "Muistend rõhutab, et headus ja sõbralikkus loovad keskkonna, kus õnn saab püsida."
-  },
-
-  {
-    "question": "Kas sa tead mingit muistendit?",
-    "answer": "Muistend räägib külast, kus igal kevadel ilmus valge hobune, kes tõi endaga rahu ja head saaki."
+    "question": "Mis tähendus on Õnne muistendil?",
+    "answer": "Muistend rõhutab, et sõbralikkus ja head suhted loovad koha, kus õnn saab püsida."
   },
   {
-    "question": "Kas sa oskad jutustada mõne muistendi?",
-    "answer": "Ühes muistendis ilmus öösiti vana laternakandja, kes näitas eksinutele teed, kuid kadus koidu saabudes."
+    "question": "Kas sa tead mõnda muistendit?",
+    "answer": "Muistend räägib külast, kus igal kevadel ilmus valge hobune ja tõi inimestele rahu ning head saaki."
   },
   {
-    "question": "Kas sul on mõni muistend rääkida?",
-    "answer": "Muistend pajatab mehest, kes leidis metsa alt hõbedase kella — see helises ainult siis, kui keegi mõtles head mõtet."
+    "question": "Kas sa oskad jutustada ühe vana muistendi?",
+    "answer": "Ühes loos ilmub öösiti laternakandja, kes juhatab eksinuid, kuid kaob koidu tulles."
   },
   {
-    "question": "Kas sa tead mõnda vana muistendit?",
-    "answer": "Muistend jutustab külast, kus elanud kass oskas inimkeeli rääkida, kuid tegi seda ainult siis, kui kedagi polnud näha."
+    "question": "Räägi veel üks muistend.",
+    "answer": "Muistendis leiab mees metsast hõbedase kella, mis heliseb ainult siis, kui keegi mõtleb head mõtet."
   },
   {
-    "question": "Räägi mulle üks suvaline muistend.",
-    "answer": "Muistendi järgi ilmus kord külla rändur, kes jättis maha koti, milles oli tuul — kui see avati, puhkes torm."
+    "question": "Kas sul on mõni vana lugu rääkida?",
+    "answer": "Muistend jutustab külast, kus kass oskab inimkeeli rääkida, kuid teeb seda ainult siis, kui keegi ei kuula."
+  },
+  {
+    "question": "Anna mulle üks suvaline muistend.",
+    "answer": "Muistendi järgi tuli kord külla rändur, kes jättis maha koti tuulega; kui see avati, tõusis äkitselt torm."
   }
 ]
