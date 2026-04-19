@@ -1,0 +1,254 @@
+[
+  {
+    "question": "Mis on valge nagu lumi, kuid ei sula?",
+    "answer": "Paber."
+  },
+  {
+    "question": "Mis käib küll üles ja alla, kuid jääb ise paigale?",
+    "answer": "Trepp."
+  },
+  {
+    "question": "Mis on alati sinu ees, kuid sa ei näe seda kunagi?",
+    "answer": "Tulevik."
+  },
+  {
+    "question": "Mis muutub märjaks, kui kuivab?",
+    "answer": "Rätik."
+  },
+  {
+    "question": "Mis saab suuremaks, mida rohkem sa sellest ära võtad?",
+    "answer": "Auk."
+  },
+  {
+    "question": "Mis läheb katki enne, kui seda kasutada saab?",
+    "answer": "Muna."
+  },
+  {
+    "question": "Mis on täis auke, kuid hoiab ikka vett?",
+    "answer": "Käsn."
+  },
+  {
+    "question": "Mis on käes, aga ei ole käsi?",
+    "answer": "Kindad."
+  },
+  {
+    "question": "Mis on must, kui ostad selle, punane, kui kasutad, ja hall, kui viskad ära?",
+    "answer": "Süsi."
+  },
+  {
+    "question": "Mis jookseb, aga ei liigu?",
+    "answer": "Vesi kraanis."
+  },
+  {
+    "question": "Mis on öösel nähtav, aga päeval kaob?",
+    "answer": "Tähed."
+  },
+  {
+    "question": "Mis tuleb kord aastas, kaks korda nädalas, aga mitte kunagi päevas?",
+    "answer": "Tähe A tähtedest sõnas 'aasta', 'nädal' ja 'päev'."
+  },
+  {
+    "question": "Mis on sinu oma, aga teised kasutavad seda rohkem kui sina?",
+    "answer": "Sinu nimi."
+  },
+  {
+    "question": "Mis saab märjaks, kui sellele päike paistab?",
+    "answer": "Jää."
+  },
+  {
+    "question": "Mis on pehme, kuid ei ole padi, ja lendab, kuid ei ole lind?",
+    "answer": "Pilv."
+  },
+  {
+    "question": "Mis kasvab, aga ei ole elus?",
+    "answer": "Varju suurus."
+  },
+  {
+    "question": "Mis on alati purunematu, kui seda jagada?",
+    "answer": "Vaikus."
+  },
+  {
+    "question": "Mis on väiksem kui peenraha, kuid kaalub rohkem kui mägi?",
+    "answer": "Aatom."
+  },
+  {
+    "question": "Mis on midagi, mida saad püüda, kuid mitte visata?",
+    "answer": "Külmetus."
+  },
+  {
+    "question": "Mis kõnnib ilma jalgadeta ja nutab ilma silmadeta?",
+    "answer": "Pilv."
+  },
+  {
+    "question": "Mis on kogu aeg sinu juures, kuid sa ei märka seda enne, kui see kaob?",
+    "answer": "Hingamine."
+  },
+  {
+    "question": "Mis on terav, kuid ei lõika?",
+    "answer": "Tõde."
+  },
+  {
+    "question": "Mis on olemas ainult siis, kui sa seda ütled?",
+    "answer": "Vastus."
+  },
+  {
+    "question": "Mis on kuldne, kuid ei ole kuld?",
+    "answer": "Päike."
+  },
+  {
+    "question": "Mis on suurim asi maailmas, mida ei saa näha?",
+    "answer": "Mõte."
+  },
+  {
+    "question": "Mis on must-valge ja loetakse kogu aeg?",
+    "answer": "Raamat."
+  },
+  {
+    "question": "Mis saab alguse suurest kirjast ja lõpeb väikese kirjaga, kuid jääb ikka samaks?",
+    "answer": "Lause."
+  },
+  {
+    "question": "Mis on nii kerge, et isegi kõige tugevam inimene ei suuda seda kaua hoida?",
+    "answer": "Hingetõmme."
+  },
+  {
+    "question": "Mis on olemas enne kasutamist, kuid kaob kasutamise ajal?",
+    "answer": "Küünal."
+  },
+  {
+    "question": "Mis on alati katki, kui sellest räägitakse?",
+    "answer": "Vaikus."
+  },
+  {
+    "question": "Mis ei räägi, kuid vastab alati?",
+    "answer": "Kaja."
+  },
+  {
+    "question": "Mis on eesel, mis ei ela?",
+    "answer": "Mängueesel."
+  },
+  {
+    "question": "Mis on terve päeva käes, aga öösel pannakse maha?",
+    "answer": "Silmad."
+  },
+  {
+    "question": "Mis on peidus, kui sa seda näed, ja nähtav, kui sa seda ei näe?",
+    "answer": "Unenägu."
+  },
+  {
+    "question": "Mis on ümmargune, kuid ei ole pall, ja särab, kuid ei ole lamp?",
+    "answer": "Kuu."
+  },
+  {
+    "question": "Mis on ühe jalaga ja seisab väga kaua?",
+    "answer": "Laternapost."
+  },
+  {
+    "question": "Mis võib täita kogu toa, kuid ei võta ruumi?",
+    "answer": "Valgus."
+  },
+  {
+    "question": "Mis võib täita kogu toa, kuid ei võta ruumi?",
+    "answer": "Valgus."
+  },
+  {
+    "question": "Mis on alati ees, kuid ei jõua kunagi kohale?",
+    "answer": "Tulevik."
+  },
+  {
+    "question": "Mis liigub edasi-tagasi, kuid ei liigu kunagi paigast?",
+    "answer": "Pendel."
+  },
+  {
+    "question": "Mis on ring, kuid ei ole sõrmus?",
+    "answer": "Päike."
+  },
+  {
+    "question": "Mis on pikk, kuid ei ole madu; sirge, kuid ei ole joonlaud?",
+    "answer": "Tee."
+  },
+  {
+    "question": "Mis on kõigil inimestel, kuid keegi ei saa seda näha?",
+    "answer": "Mõtted."
+  },
+  {
+    "question": "Mis on lihtne avada, kuid raske sulgeda?",
+    "answer": "Süda."
+  },
+  {
+    "question": "Mis on alati katuse all, aga vihma ei näe?",
+    "answer": "Aken."
+  },
+  {
+    "question": "Mis läheb mööda vett, kuid ei saa ujuda?",
+    "answer": "Paat / laev."
+  },
+  {
+    "question": "Mis on puhas, kui see on must?",
+    "answer": "Tahvel pärast kustutamist."
+  },
+  {
+    "question": "Mis ei vaja võtmeid, kuid avab palju uksi?",
+    "answer": "Haridus."
+  },
+  {
+    "question": "Mis on alati näljane ja sureb, kui seda toita?",
+    "answer": "Tuli."
+  },
+  {
+    "question": "Mis on väiksemaks muutudes tugevam?",
+    "answer": "Kevad."
+  },
+  {
+    "question": "Mis on hääleta, kuid kõlab valjult?",
+    "answer": "Mõte."
+  },
+  {
+    "question": "Mis jookseb kogu aeg, kuid ei väsi?",
+    "answer": "Kell."
+  },
+  {
+    "question": "Mis on lahke, kuid võib lõigata?",
+    "answer": "Tuul."
+  },
+  {
+    "question": "Mis on must ja valge ning teeb liikumisega kindlaks?",
+    "answer": "Male."
+  },
+  {
+    "question": "Mis on ühe silmaga, kuid ei näe midagi?",
+    "answer": "Nõel."
+  },
+  {
+    "question": "Mis on magus, kuid ei ole kommi?",
+    "answer": "Uni pärast pikka päeva."
+  },
+  {
+    "question": "Mis on punane ja istub puu otsas?",
+    "answer": "Õun."
+  },
+  {
+    "question": "Mis on roheline ja kasvab maas, kuid ei ole muru?",
+    "answer": "Kurk."
+  },
+  {
+    "question": "Mis on see, mis läheb üles, aga ei tule kunagi alla?",
+    "answer": "Vanus."
+  },
+  {
+    "question": "Mis on igal inimesel üks, kuid keegi ei taha seda kaotada?",
+    "answer": "Kannatlikkus."
+  },
+  {
+    "question": "Mis on pehme, valge ja langeb taevast talvel?",
+    "answer": "Lumi."
+  },
+  {
+    "question": "Mis on väike ja must, aga teeb suured jäljed?",
+    "answer": "Tint."
+  },
+  {
+    "question": "Mis on alati sinu taskus, aga sa ei näe seda?",
+    "answer": "Tasku sees olev ruum."
+  }
+]
