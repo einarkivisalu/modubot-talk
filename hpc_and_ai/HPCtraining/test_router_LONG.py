@@ -15,7 +15,7 @@ from peft import PeftModel
 
 BASE_MODEL_ID = "google/gemma-3-1b-it"
 BASE_DIR = Path(__file__).resolve().parent
-ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/router_baseline.joblib"
+ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/router_context.joblib"
 
 ADAPTER_DIRS = {
     "facts": Path("/gpfs/mariana/home/anemoo/adapters1.1/facts"),
