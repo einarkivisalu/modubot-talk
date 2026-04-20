@@ -18,13 +18,12 @@ BASE_DIR = Path(__file__).resolve().parent
 ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/router_baseline.joblib"
 
 ADAPTER_DIRS = {
-    "facts": BASE_DIR / "adapters1.1" / "facts",
-    "kasitoo": BASE_DIR / "adapters1.1" / "kasitoo",
-    "luuletused": BASE_DIR / "adapters1.1" / "luuletused",
-    "muistendid": BASE_DIR / "adapters1.1" / "muistendid",
-    "tahtpaevad": BASE_DIR / "adapters1.1" / "tahtpaevad",
+    "facts": Path("/gpfs/mariana/home/anemoo/adapters1.1/facts"),
+    "kasitoo": Path("/gpfs/mariana/home/anemoo/adapters1.1/kasitoo"),
+    "luuletused": Path("/gpfs/mariana/home/anemoo/adapters1.1/luuletused"),
+    "muistendid": Path("/gpfs/mariana/home/anemoo/adapters1.1/muistendid"),
+    "tahtpaevad": Path("/gpfs/mariana/home/anemoo/adapters1.1/tahtpaevad"),
 }
-
 SYSTEM_MSGS = {
     "facts": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on huvitavad faktid.",
     "kasitoo": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on käsitöö.",
