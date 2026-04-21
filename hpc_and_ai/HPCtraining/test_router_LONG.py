@@ -15,7 +15,7 @@ from peft import PeftModel
 
 BASE_MODEL_ID = "google/gemma-3-1b-it"
 BASE_DIR = Path(__file__).resolve().parent
-ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/router_context.joblib"
+ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/topic_router.joblib"
 
 ADAPTER_DIRS = {
     "facts": Path("/gpfs/mariana/home/anemoo/adapters1.1/facts"),
@@ -146,6 +146,17 @@ def generate_answer(topic, question):
     return tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
 
 
+def looks_like_follow_up(question: str) -> bool:
+    q = question.lower().strip()
+    return (
+        "räägi veel sellest" in q
+        or "räägi sellest" in q
+        or "mis edasi" in q
+        or "ja siis" in q
+        or "selle kohta" in q
+    )
+
+
 def router_smoke_test():
     router = TopicRouter(ROUTER_PATH)
 
@@ -179,37 +190,45 @@ def main():
         if not question or question.lower() in {"exit", "quit"}:
             break
 
-        is_follow_up = 1 if turn_index > 1 else 0
+        is_follow_up = 1 if looks_like_follow_up(question) else 0
 
-        topic, conf = router.predict(
-            text=question,
-            last_topic=last_topic,
-            turn_index=turn_index,
-            is_follow_up=is_follow_up,
-            threshold=0.45,
-        )
+        if is_follow_up and last_topic != "unknown":
+            topic = last_topic
+            conf = 1.0
+            probs = [(topic, 1.0)]
+            used_fallback = False
+        else:
+            topic, conf = router.predict(
+                text=question,
+                last_topic="unknown",
+                turn_index=turn_index,
+                is_follow_up=0,
+                threshold=0.45,
+            )
 
-        probs = router.predict_with_probs(
-            text=question,
-            last_topic=last_topic,
-            turn_index=turn_index,
-            is_follow_up=is_follow_up,
-        )
+            probs = router.predict_with_probs(
+                text=question,
+                last_topic="unknown",
+                turn_index=turn_index,
+                is_follow_up=0,
+            )
+
+            used_fallback = (topic == "fallback")
+            if used_fallback:
+                print("Confidence oli madal, kasutan fallback teemana: facts")
+                topic = "facts"
 
         print(f"Router: {topic}  confidence={conf:.3f}")
         print("Probs:", probs[:3])
-
-        if topic == "fallback":
-            print("Confidence oli madal, kasutan fallback teemana: facts")
-            topic = "facts"
 
         answer = generate_answer(topic, question)
         print("\nVastus:\n")
         print(answer)
 
-        last_topic = topic
+        # follow up loogika
+        if not is_follow_up and not used_fallback:
+            last_topic = topic
+
         turn_index += 1
-
-
 if __name__ == "__main__":
     main()
