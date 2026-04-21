@@ -23,6 +23,7 @@ ADAPTER_DIRS = {
     "luuletused": Path("/gpfs/mariana/home/anemoo/adapters1.1/luuletused"),
     "muistendid": Path("/gpfs/mariana/home/anemoo/adapters1.1/muistendid"),
     "tahtpaevad": Path("/gpfs/mariana/home/anemoo/adapters1.1/tahtpaevad"),
+    "moistatused": Path("/gpfs/mariana/home/anemoo/adapters1.1/moistatused"),
 }
 SYSTEM_MSGS = {
     "facts": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on huvitavad faktid.",
@@ -30,6 +31,7 @@ SYSTEM_MSGS = {
     "luuletused": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on luuletused.",
     "tahtpaevad": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on tähtpäevad.",
     "muistendid": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on muistendid.",
+    "moistatused": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on moistatused.",
 }
 
 MODEL = None
