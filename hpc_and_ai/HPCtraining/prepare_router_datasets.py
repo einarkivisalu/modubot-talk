@@ -4,11 +4,12 @@ from pathlib import Path
 
 TOPIC_FILES = {
     "facts": "training_materials/huvitavad_faktid.json",
-    "kasitoo": "training_materials/käsitöö.json",
-    "kunstiajalugu": "training_materials/kunsti_ajalugu.json",
+    "kasitoo": "training_materials/kasitoo.json",
+    #"kunstiajalugu": "training_materials/kunsti_ajalugu.json",
     "luuletused": "training_materials/luuletused.json",
     "muistendid": "training_materials/muistendit.json",
     "tahtpaevad": "training_materials/tahtpaevad.json",
+    "moistatused": "training_materials/moistatused.json",
 }
 
 FOLLOW_UP_TEMPLATES = [
