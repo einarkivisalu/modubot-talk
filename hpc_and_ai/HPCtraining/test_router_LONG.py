@@ -170,65 +170,72 @@ def router_smoke_test():
     print(f"Smoke test -> topic: {topic}, conf: {conf:.3f}")
 
 
+def looks_like_follow_up(question: str) -> bool:
+    q = question.lower().strip()
+    return (
+        "räägi veel sellest" in q
+        or "räägi sellest" in q
+        or "mis edasi" in q
+        or "ja siis" in q
+        or "selle kohta" in q
+    )
+
+
 def main():
     if not torch.cuda.is_available():
         raise RuntimeError("CUDA pole saadaval. Kontrolli PyTorch/CUDA installi.")
 
-    # Eelkontroll, et uus ruuter töötab õigesti
     router_smoke_test()
-
     router = TopicRouter(ROUTER_PATH)
     preload_adapters()
 
     print("Sisesta küsimus. Väljumiseks kirjuta exit või quit.")
 
     last_topic = "unknown"
-    turn_index = 1
 
     while True:
-        question = input("\nKüsimus> ").strip()
-        if not question or question.lower() in {"exit", "quit"}:
-            break
+    question = input("\nKüsimus> ").strip()
+    if not question or question.lower() in {"exit", "quit"}:
+        break
 
-        is_follow_up = 1 if looks_like_follow_up(question) else 0
+    specific_follow_up = looks_like_follow_up(question)
 
-        if is_follow_up and last_topic != "unknown":
-            topic = last_topic
-            conf = 1.0
-            probs = [(topic, 1.0)]
-            used_fallback = False
-        else:
-            topic, conf = router.predict(
-                text=question,
-                last_topic="unknown",
-                turn_index=turn_index,
-                is_follow_up=0,
-                threshold=0.45,
-            )
+    # 100% sama topic
+    if specific_follow_up and last_topic != "unknown":
+        topic = last_topic
+        conf = 1.0
+        probs = [(topic, 1.0)]
+        used_fallback = False
+    else:
+        topic, conf = router.predict(
+            text=question,
+            last_topic="unknown",
+            turn_index=1,
+            is_follow_up=0,
+            threshold=0.45,
+        )
 
-            probs = router.predict_with_probs(
-                text=question,
-                last_topic="unknown",
-                turn_index=turn_index,
-                is_follow_up=0,
-            )
+        probs = router.predict_with_probs(
+            text=question,
+            last_topic="unknown",
+            turn_index=1,
+            is_follow_up=0,
+        )
 
-            used_fallback = (topic == "fallback")
-            if used_fallback:
-                print("Confidence oli madal, kasutan fallback teemana: facts")
-                topic = "facts"
+        used_fallback = (topic == "fallback")
+        if used_fallback:
+            print("Confidence oli madal, kasutan fallback teemana: facts")
+            topic = "facts"
 
-        print(f"Router: {topic}  confidence={conf:.3f}")
-        print("Probs:", probs[:3])
+    print(f"Router: {topic}  confidence={conf:.3f}")
+    print("Probs:", probs[:3])
 
-        answer = generate_answer(topic, question)
-        print("\nVastus:\n")
-        print(answer)
+    answer = generate_answer(topic, question)
+    print("\nVastus:\n")
+    print(answer)
 
-        # follow up loogika
-        if not is_follow_up and not used_fallback:
-            last_topic = topic
-
-        turn_index += 1
+    if not used_fallback:
+        last_topic = topic
+        
 if __name__ == "__main__":
     main()
