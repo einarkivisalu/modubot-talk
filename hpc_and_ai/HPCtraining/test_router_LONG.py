@@ -194,48 +194,48 @@ def main():
     last_topic = "unknown"
 
     while True:
-    question = input("\nKüsimus> ").strip()
-    if not question or question.lower() in {"exit", "quit"}:
-        break
+        question = input("\nKüsimus> ").strip()
+        if not question or question.lower() in {"exit", "quit"}:
+            break
 
-    specific_follow_up = looks_like_follow_up(question)
+        specific_follow_up = looks_like_follow_up(question)
 
-    # 100% sama topic
-    if specific_follow_up and last_topic != "unknown":
-        topic = last_topic
-        conf = 1.0
-        probs = [(topic, 1.0)]
-        used_fallback = False
-    else:
-        topic, conf = router.predict(
-            text=question,
-            last_topic="unknown",
-            turn_index=1,
-            is_follow_up=0,
-            threshold=0.45,
-        )
+        # 100% sama topic
+        if specific_follow_up and last_topic != "unknown":
+            topic = last_topic
+            conf = 1.0
+            probs = [(topic, 1.0)]
+            used_fallback = False
+        else:
+            topic, conf = router.predict(
+                text=question,
+                last_topic="unknown",
+                turn_index=1,
+                is_follow_up=0,
+                threshold=0.45,
+            )
 
-        probs = router.predict_with_probs(
-            text=question,
-            last_topic="unknown",
-            turn_index=1,
-            is_follow_up=0,
-        )
+            probs = router.predict_with_probs(
+                text=question,
+                last_topic="unknown",
+                turn_index=1,
+                is_follow_up=0,
+            )
 
-        used_fallback = (topic == "fallback")
-        if used_fallback:
-            print("Confidence oli madal, kasutan fallback teemana: facts")
-            topic = "facts"
+            used_fallback = (topic == "fallback")
+            if used_fallback:
+                print("Confidence oli madal, kasutan fallback teemana: facts")
+                topic = "facts"
 
-    print(f"Router: {topic}  confidence={conf:.3f}")
-    print("Probs:", probs[:3])
+        print(f"Router: {topic}  confidence={conf:.3f}")
+        print("Probs:", probs[:3])
 
-    answer = generate_answer(topic, question)
-    print("\nVastus:\n")
-    print(answer)
+        answer = generate_answer(topic, question)
+        print("\nVastus:\n")
+        print(answer)
 
-    if not used_fallback:
-        last_topic = topic
+        if not used_fallback:
+            last_topic = topic
         
 if __name__ == "__main__":
     main()
