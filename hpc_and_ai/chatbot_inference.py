@@ -14,6 +14,8 @@ from peft import PeftModel
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from content_policy import is_blocked_topic, refusal_text
+
 try:
     from transformers import Gemma3ForCausalLM  # type: ignore
 except Exception:  # pragma: no cover
@@ -509,7 +511,6 @@ def refresh_summary_if_needed(tokenizer, model, state: ConversationState) -> str
     prompt = build_summary_prompt(state)
     summary = generate_text(tokenizer, model, prompt, max_new_tokens=90).strip()
 
-    # Väike puhastus
     summary = summary.replace("Kokkuvõte:", "").strip()
     return summary
 
@@ -550,6 +551,30 @@ def answer_once(
     searx: SearxngClient,
     loaded_topics: Dict[str, str],
 ) -> Tuple[str, ConversationState, dict]:
+    # 1) Enne kõike: sisufilter.
+    blocked, blocked_type = is_blocked_topic(user_text)
+    if blocked:
+        answer = refusal_text(blocked_type)
+
+        state = update_state_after_turn(
+            state=state,
+            user_text=user_text,
+            assistant_text=answer,
+            topic=blocked_type or "blocked",
+            search_used=False,
+            tokenizer=tokenizer,
+            model=model,
+        )
+        save_state(state)
+
+        return answer, state, {
+            "topic": blocked_type or "blocked",
+            "confidence": 1.0,
+            "search_used": False,
+            "search_results": [],
+        }
+
+    # 2) Kui pole keelatud teema, siis tavapärane router.
     topic, confidence = router.predict_one(
         text=user_text,
         last_topic=state.last_topic,
@@ -566,6 +591,7 @@ def answer_once(
     search_results = []
     search_used = False
 
+    # 3) Kui vaja, otsi netist.
     if should_search(user_text, topic, confidence):
         try:
             search_results = searx.search(
@@ -580,12 +606,14 @@ def answer_once(
             search_context = f"Otsing ebaõnnestus: {e}"
             search_used = False
 
+    # 4) Aktiveeri õige adapter.
     if hasattr(model, "set_adapter") and adapter_topic is not None:
         try:
             model.set_adapter(adapter_topic)
         except Exception:
             pass
 
+    # 5) Genereeri vastus.
     prompt = build_prompt(
         tokenizer=tokenizer,
         question=user_text,
@@ -596,6 +624,7 @@ def answer_once(
 
     answer = generate_text(tokenizer, model, prompt, max_new_tokens=MAX_NEW_TOKENS)
 
+    # 6) Uuenda state.
     state = update_state_after_turn(
         state=state,
         user_text=user_text,
