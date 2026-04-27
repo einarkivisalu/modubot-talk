@@ -41,28 +41,19 @@ MAX_NEW_TOKENS = int(os.getenv("MAX_NEW_TOKENS", "220"))
 
 ADAPTER_CANDIDATES: Dict[str, List[str]] = {
     "facts": [
-        "adapters/facts",
-        "adapters/huvitavad_faktid",
-        "adapters/faktid",
+        "adapters1.1/facts",
     ],
     "kasitoo": [
-        "adapters/kasitoo",
-        "adapters/käsitöö",
-    ],
-    "kunstiajalugu": [
-        "adapters/kunstiajalugu",
-        "adapters/kunsti_ajalugu",
+        "adapters1.1/kasitoo",
     ],
     "luuletused": [
-        "adapters/luuletused",
+        "adapters1.1/luuletused",
     ],
     "muistendid": [
-        "adapters/muistendid",
-        "adapters/muistendit",
+        "adapters1.1/muistendid",
     ],
     "tahtpaevad": [
-        "adapters/tahtpaevad",
-        "adapters/tahtpäevad",
+        "adapters1.1/tahtpaevad",
     ],
 }
 
