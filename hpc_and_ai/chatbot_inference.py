@@ -408,13 +408,12 @@ def build_prompt(
     state: ConversationState,
     search_context: Optional[str] = None,
 ) -> str:
-    system_msg = (
-        "Sa oled abivalmis eestikeelne vestlusrobot vanadekodu jaoks. "
-        "Vasta lühidalt, selgelt ja viisakalt. "
-        "Kasuta vestluse kokkuvõtet ja viimaseid pöördeid, kui need on olemas. "
-        "Kui kasutaja küsimus vajab värsket infot, kasuta otsingukonteksti. "
-        "Kui konteksti ei ole piisavalt, ütle seda ausalt."
-    )
+system_msg = (
+    "Sa oled kokkuvõtete kirjutaja. "
+    "Kirjuta väga lühike kokkuvõte (1-2 lauset). "
+    "Ära lisa uut infot. Ära korda sõnu. "
+    "Kasuta lihtsat eesti keelt."
+)
 
     user_block = [
         f"Kasutaja küsimus: {question}",
