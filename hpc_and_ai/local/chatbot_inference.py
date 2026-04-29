@@ -26,16 +26,16 @@ except Exception:
 MODEL_ID = "google/gemma-3-1b-it"
 
 ROUTER_PATHS = [
-    "router_artifacts/router_context.joblib",
-    "router_artifacts/router_baseline.joblib",
+    "../adapters/2_290426/router_artifacts/router_context.joblib",
+    "../adapters/2_290426/router_artifacts/router_baseline.joblib",
 ]
 
 ADAPTERS = {
-    "facts": "adapters1.1/facts",
-    "kasitoo": "adapters1.1/kasitoo",
-    "luuletused": "adapters1.1/luuletused",
-    "muistendid": "adapters1.1/muistendid",
-    "tahtpaevad": "adapters1.1/tahtpaevad",
+    "facts": "../adapters/2_290426/facts",
+    "kasitoo": "../adapters/2_290426/kasitoo",
+    "luuletused": "../adapters/2_290426/luuletused",
+    "muistendid": "../adapters/2_290426/muistendid",
+    "tahtpaevad": "../adapters/2_290426/tahtpaevad",
 }
 
 SYSTEM_MSGS = {
