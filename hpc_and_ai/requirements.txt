@@ -1,0 +1,7 @@
+psycopg2-binary
+transformers
+torch
+sentence-transformers
+peft
+numpy
+requests
