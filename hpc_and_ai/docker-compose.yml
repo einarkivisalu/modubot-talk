@@ -3,31 +3,21 @@ version: '3.9'
 services:
   db:
     image: postgres:15
-    container_name: chatbot_db
-    restart: always
     environment:
-      POSTGRES_USER: chatbot
-      POSTGRES_PASSWORD: chatbot123
-      POSTGRES_DB: chatbot_db
+      POSTGRES_USER: kass
+      POSTGRES_PASSWORD: kiisu
+      POSTGRES_DB: ModuBot
     ports:
       - "5432:5432"
-    volumes:
-      - pgdata:/var/lib/postgresql/data
 
   chatbot:
     build: .
-    container_name: chatbot_app
     depends_on:
       - db
     environment:
       DB_HOST: db
-      DB_NAME: chatbot_db
-      DB_USER: chatbot
-      DB_PASSWORD: chatbot123
-    volumes:
-      - .:/app
-    stdin_open: true   # võimaldab input() kasutada
-    tty: true          # terminal töötab normaalselt
-
-volumes:
-  pgdata:
+      DB_NAME: ModuBot
+      DB_USER: kass
+      DB_PASSWORD: kiisu
+    stdin_open: true
+    tty: true
