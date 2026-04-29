@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    container_name: chatbot_db
+    restart: always
+    environment:
+      POSTGRES_USER: chatbot
+      POSTGRES_PASSWORD: chatbot123
+      POSTGRES_DB: chatbot_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
