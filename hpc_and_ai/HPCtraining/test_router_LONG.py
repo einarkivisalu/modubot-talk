@@ -12,7 +12,6 @@ except Exception:
 
 from peft import PeftModel
 
-
 BASE_MODEL_ID = "google/gemma-3-1b-it"
 BASE_DIR = Path(__file__).resolve().parent
 ROUTER_PATH = "/gpfs/mariana/home/anemoo/router_artifacts/topic_router.joblib"
@@ -23,7 +22,6 @@ ADAPTER_DIRS = {
     "luuletused": Path("/gpfs/mariana/home/anemoo/adapters1.1/luuletused"),
     "muistendid": Path("/gpfs/mariana/home/anemoo/adapters1.1/muistendid"),
     "tahtpaevad": Path("/gpfs/mariana/home/anemoo/adapters1.1/tahtpaevad"),
-    "moistatused": Path("/gpfs/mariana/home/anemoo/adapters1.1/moistatused"),
 }
 SYSTEM_MSGS = {
     "facts": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on huvitavad faktid.",
@@ -31,7 +29,6 @@ SYSTEM_MSGS = {
     "luuletused": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on luuletused.",
     "tahtpaevad": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on tähtpäevad.",
     "muistendid": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on muistendid.",
-    "moistatused": "Sa oled abivalmis assistent. Vasta lühidalt ja eesti keeles. Teema on moistatused.",
 }
 
 MODEL = None
@@ -151,11 +148,11 @@ def generate_answer(topic, question):
 def looks_like_follow_up(question: str) -> bool:
     q = question.lower().strip()
     return (
-        "räägi veel sellest" in q
-        or "räägi sellest" in q
-        or "mis edasi" in q
-        or "ja siis" in q
-        or "selle kohta" in q
+            "räägi veel sellest" in q
+            or "räägi sellest" in q
+            or "mis edasi" in q
+            or "ja siis" in q
+            or "selle kohta" in q
     )
 
 
@@ -170,17 +167,6 @@ def router_smoke_test():
     )
 
     print(f"Smoke test -> topic: {topic}, conf: {conf:.3f}")
-
-
-def looks_like_follow_up(question: str) -> bool:
-    q = question.lower().strip()
-    return (
-        "räägi veel sellest" in q
-        or "räägi sellest" in q
-        or "mis edasi" in q
-        or "ja siis" in q
-        or "selle kohta" in q
-    )
 
 
 def main():
@@ -202,8 +188,7 @@ def main():
 
         specific_follow_up = looks_like_follow_up(question)
 
-        # 100% sama topic
-        if specific_follow_up and last_topic != "unknown":
+        if is_follow_up and last_topic != "unknown":
             topic = last_topic
             conf = 1.0
             probs = [(topic, 1.0)]
@@ -212,7 +197,7 @@ def main():
             topic, conf = router.predict(
                 text=question,
                 last_topic="unknown",
-                turn_index=1,
+                turn_index=turn_index,
                 is_follow_up=0,
                 threshold=0.45,
             )
@@ -220,14 +205,15 @@ def main():
             probs = router.predict_with_probs(
                 text=question,
                 last_topic="unknown",
-                turn_index=1,
+                turn_index=turn_index,
                 is_follow_up=0,
             )
 
-            used_fallback = (topic == "fallback")
-            if used_fallback:
-                print("Confidence oli madal, kasutan fallback teemana: facts")
-                topic = "facts"
+        used_fallback = False
+        if topic == "fallback":
+            used_fallback = True
+            print("Confidence oli madal, kasutan fallback teemana: facts")
+            topic = "facts"
 
         print(f"Router: {topic}  confidence={conf:.3f}")
         print("Probs:", probs[:3])
@@ -238,6 +224,7 @@ def main():
 
         if not used_fallback:
             last_topic = topic
-        
+
+        turn_index += 1
 if __name__ == "__main__":
     main()
