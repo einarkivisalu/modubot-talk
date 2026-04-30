@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import difflib
 from dataclasses import dataclass, asdict
 from pathlib import Path
 
@@ -101,18 +102,21 @@ def load_router():
 
 
 # =============================================================================
-# CONTINUATION DETECTION
+# CONTINUATION DETECTION (ROBUST)
 # =============================================================================
 
 def is_continuation(text: str) -> bool:
     q = text.lower().strip()
 
-    continuation_phrases = [
-        "jätka", "edasi", "räägi veel", "veel",
-        "palun jätka", "continue", "more", "go on"
-    ]
+    phrases = ["jätka", "edasi", "räägi veel", "veel"]
 
-    return any(p == q or p in q for p in continuation_phrases)
+    for p in phrases:
+        if p in q:
+            return True
+        if difflib.SequenceMatcher(None, q, p).ratio() > 0.75:
+            return True
+
+    return False
 
 
 # =============================================================================
@@ -156,14 +160,10 @@ def load_adapters(model):
 def should_search(question: str, topic: str, confidence: float) -> bool:
     q = question.lower()
 
-    # very short inputs should NEVER trigger search
     if len(q.strip()) < 10:
         return False
 
-    strong = [
-        "ilm", "täna", "praegu", "mis kell",
-        "uudised", "internet", "kust", "kus"
-    ]
+    strong = ["ilm", "täna", "praegu", "mis kell", "uudised"]
 
     if any(s in q for s in strong):
         return True
@@ -203,19 +203,19 @@ def build_prompt(tokenizer, question, topic, search_ctx=None,
 
     if continuation and last_answer:
         user = (
-            "Siin on sinu eelmine vastus:\n"
+            "Jätka AINULT sama teemat ja sama vastust.\n"
+            "Ära muuda teemat.\n\n"
+            "Eelmine vastus:\n"
             f"{last_answer}\n\n"
-            "Jätka seda vastust loogiliselt ja samas stiilis."
+            "Jätk:"
         )
     else:
         user = question
 
     if search_ctx:
         user += (
-            "\n\nAllpool on värske info internetist. "
-            "Kasuta seda vastamiseks.\n\n"
-            f"{search_ctx}\n\n"
-            "Vasta küsimusele selle info põhjal."
+            "\n\nAllpool on info internetist:\n"
+            f"{search_ctx}"
         )
 
     messages = [
@@ -236,10 +236,10 @@ def generate(tokenizer, model, prompt):
 
     out = model.generate(
         **inputs,
-        max_new_tokens=200,
+        max_new_tokens=120,
         do_sample=True,
-        temperature=0.5,   # more stable
-        top_p=0.85,
+        temperature=0.3,
+        top_p=0.8,
     )
 
     new_tokens = out[0][inputs["input_ids"].shape[1]:]
@@ -265,25 +265,20 @@ def main():
         if q in ["exit", "quit"]:
             break
 
-        topic, conf = router.predict(q)
+        continuation = is_continuation(q)
 
-        continuation = False
-
-        # CONTINUATION (safe)
-        if (
-            is_continuation(q)
-            and len(q) < 20
-            and conf < 0.6
-            and state.last_topic != "unknown"
-        ):
+        # ✅ HARD LOCK continuation (no router!)
+        if continuation and state.last_topic != "unknown":
             topic = state.last_topic
-            continuation = True
+            conf = 1.0
+        else:
+            topic, conf = router.predict(q)
 
-        # FALLBACK
-        if conf < 0.45:
+        # fallback
+        if not continuation and conf < 0.45:
             topic = "facts"
 
-        # SEARCH (disabled for continuation)
+        # search disabled for continuation
         if not continuation and should_search(q, topic, conf):
             print("[SEARCH ENABLED]")
             search_ctx = search(q)
@@ -312,7 +307,6 @@ def main():
 
         print("\nBot:", answer)
 
-        # SAVE STATE
         state.last_topic = topic
         state.last_answer = answer
         state.turn_index += 1
