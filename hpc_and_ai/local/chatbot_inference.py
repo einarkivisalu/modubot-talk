@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Dict
 
 import joblib
 import numpy as np
@@ -12,11 +11,6 @@ import torch
 from peft import PeftModel
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
-try:
-    from transformers import Gemma3ForCausalLM
-except Exception:
-    Gemma3ForCausalLM = None
 
 
 # =============================================================================
@@ -56,6 +50,7 @@ STATE_PATH = Path("conversation_state.json")
 @dataclass
 class State:
     last_topic: str = "unknown"
+    last_answer: str = ""
     turn_index: int = 1
 
     def save(self):
@@ -69,6 +64,7 @@ class State:
                 data = json.load(open(STATE_PATH))
                 return cls(
                     last_topic=data.get("last_topic", "unknown"),
+                    last_answer=data.get("last_answer", ""),
                     turn_index=int(data.get("turn_index", 1)),
                 )
             except:
@@ -89,8 +85,8 @@ class Router:
     def predict(self, text):
         emb = self.embedder.encode(
             [text],
-            normalize_embeddings=True,  # ✅ IMPORTANT FIX
-            show_progress_bar=False
+            normalize_embeddings=True,
+            show_progress_bar=False,
         )
         probs = self.model.predict_proba(emb)[0]
         idx = np.argmax(probs)
@@ -116,7 +112,7 @@ def is_continuation(text: str) -> bool:
         "palun jätka", "continue", "more", "go on"
     ]
 
-    return any(p in q for p in continuation_phrases)
+    return any(p == q or p in q for p in continuation_phrases)
 
 
 # =============================================================================
@@ -160,6 +156,10 @@ def load_adapters(model):
 def should_search(question: str, topic: str, confidence: float) -> bool:
     q = question.lower()
 
+    # very short inputs should NEVER trigger search
+    if len(q.strip()) < 10:
+        return False
+
     strong = [
         "ilm", "täna", "praegu", "mis kell",
         "uudised", "internet", "kust", "kus"
@@ -168,10 +168,7 @@ def should_search(question: str, topic: str, confidence: float) -> bool:
     if any(s in q for s in strong):
         return True
 
-    if confidence < 0.55:
-        return True
-
-    if topic in ["luuletused", "muistendid"] and any(s in q for s in strong):
+    if confidence < 0.40:
         return True
 
     return False
@@ -199,11 +196,17 @@ def search(query):
 # GENERATION
 # =============================================================================
 
-def build_prompt(tokenizer, question, topic, search_ctx=None, continuation=False):
+def build_prompt(tokenizer, question, topic, search_ctx=None,
+                 continuation=False, last_answer=None):
+
     system = SYSTEM_MSGS.get(topic, SYSTEM_MSGS["facts"])
 
-    if continuation:
-        user = f"Jätka eelmist vastust teemal: {topic}."
+    if continuation and last_answer:
+        user = (
+            "Siin on sinu eelmine vastus:\n"
+            f"{last_answer}\n\n"
+            "Jätka seda vastust loogiliselt ja samas stiilis."
+        )
     else:
         user = question
 
@@ -235,8 +238,8 @@ def generate(tokenizer, model, prompt):
         **inputs,
         max_new_tokens=200,
         do_sample=True,
-        temperature=0.7,
-        top_p=0.9,
+        temperature=0.5,   # more stable
+        top_p=0.85,
     )
 
     new_tokens = out[0][inputs["input_ids"].shape[1]:]
@@ -266,7 +269,7 @@ def main():
 
         continuation = False
 
-        # ✅ SMART CONTINUATION (SAFE)
+        # CONTINUATION (safe)
         if (
             is_continuation(q)
             and len(q) < 20
@@ -276,12 +279,12 @@ def main():
             topic = state.last_topic
             continuation = True
 
-        # ✅ FALLBACK
+        # FALLBACK
         if conf < 0.45:
             topic = "facts"
 
-        # SEARCH
-        if should_search(q, topic, conf):
+        # SEARCH (disabled for continuation)
+        if not continuation and should_search(q, topic, conf):
             print("[SEARCH ENABLED]")
             search_ctx = search(q)
             topic = "facts"
@@ -301,14 +304,17 @@ def main():
             q,
             topic,
             search_ctx,
-            continuation=continuation
+            continuation=continuation,
+            last_answer=state.last_answer
         )
 
         answer = generate(tokenizer, model, prompt)
 
         print("\nBot:", answer)
 
+        # SAVE STATE
         state.last_topic = topic
+        state.last_answer = answer
         state.turn_index += 1
         state.save()
 
