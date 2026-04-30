@@ -87,7 +87,11 @@ class Router:
         self.embedder = SentenceTransformer(data["embedding_model_name"])
 
     def predict(self, text):
-        emb = self.embedder.encode([text])
+        emb = self.embedder.encode(
+            [text],
+            normalize_embeddings=True,  # ✅ IMPORTANT FIX
+            show_progress_bar=False
+        )
         probs = self.model.predict_proba(emb)[0]
         idx = np.argmax(probs)
         return self.model.classes_[idx], float(probs[idx])
@@ -98,6 +102,21 @@ def load_router():
         if Path(p).exists():
             return Router(p)
     raise FileNotFoundError("Router puudub")
+
+
+# =============================================================================
+# CONTINUATION DETECTION
+# =============================================================================
+
+def is_continuation(text: str) -> bool:
+    q = text.lower().strip()
+
+    continuation_phrases = [
+        "jätka", "edasi", "räägi veel", "veel",
+        "palun jätka", "continue", "more", "go on"
+    ]
+
+    return any(p in q for p in continuation_phrases)
 
 
 # =============================================================================
@@ -135,7 +154,7 @@ def load_adapters(model):
 
 
 # =============================================================================
-# SEARCH (IMPROVED)
+# SEARCH
 # =============================================================================
 
 def should_search(question: str, topic: str, confidence: float) -> bool:
@@ -180,10 +199,13 @@ def search(query):
 # GENERATION
 # =============================================================================
 
-def build_prompt(tokenizer, question, topic, search_ctx=None):
+def build_prompt(tokenizer, question, topic, search_ctx=None, continuation=False):
     system = SYSTEM_MSGS.get(topic, SYSTEM_MSGS["facts"])
 
-    user = question
+    if continuation:
+        user = f"Jätka eelmist vastust teemal: {topic}."
+    else:
+        user = question
 
     if search_ctx:
         user += (
@@ -221,17 +243,6 @@ def generate(tokenizer, model, prompt):
     return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
 
-def is_continuation(text: str) -> bool:
-    q = text.lower().strip()
-
-    continuation_phrases = [
-        "jätka", "edasi", "räägi veel", "veel", "palun jätka",
-        "continue", "more", "go on"
-    ]
-
-    return q in continuation_phrases or len(q) < 15 and any(p in q for p in continuation_phrases)
-
-
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -251,17 +262,29 @@ def main():
         if q in ["exit", "quit"]:
             break
 
-        if is_continuation(q) and state.last_topic != "unknown":
-            topic = state.last_topic
-            conf = 1.0  # force confidence
-        else:
-            topic, conf = router.predict(q)
+        topic, conf = router.predict(q)
 
-        # SMART SEARCH LOGIC
+        continuation = False
+
+        # ✅ SMART CONTINUATION (SAFE)
+        if (
+            is_continuation(q)
+            and len(q) < 20
+            and conf < 0.6
+            and state.last_topic != "unknown"
+        ):
+            topic = state.last_topic
+            continuation = True
+
+        # ✅ FALLBACK
+        if conf < 0.45:
+            topic = "facts"
+
+        # SEARCH
         if should_search(q, topic, conf):
             print("[SEARCH ENABLED]")
             search_ctx = search(q)
-            topic = "facts"   # override wrong topic
+            topic = "facts"
         else:
             search_ctx = None
 
@@ -273,7 +296,14 @@ def main():
         if hasattr(model, "set_adapter"):
             model.set_adapter(topic)
 
-        prompt = build_prompt(tokenizer, q, topic, search_ctx)
+        prompt = build_prompt(
+            tokenizer,
+            q,
+            topic,
+            search_ctx,
+            continuation=continuation
+        )
+
         answer = generate(tokenizer, model, prompt)
 
         print("\nBot:", answer)
