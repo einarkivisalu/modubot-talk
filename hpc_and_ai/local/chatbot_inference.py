@@ -221,6 +221,17 @@ def generate(tokenizer, model, prompt):
     return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
 
+def is_continuation(text: str) -> bool:
+    q = text.lower().strip()
+
+    continuation_phrases = [
+        "jätka", "edasi", "räägi veel", "veel", "palun jätka",
+        "continue", "more", "go on"
+    ]
+
+    return q in continuation_phrases or len(q) < 15 and any(p in q for p in continuation_phrases)
+
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -240,7 +251,11 @@ def main():
         if q in ["exit", "quit"]:
             break
 
-        topic, conf = router.predict(q)
+        if is_continuation(q) and state.last_topic != "unknown":
+            topic = state.last_topic
+            conf = 1.0  # force confidence
+        else:
+            topic, conf = router.predict(q)
 
         # SMART SEARCH LOGIC
         if should_search(q, topic, conf):
