@@ -44,6 +44,7 @@ SYSTEM_MSGS = {
 STATE_PATH = Path("conversation_state.json")
 
 
+
 # =============================================================================
 # STATE
 # =============================================================================
@@ -105,18 +106,23 @@ def load_router():
 # CONTINUATION DETECTION (ROBUST)
 # =============================================================================
 
+# 1) Tee jätkamise tuvastus laiemaks
+CONTINUATION_PATTERNS = [
+    "jätka",
+    "jätka samal teemal",
+    "jätka lühidalt",
+    "anna veel",
+    "anna veel üks",
+    "veel üks",
+    "veel midagi",
+    "samas stiilis",
+    "kas on veel",
+    "veel",
+]
+
 def is_continuation(text: str) -> bool:
     q = text.lower().strip()
-
-    phrases = ["jätka", "edasi", "räägi veel", "veel"]
-
-    for p in phrases:
-        if p in q:
-            return True
-        if difflib.SequenceMatcher(None, q, p).ratio() > 0.75:
-            return True
-
-    return False
+    return any(p in q for p in CONTINUATION_PATTERNS)
 
 
 # =============================================================================
@@ -196,6 +202,7 @@ def search(query):
 # GENERATION
 # =============================================================================
 
+# 2) Paranda continuation-prompt
 def build_prompt(tokenizer, question, topic, search_ctx=None,
                  continuation=False, last_answer=None):
 
@@ -203,31 +210,14 @@ def build_prompt(tokenizer, question, topic, search_ctx=None,
 
     if continuation and last_answer:
         user = (
-            "Jätka AINULT sama teemat ja sama vastust.\n"
-            "Ära muuda teemat.\n\n"
-            "Eelmine vastus:\n"
-            f"{last_answer}\n\n"
-            "Jätk:"
+            "Kasutaja palub jätkata. Anna üks uus lühike vastus samal teemal.\n"
+            "Ära korda eelmist vastust sõna-sõnalt.\n"
+            "Ära leiuta uut teemat.\n\n"
+            f"Eelmine vastus:\n{last_answer}\n\n"
+            "Uus vastus:"
         )
     else:
         user = question
-
-    if search_ctx:
-        user += (
-            "\n\nAllpool on info internetist:\n"
-            f"{search_ctx}"
-        )
-
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": user},
-    ]
-
-    return tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True,
-    )
 
 
 @torch.no_grad()
