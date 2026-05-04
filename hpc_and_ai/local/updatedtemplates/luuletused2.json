@@ -1,0 +1,450 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ei ole paremaid, halvemaid aegu. / On ainult hetk, milles viibime praegu. / Mis kord on alanud, lõppu sel pole. / Kestma jääb kaunis, kestma jääb kole."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tuul sahiseb puude ladvus,\nöö varjud on hiilimas õues.\nKuu särab kui hõbedane laev,\nrahu on hinges ja põues."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sügisene tuul / Keerleb, lennatab, / keerleb, lennatab, / üle välja ja aasa / viib lehed endaga kaasa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Meri laksub vastu randa,\ntahab sõnumit meil kanda.\nLainete harjal valge vaht,\nmeremehel on vaba taht."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lumi katab metsa ja maad,\ntalv on tulnud, valgeks said raad.\nKülm näpistab nina ja palgeid,\nimetleme välju neid valgeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Eestimaa on ilus ja lai,\nsiit ma oma rõõmu kord sain.\nRukkiväli ja sinine taevas,\npuhata saab siin igas vaevas."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kohvitass aurab laua peal,\nmõte rändab kaugel seal.\nHommik on vaikne ja helge,\ntaevas on puhas ja selge."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sügislehed langevad teele,\ntuues kurbust ja rõõmu meele.\nKuldne ja punane segamini,\nvaatame seda veel seni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kell tiksub seinal tasa,\naeg sammub meiega kaasa.\nIga hetk on kingitus uus,\nnaeratus püsigu ikka su suus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kass istus aknal ja vaatas,\nkuidas varblane õues sahmis.\nSaba tal vaikselt vaid tuksus,\nuni tal silmades puhkas."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tähed on taevas nii kaugel,\nuni on tulemas laulgel.\nSule silmad ja puhka veidi,\nöö on selga pannud tumeda kleidi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lilled aias õitsevad reas,\nmesilane lendab nende seas.\nKogub mett ja sumiseb tasa,\nsuvi on toonud meid kaasa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vihmapiisk koputab klaasile,\nmärg on tee ja märg on teeääre.\nLoodus joob januga vett,\npuhtaks peseb ta lehtede kätt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Raamat on avatud laual,\nloo sisse jääda võib kauaks.\nSeiklus ja teadmised ootavad ees,\nlugeja on targa maailma sees."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõke pragiseb pimedas öös,\nsädemed lendavad tantsuhoos.\nSõbrad on koos ja jutt on hea,\nsoojus poeb südameisse, tea."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pliiats jookseb paberil kergelt,\nmõte lendab vabalt ja selgelt.\nSündimas on lugu üks uus,\nmis alguse saanud on suus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kevad on tulnud ja tärkab rohi,\nvaikida enam nüüd lind ei tohi.\nLõokene lõõritab kõrgel õhus,\ntunne on rinnas nii kerge ja tõhus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õhtu toob taeva punaseks,\npäike vajub tasa metsaks.\nVaikus laskub üle maa,\nrahus võib nüüd puhata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pilved sõuavad taeva all,\ntuul neid kannab tasa ja vall.\nMõte liigub nendega koos,\nkergust täis on südamehoos."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaste pärlid rohul reas,\nhommik ärkab tasa seas.\nPäike tõuseb kuldsel viisil,\nvalgus täidab maa ja piiril."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jõgi voolab oma teed,\nviies kaasa rõõmu ja meed.\nKaldal istun, kuulan häält,\nmis mu mõtted rahuks sääl."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Öösel linnud vaikivad,\nainult tähed paistavad.\nKuuvalgus loob hõbedat,\nhinges on vaid õrnus nat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Rändur kõnnib mööda teed,\nkott on seljas, samm on veed.\nIga päev toob uue loo,\nmaailm avaneb ta soo."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mäed seisavad vaikides reas,\npilved libisevad nende seas.\nKõrgustes on rahu ja jõud,\nmis meis äratab lootuse nõu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõnad voolavad nagu vesi,\nvahel rahus, vahel kesi.\nIga rida kannab meelt,\nmis on sündinud südameseest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Päike piilub pilve tagant,\nvalgus langeb üle lagendiku.\nSoe ja hele on kevade hing,\ntema puudutus teeb südame ring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kauge küla tee on vaikne,\nõhtu toob taevasse tähe.\nKõnnin mööda tolmust rada,\nhinges rahu, südames rada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Kui kasutaja küsib jätkamist, jätka viimast asjakohast vastust. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa loeksid mulle ühe lühikese luuletuse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aknal põleb küünlaleek,\nvalgus tantsib, vari keeb.\nÕhtu toob me hinge sooja,\njahedus ei pääse looma."
+      }
+    ]
+  }
+]
