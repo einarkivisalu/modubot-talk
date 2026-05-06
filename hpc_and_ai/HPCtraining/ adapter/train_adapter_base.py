@@ -20,13 +20,13 @@ def train_domain_adapter(
     checkpoint_dir: str,
     domain_name: str,
     system_msg: str,
-    num_train_epochs: int = 3,
-    learning_rate: float = 5e-5,
-    per_device_train_batch_size: int = 2,
-    gradient_accumulation_steps: int = 2,
+    num_train_epochs = 10,
+    learning_rate = 5e-4,
+    per_device_train_batch_size = 1,
+    gradient_accumulation_steps = 1,
     max_seq_length: int = 1024,
+    ):
 
-):
     hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
     if not hf_token:
         raise RuntimeError("Set HF_TOKEN in environment, e.g. export HF_TOKEN='hf_xxx'")
@@ -86,8 +86,16 @@ def train_domain_adapter(
             f"Training data not found at {data_path!r}. Current working directory: {os.getcwd()}"
         )
 
+    examples = []
     with open(data_path, "r", encoding="utf-8") as f:
-        examples = json.load(f)
+        for i, line in enumerate(f, start=1):
+            line = line.strip()
+            if not line:
+                continue
+        try:
+            examples.append(json.loads(line))
+        except json.JSONDecodeError as e:
+            raise RuntimeError(f"Bad JSON on line {i} in {data_path}: {e}") from e
 
     if not isinstance(examples, list):
         raise RuntimeError(f"Expected a list of examples in {data_path!r}.")
