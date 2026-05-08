@@ -1,0 +1,5394 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude Liit?"
+      },
+      {
+        "role": "assistant",
+        "content": "See oli 1922–1991 eksisteerinud liitriik, mis koosnes mitmest liiduvabariigist ja millel oli tsentraalne juhtimine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Millal loodi Nõukogude Liit?"
+      },
+      {
+        "role": "assistant",
+        "content": "1922. aastal pärast Venemaa revolutsiooni ja kodusõda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli kolhoos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühiskondlik põllumajandusettevõte, kus talupojad töötasid riigi kontrolli all."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks loodi kolhoosid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et koondada põllumajandus riikliku planeerimise alla."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli viisaastakuplaan?"
+      },
+      {
+        "role": "assistant",
+        "content": "Majandusplaan, mis määras tootmise eesmärgid viieks aastaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli KGB?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nõukogude Liidu julgeolekuteenistus, mis tegeles luure, vastuluure ja sisekontrolliga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude rubla?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riigi ametlik valuuta."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli pioneeriorganisatsioon?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laste ja noorte massiorganisatsioon, mis edendas nõukogulikku kasvatust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli komsomol?"
+      },
+      {
+        "role": "assistant",
+        "content": "Noorte kommunistlik liit, kuhu kuulusid teismelised ja noored täiskasvanud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli plaanimajandus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Majandusmudel, kus tootmist ja jaotust juhtis riik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude passisüsteem?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokumentide süsteem, mis määras inimese elukoha ja liikumisvõimalused."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Brežnevi ajastu?"
+      },
+      {
+        "role": "assistant",
+        "content": "1964–1982 periood, mida iseloomustas stabiilsus ja aeglustunud areng."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli perestroika?"
+      },
+      {
+        "role": "assistant",
+        "content": "1980. aastate reformid, mis püüdsid majandust ja poliitikat ümber kujundada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli glasnost?"
+      },
+      {
+        "role": "assistant",
+        "content": "Avatuspoliitika, mis lubas rohkem sõnavabadust ja avalikku arutelu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude armee?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riigi relvajõud, mis koosnes maaväest, õhujõududest ja mereväest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Gulag?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laagrite süsteem, kus hoiti sunnitöölisi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude Liidu pealinn?"
+      },
+      {
+        "role": "assistant",
+        "content": "Moskva."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude Liidu lipp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Punane lipp sirbi ja vasaraga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude koolisüsteem?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik haridussüsteem, mis rõhutas ideoloogiat ja loodusteadusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude televisioon?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult kontrollitud meedia, kus programmivalik oli piiratud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli defitsiit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Olukord, kus kaupu oli vähe ja neid tuli oodata või hankida tutvuste kaudu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli talongisüsteem?"
+      },
+      {
+        "role": "assistant",
+        "content": "Toidu ja tarbekaupade jaotamine kupongide alusel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli kolhoosipood?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pood, mis teenindas kolhoosi töötajaid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kortermaja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tüüpprojektiga ehitatud paneelmaja, mida kutsuti ka hruštšovkaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli sotsialistlik võistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Töövõistlus, mis pidi tõstma tootlikkust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kino?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult kontrollitud filmikunst, mis tootis nii propagandat kui ka kunstifilme."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli kolhoosnike tööpäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikk ja füüsiliselt raske, sageli normipõhine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude sõjaväekohustus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kohustuslik teenistus kõigile noortele meestele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli sula?"
+      },
+      {
+        "role": "assistant",
+        "content": "1950.–1960. aastate leebem poliitiline periood."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude Liidu kosmoseprogramm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik programm, mis saatis esimesena inimese kosmosesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli kolhoosibrigaad?"
+      },
+      {
+        "role": "assistant",
+        "content": "Töörühm, kes täitis kindlaid põllumajandusülesandeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude propaganda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik teabelevi, mis kujundas avalikku arvamust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude tsensuur?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kontroll kirjanduse, meedia ja kunstiteoste üle."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli plaanitäitmine?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tootmisnormide saavutamine või ületamine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude ühiselamu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jagatud elamispind, kus mitu peret elas ühes korteris."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli pioneerilaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laste suvelaager, kus toimusid ideoloogilised ja sportlikud tegevused."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude sõiduauto?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud autod nagu Žiguli, Moskvich ja Volga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli tööraamat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, kuhu kanti inimese tööstaaž."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude valuutapood?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pood, kus müüdi välisvaluuta eest kvaliteetsemaid kaupu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli korterijärjekord?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik süsteem, kus inimesed ootasid aastaid elamispinda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude sõjaväelinnak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suletud ala, kus elasid sõjaväelased ja nende pered."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli töökollektiiv?"
+      },
+      {
+        "role": "assistant",
+        "content": "Töötajate rühm, kelle tegevust suunas partei."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude ajaleht?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult kontrollitud väljaanne, näiteks Pravda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli normipäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tööpäev, mille pikkus sõltus normi täitmisest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude ühistransport?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik busside, trollide ja trammide süsteem."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli tööpataljon?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõjaväeline üksus, kus teenisid need, keda ei saadetud relvateenistusse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude koolivorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik kooliriietus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli sotsialistlik realism?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kunstisuund, mis pidi kujutama elu optimistlikult ja ideoloogiliselt sobivalt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude raadio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik ringhääling, millel oli piiratud programmivalik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli tööpunalipp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aumärk kollektiividele, kes täitsid plaanid eeskujulikult."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas plaanimajandus Nõukogude majanduse paindlikkust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Keskne planeerimine vähendas ettevõtete võimet reageerida nõudluse muutustele, mis tekitas kroonilist defitsiiti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli industrialiseerimine Nõukogude majanduse keskne eesmärk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Raskestööstuse arendamine pidi tagama sõjalise ja majandusliku iseseisvuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas kollektiviseerimine põllumajanduse tootlikkust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tootlikkus langes, sest talupojad kaotasid motivatsiooni ja kogemustega tööjõud hajus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli tsensuur Nõukogude kultuuripoliitika lahutamatu osa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riik püüdis kontrollida ideoloogiat ja vältida alternatiivseid vaatenurki."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas külm sõda Nõukogude teaduse arengut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõjalised vajadused suunasid ressursid kosmose- ja tuumatehnoloogiasse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus defitsiit nii laialdane?"
+      },
+      {
+        "role": "assistant",
+        "content": "Planeerimine ei suutnud täpselt prognoosida tarbimist ja tootmine ei vastanud nõudlusele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas partei kontroll ettevõtete juhtimist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Otsuseid tehti poliitilistel, mitte majanduslikel kaalutlustel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe eraettevõtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Majandusmudel põhines riiklikul omandil ja tsentraliseeritud juhtimisel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid küüditamised Balti riikide ühiskonda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need lõhkusid kogukondi, tekitasid hirmu ja katkestasid põlvkondlikke sidemeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline ideoloogiline kasvatus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riik soovis kujundada lojaalseid kodanikke ja vältida opositsiooni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas Nõukogude sõjaväekohustus ühiskonda?"
+      },
+      {
+        "role": "assistant",
+        "content": "See lõi ühtse kogemuse, kuid tekitas ka pingeid ja ebavõrdsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe tarbekaupu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ressursid suunati raskestööstusse ja sõjatööstusse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid viisaastakuplaanid ettevõtete innovatsiooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Normide täitmine oli olulisem kui uuendused, mis pärssis arengut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline massiorganisatsioonide süsteem?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need lõid kontrollitud keskkonna, kus kujundati ühiskondlikku käitumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas tsensuur kirjanduse arengut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Autorid pidid kohandama loomingut ideoloogiliste nõuetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus tugev rõhk loodusteadustele?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need olid strateegiliselt olulised sõjalise ja tehnoloogilise arengu jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid suletud linnad teadus- ja sõjatööstust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need võimaldasid keskendunud arendust, kuid eraldasid spetsialiste ühiskonnast."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll meedia üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Avalik arvamus pidi toetama riigi poliitikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid kolhoosid maaelu struktuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need muutsid traditsioonilised talud kollektiivseteks üksusteks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe elamispinda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kiire urbaniseerumine ületas ehitusvõimekuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid ühiskonna käitumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hirm soodustas konformismi ja vähendas avalikku kriitikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline sõjaline pariteet USA-ga?"
+      },
+      {
+        "role": "assistant",
+        "content": "See oli külma sõja strateegiline eesmärk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid parteikongressid riigi poliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need kinnitasid suunad ja otsused, mis mõjutasid kogu ühiskonda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe tarbijauuringuid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Planeerimine ei põhinenud turu vajadustel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid Balti riikide rahvuslikud liikumised 1980. aastatel poliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need nõrgestas keskset kontrolli ja kiirendasid lagunemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll hariduse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Haridus oli ideoloogilise kasvatuse vahend."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid sõjalised kulutused majandust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need koormasid eelarvet ja vähendasid tarbekaupade tootmist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe poliitilist pluralismi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Üheparteisüsteem ei lubanud alternatiivseid jõude."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvusvahelised pinged Nõukogude sisepoliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tugevdasid kontrolli ja rõhutasid julgeolekut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline tööstuse detsentraliseerimine 1980. aastatel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tõsta ettevõtete iseseisvust ja efektiivsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid Balti ketid poliitilist olukorda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need näitasid rahvuslikku ühtsust ja suurendasid rahvusvahelist tähelepanu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll religiooni üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riik pidas religiooni ideoloogiliseks konkurendiks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid küüditamised demograafiat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need muutsid rahvastiku koosseisu ja vähendasid tööjõudu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus vähe eraomandit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Majandusmudel põhines riiklikul omandil."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas partei juhised kultuuripoliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need määrasid, millised teemad olid lubatud või keelatud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisreiside üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info ja ideede liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud vähemused poliitilist stabiilsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad identiteedid tekitasid pingeid ja nõudsid eraldi poliitikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline raskestööstus?"
+      },
+      {
+        "role": "assistant",
+        "content": "See oli sõjalise ja majandusliku strateegia keskmes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid partei sisemised konfliktid riigi juhtimist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sisemised võimuvõitlused aeglustasid otsuste tegemist ja tekitasid ebastabiilsust poliitilises juhtimises."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstusettevõtete üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ettevõtted pidid täitma riiklikke plaane, mitte turupõhiseid eesmärke."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid repressioonid intellektuaalset eliiti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud teadlased ja kultuuritegelased represseeriti, mis pidurdas teaduse ja kultuuri arengut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline tsentraliseeritud juhtimine?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldas parteil kontrollida kõiki ühiskonna valdkondi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liiduvabariikide poliitilist identiteeti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tugevdasid rahvuslikku eneseteadvust ja suurendasid iseseisvuspüüdlusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline sõjaline-industriaalne kompleks?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagas riigi strateegilise võimekuse külma sõja tingimustes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid Balti riikide kultuurilised traditsioonid Nõukogude integratsioonipoliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tugevad rahvuslikud identiteedid raskendasid täielikku sovetiseerimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll sisserände üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et suunata tööjõudu strateegilistesse piirkondadesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid sõjajärgsed taastamistööd majanduse arengut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ressursid suunati infrastruktuuri taastamisse, mis aeglustas tarbekaupade tootmist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku informatsiooni leviku üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogiliselt sobimatute ideede levikut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvusvahelised pinged Nõukogude sõjalist strateegiat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid relvastuse arendamise vajadust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööliste liikumise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida sõltumatuid ametiühinguid ja streike."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid majanduse efektiivsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hirm vähendas innovatsiooni ja initsiatiivi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll väliskaubanduse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riik soovis vältida sõltuvust välisriikidest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud konfliktid liiduvabariikide suhteid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tekitasid pingeid ja nõrgestas liidu ühtsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll hariduse sisu üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et kujundada ideoloogiliselt lojaalseid kodanikke."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused 1980. aastatel poliitilist stabiilsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid rahulolematust ja nõrgestas partei autoriteeti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll kunstnike üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kunst pidi toetama riigi ideoloogiat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvusvahelised suhted Nõukogude tehnoloogilist arengut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Piiratud koostöö aeglustas tehnoloogilist moderniseerimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll sisepoliitilise kriitika üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et säilitada partei autoriteet."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid sõjalised konfliktid Nõukogude majandust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid kulutusi ja vähendasid tsiviilsektori ressursse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll religioossete organisatsioonide üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata alternatiivseid autoriteete."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu lagunemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need kiirendasid poliitilist killustumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku välisvahetuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida info lekkimist ja ideoloogilist mõju."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud reformid 1990. aastate alguses liiduvabariike?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid kaasa ebastabiilsuse ja kiirendasid iseseisvumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse planeerimise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tagada riiklikult määratud tootmismahtude täitmine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised puhastused sõjaväge?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need nõrgestas juhtkonda ja vähendasid professionaalsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisinformatsiooni üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata alternatiivseid maailmavaateid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud eripärad liiduvabariikide poliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tekitasid erinevaid prioriteete ja pingeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööliste motivatsiooni üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tagada plaanide täitmine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused tarbimisharjumusi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inimesed eelistasid pikaajalisi ja kättesaadavaid kaupu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teaduslike publikatsioonide üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogiliselt sobimatuid seisukohti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvusvahelised pinged kultuurivahetust?"
+      },
+      {
+        "role": "assistant",
+        "content": "See oli piiratud ja rangelt kontrollitud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse moderniseerimise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Moderniseerimine pidi sobituma riikliku plaaniga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid 1980. aastatel avalikku arutelu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Glasnost suurendas läbipaistvust ja kriitikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku innovatsiooni üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Innovatsioon pidi teenima riiklikke eesmärke."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised kultuuripoliitikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid esile kohaliku identiteedi ja traditsioonid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll väliskaubanduse partnerite üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida sõltuvust kapitalistlikest riikidest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid haridussüsteemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid akadeemilist vabadust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll sõjalise tehnoloogia üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et säilitada strateegiline eelis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud pinged liiduvabariikide koostööd?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid ühtsust ja suurendasid eraldussoove."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööliste liikumise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida streike ja sõltumatuid ametiühinguid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused poliitilist legitiimsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid usaldust partei vastu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku koostöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info lekkimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu poliitilist struktuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need nõrgestas tsentraliseeritud süsteemi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll kultuurilise identiteedi üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et kujundada ühtset nõukogulikku identiteeti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid partei rolli?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid partei monopoolset võimu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku kriitika üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi vastuolusid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu lagunemise kiirust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need kiirendasid poliitilist killustumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse efektiivsuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tagada plaanide täitmine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused tarbimiskultuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inimesed eelistasid praktilisi ja vastupidavaid kaupu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku debati üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi konflikte."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised kultuurilist eneseteadvust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid esile kohaliku identiteedi ja traditsioonid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisreiside üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info ja ideede liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid avalikku arvamust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid kriitilisust ja ootusi muutustele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku uurimistöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et suunata teadust riigi strateegiliste eesmärkide täitmiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli spordivorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik spordiriietus õpilastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste sünnipäevapidu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kodune pidu lihtsate mängude ja maiustustega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kohvik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik toitlustusasutus, kus pakuti piiratud menüüd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude jalgratas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud jalgratas, näiteks Ukraina või Saljut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli töövihik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õppematerjal ülesannete lahendamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste mänguasi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne plast- või puidust mänguasi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude bussijuhi vorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik tööriietus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli laulutund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muusikatund, kus lauldi riiklikult valitud laule."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suusapäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Talvine kooliüritus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude raamatukogu lugemissaal?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaikne ruum lugemiseks ja õppimiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassijuhataja tund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tund, kus arutati klassi asju ja kasvatusteemasid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste telesaade?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud saade lastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöötund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Praktiline tund, kus õpiti õmblemist ja puutööd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistusvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli kehaline kasvatus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kohustuslik sporditund."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauamäng?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne mäng, näiteks 'Nu pogodi'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tunnistus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument õpilase hinnetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suvelaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult korraldatud puhke- ja kasvatustegevus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli sööklamenüü?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne ja standardiseeritud toit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordivõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolidevaheline võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raamatukogu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilastele mõeldud raamatukogu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste tantsuring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade tantsutrenn, kus õpiti rahvatantse ja lavanumbreid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöökapp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kapp, kus hoiti õpilaste töövahendeid ja materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauluvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud lauluvõistlus noortele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli keemiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid keemiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistustund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kunstiõpetuse tund, kus kasutati lihtsaid materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli geograafiakaart?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud kaart, mis kajastas poliitilist maailmapilti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordimärk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aumärk, mida anti sportlike saavutuste eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli korrapidaja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilane, kes vastutas klassi korra eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste muusikakool?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik muusikahariduse asutus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli filmiprojektor?"
+      },
+      {
+        "role": "assistant",
+        "content": "Seade õppefilmide näitamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitering?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade teatriring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tööõpetuse klass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus õpiti puutööd, metallitööd ja õmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordipäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide korraldatud sportlik võistluspäev."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli bioloogiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid bioloogiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste kunstiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonistamise ja maalimise huviring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raadio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siseraadio, mille kaudu anti teadaandeid ja mängiti muusikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raadio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siseraadio, mille kaudu anti teadaandeid ja mängiti muusikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste käsitöölaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suvine laager, kus õpiti käsitööd ja meisterdamist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli kehalise kasvatuse norm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult määratud füüsilised testid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste teadusring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Huviring, kus tehti lihtsaid teaduskatseid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassitahvel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puidust või kiltkivist tahvel kriidiga kirjutamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste pühadeetendus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade lavastus tähtpäevade puhul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli õpilaspilet?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, mis tõendas õpilase staatust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lugemisnurk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike ala raamatukogus või klassis lugemiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tööriistalaud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laud tööõpetuse klassis, kus tehti praktilisi ülesandeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste laulupäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja ringide ühine laulupidu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli õppefilm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud film õppetöö toetamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Huviring, kus tegeleti kergejõustiku, võimlemise või pallimängudega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassipäevik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, kuhu õpetaja kandis kohaloleku ja tunni teema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud väljapanek laste töödest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutas Nõukogude industrialiseerimine linnastumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kiire tööstuse kasv tõi miljonid inimesed maapiirkondadest linnadesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööjõu liikumise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et suunata tööjõudu strateegilistesse piirkondadesse ja tööstusharudesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid teadusasutuste tööd?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud spetsialistid represseeriti, mis vähendas teaduslikku potentsiaali."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisraamatute üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata ideoloogiliselt sobimatute ideede levikut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused tarbekaubandust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaupade nappus tekitas järjekordi ja musta turu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll kultuurivahetuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida välismõjude levikut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liiduvabariikide poliitilist autonoomiat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid survet iseseisvuse suunas."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku kriitika üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi konflikte."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid partei autoriteeti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Reformid vähendasid partei monopoolset rolli."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse moderniseerimise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Moderniseerimine pidi sobituma riikliku plaaniga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvusvahelised pinged Nõukogude majanduse prioriteete?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ressursid suunati sõjatööstusse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll hariduse ideoloogilise sisu üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Haridus oli vahend lojaalsuse kujundamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid kultuurielu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud kunstnikud vaikiti maha või represseeriti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisajakirjanduse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata alternatiivseid maailmavaateid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised kultuuripärandi säilitamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid esile kohaliku identiteedi ja traditsioonid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööliste poliitilise tegevuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida sõltumatuid liikumisi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused töömotivatsiooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Motivatsioon langes, sest palk ja kaupade kättesaadavus olid piiratud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku koostöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida info lekkimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud pinged liidu poliitilist ühtsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need nõrgestas tsentraliseeritud süsteemi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll kultuurilise identiteedi üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et kujundada ühtset nõukogulikku identiteeti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid avalikku arutelu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Glasnost suurendas läbipaistvust ja kriitikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku debati üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi vastuolusid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu lagunemise kiirust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need kiirendasid poliitilist killustumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse efektiivsuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tagada plaanide täitmine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused tarbimiskultuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inimesed eelistasid praktilisi ja vastupidavaid kaupu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku uurimistöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et suunata teadust riigi strateegiliste eesmärkide täitmiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised kultuurilist eneseteadvust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid esile kohaliku identiteedi ja traditsioonid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisreiside üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info ja ideede liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid avalikku arvamust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid kriitilisust ja ootusi muutustele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku innovatsiooni üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Innovatsioon pidi teenima riiklikke eesmärke."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liiduvabariikide poliitilist identiteeti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tugevdasid rahvuslikku eneseteadvust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll väliskaubanduse partnerite üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida sõltuvust kapitalistlikest riikidest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised repressioonid haridussüsteemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid akadeemilist vabadust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll sõjalise tehnoloogia üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et säilitada strateegiline eelis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud pinged liiduvabariikide koostööd?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid ühtsust ja suurendasid eraldussoove."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööliste liikumise üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida streike ja sõltumatuid ametiühinguid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused poliitilist legitiimsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid usaldust partei vastu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku koostöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info lekkimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu poliitilist struktuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need nõrgestas tsentraliseeritud süsteemi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll kultuurilise identiteedi üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et kujundada ühtset nõukogulikku identiteeti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid partei rolli?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need vähendasid partei monopoolset võimu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku kriitika üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi vastuolusid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised liidu lagunemise kiirust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need kiirendasid poliitilist killustumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll tööstuse efektiivsuse üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et tagada plaanide täitmine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid majanduslikud raskused tarbimiskultuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inimesed eelistasid praktilisi ja vastupidavaid kaupu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku debati üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et vältida ideoloogilisi konflikte."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid rahvuslikud liikumised kultuurilist eneseteadvust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need tõid esile kohaliku identiteedi ja traditsioonid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll välisreiside üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et piirata info ja ideede liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutasid poliitilised reformid avalikku arvamust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need suurendasid kriitilisust ja ootusi muutustele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks oli Nõukogude Liidus oluline kontroll teadusliku uurimistöö üle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Et suunata teadust riigi strateegiliste eesmärkide täitmiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli spordivorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik spordiriietus õpilastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste sünnipäevapidu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kodune pidu lihtsate mängude ja maiustustega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kohvik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik toitlustusasutus, kus pakuti piiratud menüüd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude jalgratas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud jalgratas, näiteks Ukraina või Saljut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli töövihik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õppematerjal ülesannete lahendamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste mänguasi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne plast- või puidust mänguasi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude bussijuhi vorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik tööriietus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli laulutund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muusikatund, kus lauldi riiklikult valitud laule."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suusapäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Talvine kooliüritus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude raamatukogu lugemissaal?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaikne ruum lugemiseks ja õppimiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassijuhataja tund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tund, kus arutati klassi asju ja kasvatusteemasid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste telesaade?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud saade lastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöötund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Praktiline tund, kus õpiti õmblemist ja puutööd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistusvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli kehaline kasvatus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kohustuslik sporditund."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauamäng?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne mäng, näiteks 'Nu pogodi'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tunnistus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument õpilase hinnetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suvelaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult korraldatud puhke- ja kasvatustegevus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli sööklamenüü?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne ja standardiseeritud toit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordivõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolidevaheline võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raamatukogu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilastele mõeldud raamatukogu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste tantsuring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade tantsutrenn, kus õpiti rahvatantse ja lavanumbreid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöökapp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kapp, kus hoiti õpilaste töövahendeid ja materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauluvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud lauluvõistlus noortele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli keemiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid keemiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistustund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kunstiõpetuse tund, kus kasutati lihtsaid materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli geograafiakaart?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud kaart, mis kajastas poliitilist maailmapilti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordimärk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aumärk, mida anti sportlike saavutuste eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli korrapidaja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilane, kes vastutas klassi korra eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste muusikakool?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik muusikahariduse asutus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli filmiprojektor?"
+      },
+      {
+        "role": "assistant",
+        "content": "Seade õppefilmide näitamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitering?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade teatriring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tööõpetuse klass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus õpiti puutööd, metallitööd ja õmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordipäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide korraldatud sportlik võistluspäev."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli bioloogiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid bioloogiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste kunstiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonistamise ja maalimise huviring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raadio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siseraadio, mille kaudu anti teadaandeid ja mängiti muusikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste käsitöölaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suvine laager, kus õpiti käsitööd ja meisterdamist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli õppefilm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud film õppetöö toetamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Huviring, kus tegeleti kergejõustiku, võimlemise või pallimängudega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassipäevik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, kuhu õpetaja kandis kohaloleku ja tunni teema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud väljapanek laste töödest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli spordivorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik spordiriietus õpilastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste sünnipäevapidu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kodune pidu lihtsate mängude ja maiustustega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kohvik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik toitlustusasutus, kus pakuti piiratud menüüd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude jalgratas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud jalgratas, näiteks Ukraina või Saljut."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli töövihik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õppematerjal ülesannete lahendamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste mänguasi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne plast- või puidust mänguasi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude bussijuhi vorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtne riiklik tööriietus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli laulutund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muusikatund, kus lauldi riiklikult valitud laule."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suusapäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Talvine kooliüritus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude raamatukogu lugemissaal?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaikne ruum lugemiseks ja õppimiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassijuhataja tund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tund, kus arutati klassi asju ja kasvatusteemasid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste telesaade?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud saade lastele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöötund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Praktiline tund, kus õpiti õmblemist ja puutööd."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistusvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli kehaline kasvatus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kohustuslik sporditund."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauamäng?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne mäng, näiteks 'Nu pogodi'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tunnistus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument õpilase hinnetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste suvelaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult korraldatud puhke- ja kasvatustegevus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli sööklamenüü?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne ja standardiseeritud toit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordivõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolidevaheline võistlus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raamatukogu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilastele mõeldud raamatukogu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste tantsuring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade tantsutrenn, kus õpiti rahvatantse ja lavanumbreid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli käsitöökapp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kapp, kus hoiti õpilaste töövahendeid ja materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lauluvõistlus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud lauluvõistlus noortele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli keemiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid keemiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste joonistustund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kunstiõpetuse tund, kus kasutati lihtsaid materjale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli geograafiakaart?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud kaart, mis kajastas poliitilist maailmapilti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordimärk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aumärk, mida anti sportlike saavutuste eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli korrapidaja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õpilane, kes vastutas klassi korra eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste muusikakool?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklik muusikahariduse asutus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli filmiprojektor?"
+      },
+      {
+        "role": "assistant",
+        "content": "Seade õppefilmide näitamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitering?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade teatriring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tööõpetuse klass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus õpiti puutööd, metallitööd ja õmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordipäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide korraldatud sportlik võistluspäev."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli bioloogiaklass?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruum, kus toimusid bioloogiatunnid ja katsed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste kunstiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonistamise ja maalimise huviring."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli raadio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siseraadio, mille kaudu anti teadaandeid ja mängiti muusikat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste käsitöölaager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suvine laager, kus õpiti käsitööd ja meisterdamist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli kehalise kasvatuse norm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult määratud füüsilised testid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste teadusring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Huviring, kus tehti lihtsaid teaduskatseid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassitahvel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puidust või kiltkivist tahvel kriidiga kirjutamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste pühadeetendus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade lavastus tähtpäevade puhul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli õpilaspilet?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, mis tõendas õpilase staatust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste lugemisnurk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike ala raamatukogus või klassis lugemiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli tööriistalaud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laud tööõpetuse klassis, kus tehti praktilisi ülesandeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste laulupäev?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja ringide ühine laulupidu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli õppefilm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riiklikult toodetud film õppetöö toetamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste spordiring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Huviring, kus tegeleti kergejõustiku, võimlemise või pallimängudega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude kooli klassipäevik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dokument, kuhu õpetaja kandis kohaloleku ja tunni teema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oli Nõukogude laste näitus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Koolide ja kultuurimajade korraldatud väljapanek laste töödest."
+      }
+    ]
+  }
+]
