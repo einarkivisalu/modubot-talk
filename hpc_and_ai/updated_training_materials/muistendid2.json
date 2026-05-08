@@ -1,0 +1,818 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi üks muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend jutustab mehest, kes leidis metsast kivist ukse — selle avamisel avanes peidetud org, kuhu pääses vaid kord elus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi üks lugu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes loos kohtas rändur vana meest, kes oskas tuult suunata, kuid õpetas seda vaid neile, kes ei küsinud midagi vastu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta midagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend räägib külast, kus igal täiskuuööl hakkas järv helendama ja inimesed uskusid, et seal elavad vaimud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mingi lugu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes loos leidis noor karjane metsast kiviringi, kuhu astudes kuulis ta ammu kadunud inimeste hääli."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa saad ühe muistendi rääkida?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend pajatab vanast puust, mille juurte all peitus allikas, mis täitis vaid ausate inimeste soove."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi suvaline muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendis räägitakse mehest, kes püüdis varju kinni — kuid kaotas lõpuks iseenda oma."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi üks vana lugu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes vanas loos elas metsas lind, kes teadis kõigi inimeste saladusi, kuid vaikis seni, kuni keegi teda ei solvanud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Anna üks muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend räägib kivist, mis liikus igal ööl natuke edasi ja jõudis lõpuks küla keskele, tuues kaasa muutuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sul on üks lugu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend jutustab rändurist, kes leidis tee, mida mööda minnes ei vananenud keegi — kuid sealt ei saanud tagasi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle üks suvaline lugu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes loos kohtas tüdruk jõel kummalist kala, kes rääkis inimkeeles ja hoiatas teda tuleviku eest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle üks Vanapagana lugu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes muistendis püüdis Vanapagan kirikule torni ehitada, aga kukelaulu peale vihastades kukutas ta oma töö maha."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Millest kõneleb Kaali järve muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "See muistend jutustab, et Kaali järv tekkis siis, kui taevast langes tuline kivilahmakas ja lõi maa sisse suure lohu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas seletab muistend Suure Munamäe tekkimist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendi järgi jäi hiiglase põlle sisse mulda, mis tormates maha pudenes ja moodustas suure mäe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead lugu Kassinurme hiidudest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kassinurme hiidude muistendis võistlesid hiiglased kivide heitmises ning jätsid oma jõu jäljed maastikule."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta üks allikaga seotud muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes loos sündis allikas neiu pisaratest, kui ta ootas asjatult oma kadunud kallimat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle järve tekkimise muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend pajatab järvest, mis tekkis sinna, kuhu inimesed olid kunagi ebaõigluse tõttu karistatud ja maa peale tõusis vesi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Milline on metsahaldja lugu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Metsahaldjas kaitseb metsa ja ilmub vaid neile, kes puid, loomi ja vaikust austavad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid jutustada tulihänna loo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tulihända kirjeldatakse leegitseva olendina, kes lendas öösiti üle põldude ja tõi endaga kas õnne või õnnetust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida räägib Tõllu muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tõllu lood näitavad, et hiiglane võis olla tohutult tugev, kuid kasutas oma jõudu rahva kaitsmiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on Kaali järve muistendi mõte?"
+      },
+      {
+        "role": "assistant",
+        "content": "See muistend aitab inimestel seletada suurt loodusemõistatust läbi müstilise ja kujundliku loo."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida õpetab Vanapagana muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vanapagana lood näitavad, et kavalus ja nutikus võivad vahel olla tugevamad kui toores jõud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida sümboliseerib Kalevipoja muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalevipoja muistend sümboliseerib rahva unistust vaprast kaitsjast, kes suudab suurt ja rasket kanda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis mõte on loos, kus allikas tekkis pisaratest?"
+      },
+      {
+        "role": "assistant",
+        "content": "See lugu rõhutab armastuse, igatsuse ja leina jõudu ning seda, kuidas tunded võivad jätta jälje loodusesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõista mäe sündi hiiglase põllest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Selline muistend näitab, et inimesed on püüdnud maastikku seletada lihtsate ja piltlike lugudega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis sõnum on tulihänna muistendis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tulihänna lood hoiatavad ahnuse ja kasuahnuse eest, sest nõnda saadud rikkus ei too head."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas seletada metsahaldja tähendust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Metsahaldja muistend tuletab meelde, et loodust tuleb kohelda lugupidavalt ja ettevaatlikult."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida tähistab lugu järvest mõisniku lossi asemele?"
+      },
+      {
+        "role": "assistant",
+        "content": "See on õiglusmuistend: halb tegu saab karistuse ja loodus taastab tasakaalu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hiidude kiviviskamise loo tähendus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sellised lood annavad maastikule fantaasiarikka päritolu ja muudavad looduse seletamise põnevamaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad jutustada Kaval-Antsu muistendi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaval-Ants suutis Vanapagana ikka ja jälle üle kavaldada, lubades talle võimatuid asju ja pääsedes ise nutikalt välja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle lugu mõisnikust ja talupojast."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendis leiab talupoeg nutika viisi, kuidas ahne mõisniku plaanid tema enda vastu pöörata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead varanduse peitmise muistendit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes muistendis peitis keegi varanduse maha ja seda valvas must kass, kelle ees tuli olla julge ja aus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta mulle kodukäija muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Kodukäija käib öösiti ringi seni, kuni teda seob mõni lahendamata asi või tagasi andmata ese."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid rääkida nõiast?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendis on nõid see, kes muudab end linnuks, et teiste elu kohta teada saada, kuid satub lõpuks omaenda nõiduse lõksu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi kuldvasika loost."
+      },
+      {
+        "role": "assistant",
+        "content": "Kuldvasikas ilmub vaid neile, kelle süda on aus ja kes ei püüa teda jõuga haarata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda sepaga seotud muistendit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendis sepad valmistavad nii hea mõõga, et isegi Vanapagan ihkab seda endale, kuid sepad varjavad relva ära."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta külatarga muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Külatark ravib haigusi ja rahustab loomi, kuid aitab vaid neid, kes käituvad hästi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad rääkida Õnnest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend räägib, et Õnn jäi elama sinna, kus teda vastu võeti lahkuse ja heade sõnadega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida õpetab Kaval-Antsu muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "See näitab, et leidlikkus ja terav mõistus võivad olla tugevamad kui jõud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kodukäija loo põhisõnum?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõnum on see, et rahu saabub siis, kui pooleli jäänud asjad saavad lõpuks lahenduse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida räägib nõia muistend?"
+      },
+      {
+        "role": "assistant",
+        "content": "See õpetab, et kurjad kavatsused pöörduvad sageli lõpuks tegija enda vastu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõista kuldvasika muistendit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kuldvasika lugu rõhutab ausust, head tahet ja seda, et tõelist õnne ei saa jõuga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on mõisniku ja talupoja loo mõte?"
+      },
+      {
+        "role": "assistant",
+        "content": "See muistend näitab, et õiglus võib võidutseda isegi siis, kui üks pool on palju võimsam."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas seletada sepa muistendi tähendust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend rõhutab, et tõeline väärtus kuulub sellele, kes oskab oma oskust väärikalt kasutada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis sõnum on külatarga loos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Külatarga muistend ütleb, et tarkus ja headus käivad koos ning neid ei saa sundida."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida õpetab muistend varandusest ja mustast kassist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See lugu näitab, et ahnuse ja hirmuga ei saavuta midagi head; vaja on julgust ja ausust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis tähendus on Õnne muistendil?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend rõhutab, et sõbralikkus ja head suhted loovad koha, kus õnn saab püsida."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda muistendit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend räägib külast, kus igal kevadel ilmus valge hobune ja tõi inimestele rahu ning head saaki."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad jutustada ühe vana muistendi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühes loos ilmub öösiti laternakandja, kes juhatab eksinuid, kuid kaob koidu tulles."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi veel üks muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendis leiab mees metsast hõbedase kella, mis heliseb ainult siis, kui keegi mõtleb head mõtet."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sul on mõni vana lugu rääkida?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muistend jutustab külast, kus kass oskab inimkeeli rääkida, kuid teeb seda ainult siis, kui keegi ei kuula."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Anna mulle üks suvaline muistend."
+      },
+      {
+        "role": "assistant",
+        "content": "Muistendi järgi tuli kord külla rändur, kes jättis maha koti tuulega; kui see avati, tõusis äkitselt torm."
+      }
+    ]
+  }
+]

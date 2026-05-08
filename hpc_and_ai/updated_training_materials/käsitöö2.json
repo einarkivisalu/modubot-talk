@@ -1,0 +1,6146 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saaksin midagi lihtsat käsitöös proovida?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hea algus on heegeldada või kududa väike lapike, mis aitab harjutada põhisilmuseid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Anna mulle mõni lihtne käsitöösoovitus."
+      },
+      {
+        "role": "assistant",
+        "content": "Paberist kaartide meisterdamine on kerge ja loov tegevus, mis ei vaja palju vahendeid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida võiksin käsitööna teha, kui olen algaja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Algajale sobib hästi lihtne sall, sest see koosneb ainult sirgest kudumisest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad soovitada mõnda kerget käsitööprojekti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vildist kuumaalused on lihtsad valmistada ja annavad kiiresti ilusa tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida võiksin käsitööks meisterdada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puidust võtmehoidja lihvimine ja kaunistamine on mõnus väike projekt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mõni käsitööidee."
+      },
+      {
+        "role": "assistant",
+        "content": "Vanadest kangajääkidest saab teha praktilisi pajalappe või lapitekke."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sul on mõni käsitööalane soovitus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Heegeldatud lillemotiivid on väikesed ja kiired, sobides hästi harjutamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida võiksin käsitööna katsetada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne makramee lillepotihoidja on populaarne ja jõukohane kõigile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda toredat käsitöötegevust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kivide värvimine akrüülvärvidega on rahustav ja loov tegevus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jaga minuga üks käsitööidee."
+      },
+      {
+        "role": "assistant",
+        "content": "Vanadest nööpidest saab teha ilusaid kaunistusi või isegi ehteid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid soovitada midagi käsitööks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne ristpistes tikand sobib hästi neile, kes naudivad rahulikku nokitsemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Ütle mulle mõni käsitööprojekt."
+      },
+      {
+        "role": "assistant",
+        "content": "Paberist voltimistehnikad, nagu origami, pakuvad palju võimalusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad mõnda käsitööharjutust soovitada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kudumise parema käe harjutamiseks sobib hästi väike ruudukujuline proovikude."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida võiksin käsitööna valmistada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne kangast kott on praktiline ja õmblemisel hea algtaseme projekt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sul on mõni lihtne käsitööidee?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paberist lillede tegemine on kerge ja sobib igas vanuses tegijale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mõni käsitöösoovitus."
+      },
+      {
+        "role": "assistant",
+        "content": "Vildist jõuluehted on lihtsad lõigata ja kokku õmmelda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda kerget käsitööprojekti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Klaaspurkidest saab teha küünlaümbriseid, kui need kaunistada nööri või pitsiga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Anna mulle üks käsitööalane idee."
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne helmestest käevõru sobib hästi algajale ehtemeistrile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid mulle käsitöös midagi soovitada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kangast salvrätikute õmblemine on lihtne ja praktiline projekt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta mulle üks käsitöötegevus, mida võiks proovida."
+      },
+      {
+        "role": "assistant",
+        "content": "Puidust pulkadega saab teha väikeseid dekoratiivseid aluseid või kujukesi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas seletaksid mõne käsitöömustri põhimõtet?"
+      },
+      {
+        "role": "assistant",
+        "content": "Käsitöömuster on korduv element või kujund, mis loob tööle rütmi ja ühtsuse. Muster võib koosneda silmuste, värvide või kujundite kordumisest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mõni sügavam teadmine käsitöömustrite kohta."
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud mustrid põhinevad kordusel ja sümmeetrial, mis aitab luua tasakaalustatud ja silmale meeldiva tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad selgitada, kuidas käsitöös mustreid luuakse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mustri loomine algab tavaliselt väikese motiivi või silmuste järjestuse valimisest, mida korratakse kogu töö ulatuses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta mulle midagi keerulisemat käsitöö teemal."
+      },
+      {
+        "role": "assistant",
+        "content": "Kudumisel kasutatakse sageli mustrikaarte, mis näitavad iga rea silmuseid graafiliselt, et keerukad mustrid oleksid kergemini jälgitavad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid mulle mõne käsitöö tehnilise põhimõtte selgitada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Heegeldamisel mõjutab lõpptulemust tugevalt heegelnõela suurus: väiksem nõel teeb tihedama ja suurem nõel õhulisema koe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Ütle mulle midagi sügavamat käsitöö kohta."
+      },
+      {
+        "role": "assistant",
+        "content": "Käsitöö kvaliteet sõltub sageli pingest — ühtlane tööpinge tagab, et muster jääb ilus ja vorm püsib."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda keerukamat käsitöötõde?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud keerukad mustrid koosnevad tegelikult lihtsatest elementidest, mis on omavahel nutikalt kombineeritud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Selgita mulle mõnda käsitööga seotud põhimõtet."
+      },
+      {
+        "role": "assistant",
+        "content": "Õmblemisel on oluline terav nõel ja sobiv niit, sest vale niidi paksus võib muuta õmbluse ebaühtlaseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad rääkida mõnest käsitöö süvatasandi ideest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lapitehnikas kasutatakse sageli värviteooriat, et luua kontraste ja harmooniat, mis muudavad mustri elavaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jaga minuga mõni käsitööalane teadmine, mis pole päris algajale."
+      },
+      {
+        "role": "assistant",
+        "content": "Kudumisel mõjutab lõnga kiudude keerd suunda, kas lõng kipub töös avanema või jääb kompaktseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid mulle mõne keerukama käsitööfakti öelda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Heegeldamisel võib sama muster anda väga erineva tulemuse sõltuvalt sellest, kas töö tehakse lõdvalt või tihedalt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mõni tehniline käsitöötõde."
+      },
+      {
+        "role": "assistant",
+        "content": "Õmblusvaru ühtlane hoidmine on oluline, sest see mõjutab riideeseme istuvust ja vastupidavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda sügavamat käsitööselgitust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kudumisel kasutatakse sageli proovikude, et hinnata tihedust — see aitab tagada, et valmis ese tuleb õiges suuruses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Ütle mulle midagi mustrite ülesehitusest käsitöös."
+      },
+      {
+        "role": "assistant",
+        "content": "Mustrid võivad olla kas korduvad või kasvavad — korduvad mustrid loovad rütmi, kasvavad mustrid aga liikumise efekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad selgitada mõnda keerukamat käsitöövõtet?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ristpistes tikandis loeb iga piste suund, sest see mõjutab valguse peegeldumist ja kogu töö ühtlast välimust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jutusta mulle mõni käsitööga seotud tehniline nüanss."
+      },
+      {
+        "role": "assistant",
+        "content": "Makramees on oluline sõlmede järjekord, sest vale järjestus muudab mustri kuju ja pinget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa võiksid mulle mõne sügavama käsitööfakti jutustada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kudumisel võib mustri keerukus tulla mitte silmuste raskusest, vaid sellest, kuidas need omavahel põimuvad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Räägi mulle mõni käsitööline teadmine, mis aitab mustreid mõista."
+      },
+      {
+        "role": "assistant",
+        "content": "Paljud mustrid põhinevad matemaatilisel kordusel — näiteks 4 või 8 silmuse tsüklil."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa tead mõnda käsitöö põhimõtet, mis on sügavam kui tavaline nõuanne?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õige materjalivalik on sama tähtis kui tehnika — näiteks looduskiud annavad pehmema ja hingavama tulemuse kui sünteetika."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Jaga minuga üks käsitööalane süvateadmine."
+      },
+      {
+        "role": "assistant",
+        "content": "Heegeldamisel mõjutab töö kuju tugevalt see, kas silmuseid lisatakse või kahandatakse — see loob kolmemõõtmelisi vorme."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis asi on palmikukudumise muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Palmikumuster tekib siis, kui silmuseid ristatakse omavahel, luues köiejate või põimitud kujundiga pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Seleta pärlkudumise mustrit."
+      },
+      {
+        "role": "assistant",
+        "content": "Pärlkudumine vaheldab parempidiseid ja pahempidiseid silmuseid nii, et pind jääb täpiline ja kergelt tekstuurne."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kalasaba muster kudumises?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalasaba muster koosneb diagonaalsetest joonetest, mis vahelduvad ja loovad siksakilise, tiheda tekstuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Seleta heegeldatud ananassimustrit."
+      },
+      {
+        "role": "assistant",
+        "content": "Ananassimuster on õhuline heegelmustrite klassika, kus kaared ja pikad sambad moodustavad lehvikukujulise motiivi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on vanaema ruut heegeldamises?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vanaema ruut on klassikaline heegelmotiiv, mis kasvab ringikujuliselt ja koosneb korduvatest kaare- ja sammasridadest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas kirjeldada ristpistes lillemustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ristpistes lillemuster kujuneb väikestest ristpistetest, mis moodustavad värvilise kujundi nagu mosaiik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on geomeetriline tikandimuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Geomeetriline tikand kasutab korduvaid kujundeid nagu ruudud, kolmnurgad ja rombid, luues rütmilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas sa oskad seletada, mis on makramee spiraalmustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spiraalmuster tekib siis, kui sõlmi tehakse alati samas suunas, mis paneb töö aeglaselt keerdu minema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on makramee ruutsõlme muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruutsõlme muster koosneb korduvatest ruutsõlmedest, mis loovad tugeva ja ühtlase pinnatekstuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Seleta lapitöö hargtähe mustrit."
+      },
+      {
+        "role": "assistant",
+        "content": "Hargtähe muster koosneb kolmnurkadest ja rombidest, mis moodustavad tähekujulise keskosa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on log cabin muster lapitöös?"
+      },
+      {
+        "role": "assistant",
+        "content": "Log cabin muster kasvab keskelt väljapoole ribadena, mis annavad tööle kihilise ja sümmeetrilise välimuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas saad seletada pitsilise kudumise mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pitsimuster tekib õhksilmuste ja kahanduste kombinatsioonist, mis loob õhulise ja läbipaistva pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on korvikudumise muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Korvimuster jäljendab punutise välimust, vaheldades silmuste gruppe nii, et tekib ruuduline tekstuur."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas kirjeldada heegeldatud lainemustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lainemuster vaheldab kõrgemaid ja madalamaid silmuseid, mis tekitavad voogava siksakilise kujundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on pitsiline ananassimuster heegeldamises?"
+      },
+      {
+        "role": "assistant",
+        "content": "See muster kasutab kaari ja pikki sambaid, mis avanevad lehvikuna ja meenutavad ananassi kuju."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas seletada kahevärvilist kudumismustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kahevärviline muster kasutab kahte lõnga, mis vahelduvad ridade või silmuste kaupa, luues kontrastse kujundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on Fair Isle kudumismuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fair Isle muster on kahe või enama värviga kootud korduv geomeetriline kujund, mida kantakse töö tagaküljel kaasa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Seleta mulle palun heegeldatud kooremustrit."
+      },
+      {
+        "role": "assistant",
+        "content": "Kooremuster koosneb lehvikukujulistest elementidest, mis korduvad reas ja loovad dekoratiivse pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandis varspiste muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Varspiste muster moodustab ühtlase joone, mis sobib kontuuride ja kaarjate kujundite tikkimiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas oskad seletada lapitöö kaheksakanna mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaheksakanna muster koosneb kaheksast sümmeetrilisest kolmnurgast, mis moodustavad tähekujulise keskosa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha, kui tahan käsitööd proovida, aga mul pole kogemust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Alusta väikesest proovikudumisest, mis õpetab lõnga pinget ja käe liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis oleks hea esimene heegelprojekt?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike ümmargune alus on lihtne ja aitab harjutada sambaid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha kangajääkidega, mis on liiga väikesed?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õmble neist lapitehnika ruudud, mida saad hiljem suuremaks tööks ühendada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas alustada tikkimist, kui pole kunagi proovinud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ristpiste on parim algus, sest muster on ruudustikus lihtsasti jälgitav."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kõige lihtsam asi, mida õmblusmasinaga teha?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sirge õmblusega riidest kott — see õpetab masina tunnetust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha, kui mul on ainult paber ja käärid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Proovi voltida lihtsaid lilli või kaarte, mis ei vaja liimi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kas algaja saab kududa salli?"
+      },
+      {
+        "role": "assistant",
+        "content": "Saab küll — vali paks lõng ja suured vardad, et töö edeneks kiiresti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida meisterdada nööpidest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nööpidest saab teha kaelakee, kui need niidile järjest sättida."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat makramee projekti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Alusta võtmehoidjast, mis kasutab ainult ruutsõlme."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha, kui mul on ainult villane lõng?"
+      },
+      {
+        "role": "assistant",
+        "content": "Heegelda väike aluspadi nõelviltimiseks või tee lihtne randmesoojendaja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kõige lihtsam tikkimismuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sirgpiste muster, mis loob jooni ja kontuure."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat kaunistust kingitusele?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika paberist väike silt ja kaunista see markeritega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha, kui tahan õppida õmblema sirget õmblust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Harjuta paberil ilma niidita — see õpetab käe stabiilsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt vildist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vildist kuumaalus, mis vajab ainult lõikamist ja paari õmblust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha lõngajääkidega?"
+      },
+      {
+        "role": "assistant",
+        "content": "Heegelda värvilisi motiive, mida saad hiljem kokku ühendada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat helmestest käevõru?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika elastikpael ja lisa helmed järjest, kuni pikkus sobib."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kõige lihtsam lapitöö muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ruudud — need on sirged ja annavad kiiresti tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat tikitud lille?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta varspistet kroonlehtede jaoks ja sõlmpistet keskosa jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha, kui mustrid tunduvad keerulised?"
+      },
+      {
+        "role": "assistant",
+        "content": "Alusta ainult kinnissilmustega — neist saab tugeva ja ühtlase koe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea projekt lastele?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paberist loomakujude voltimine ja värvimine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat võtmehoidjat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika vildist kujund ja õmble servad kokku."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha puidust pulkadega?"
+      },
+      {
+        "role": "assistant",
+        "content": "Liimi neist väike alus või pildiraam."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat kaelakeed?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta nööre ja suuri helmeid, mis on kergesti käsitletavad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt õmblusmasinaga?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne padjakate, mis vajab ainult nelja sirget õmblust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat heegelmotiivi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Alusta maagilise ringiga ja tee sinna sambaid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha paberist ja liimist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee kollaaž värvilistest tükkidest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat tikitud südant?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta tagasipistet, mis loob ühtlase kontuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt kudumises?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike ruudukujuline proovikude."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat makramee riba?"
+      },
+      {
+        "role": "assistant",
+        "content": "Korda ruutsõlme kuni soovitud pikkuseni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha lõngast ja kääridega?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee lõngatutt — see on lihtne ja dekoratiivne."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat tikkimismustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonista pliiatsiga kerge kontuur ja täida see sirgpistetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt pärlitööks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Üherealine käevõru elastikpaelal."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat lapitehnika ruutu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika kaks ruutu ja õmble need diagonaalselt kokku."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas õppida heegeldama ringis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee kuus kinnissilmust maagilisse ringi ja suurenda igas reas."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat käsitsi õmblust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta jooksupistet, mis sobib ajutisteks õmblusteks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt viltimiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike pall või kuju, mida saab nõelaga vormida."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha tikitud tähte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta tagasipistet, mis loob selge kontuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha kangast ja nöörist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee lihtne kott, mille suu saab nööriga kinni tõmmata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha heegeldatud riba?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee ahelsilmuste kett ja täida see kinnissilmustega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt makramees?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike rippuv kaunistus ruutsõlmedest."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha tikitud joont?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta varspistet, mis annab ühtlase tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha lõngajääkidega?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee värvilisi tutikesi või heegeldatud motiive."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha lihtsat lapitehnika mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta kahevärvilisi ruute, mis loovad kontrasti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt heegeldamises?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike rannikujoone muster, mis kasutab ainult sambaid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas õmmelda paksu kangast?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta pikemaid pisteid, et kangas ei kortsuks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas tikkida lille?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta prantsuse sõlme lille keskosa jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha makramee võtmehoidjat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee kaks ruutsõlme ja lõpeta sõlmega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hea algaja projekt puutöös?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lihtne lihvitud võtmehoidja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas teha helmestest ripatsit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Seo helmed traadile ja vormi väike silmus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mida teha paberist ja markeritest?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonista mustrilisi kaarte või etikette."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude keerd heegeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tihedam keerd hoiab silmused selgemad, lõdvem keerd kipub töö käigus avanema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline valida õige vardasuurus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vale vardasuurus muudab koe kas liiga tihedaks või liiga lõdvaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem loetakse alt üles ja paremalt vasakule, kui pole märgitud teisiti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel alusriiet?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab kangast venimast ja tagab ühtlase pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab tööpinge heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ebavõrdne pinge tekitab lainetusi ja moonutab mustrit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on palmikukudumise põhimõte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmuseid ristatakse omavahel, luues köiejate kujundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane makramee sõlme pinge?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hoia mõlemad käed samas asendis ja tõmba sõlme alati sama jõuga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on proovikude oluline enne kudumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See näitab tihedust ja aitab vältida vale suurust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab materjalivalik tikandi tulemust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill annab mati pinna, siid läikiva ja vill tekstuurse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kahevärvilise kudumise põhimõte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaks lõnga kantakse töö taga kaasa, luues mustri kontrasti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud ananassimustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muster kasvab lehvikutena, mis avanevad ridade kaupa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös diagonaallõiget?"
+      },
+      {
+        "role": "assistant",
+        "content": "See annab kangale paindlikkust ja vähendab lainetust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga paksus kudumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paks lõng loob kiire tulemuse, õhuke annab detailse mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on varspiste tikandis?"
+      },
+      {
+        "role": "assistant",
+        "content": "See on piste, mis loob ühtlase joone ja sobib kontuurideks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane heegeldatud serv?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee igas reas sama arv silmuseid ja kasuta pööramissilmust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline valida õige nõela suurus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vale nõel rebib kangast või jätab piste liiga lõdvaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda pitsilist kudumismustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õhksilmused ja kahandused loovad avatud mustri rütmi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on makramee spiraalmuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõlmed tehakse alati samas suunas, mis paneb töö keerdu minema."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab materjalivalik kudumi langemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill langeb raskemalt, vill hoiab kuju."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel sõlmpistet?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob väikese reljeefse punkti, mis sobib detailideks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane lapitöö muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika kõik tükid täpselt sama suurusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud lainemuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kõrgemate ja madalamate silmuste vaheldus loob siksakilise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda Fair Isle mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muster kordub lühikeste tsüklitena ja kasutab kahte värvi reas."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline lõnga proovipesu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõned lõngad tõmbuvad kokku või venivad pärast pesu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab tööpinge tikandit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Liiga tugev pinge kortsutab kangast, liiga nõrk jätab piste ebakorrapäraseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lapitöö log cabin muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riba-riba haaval keskelt väljapoole kasvav muster."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane heegeldatud ring?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suurenda igas reas kindla rütmi järgi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel abivardaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need hoiavad silmuseid palmiku tegemisel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Joonised näitavad sõlmede järjestust ja suunda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandi varjupiste?"
+      },
+      {
+        "role": "assistant",
+        "content": "Piste, mis loob pehme ülemineku värvide vahel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga tekstuur kudumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Karvane lõng peidab vead, sile toob mustri esile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline kasutada õiget kääripaari?"
+      },
+      {
+        "role": "assistant",
+        "content": "Teravad käärid annavad puhta lõike ja ei narmenda kangast."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud kooremustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lehvikud korduvad reas ja loovad dekoratiivse pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kaheksakanna muster lapitöös?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaheksast kolmnurgast koosnev tähekujuline keskosa."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane kudumistihedus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hoia lõng alati sama nurga all ja sama pingega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel raamhoidjat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab kanga pingul ja lihtsustab pisteid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda pitsilist heegelmotiivi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab iga silmuse asukohta ringis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on korvikudumise muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmuste rühmad vahelduvad, luues punutise efekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värv kudumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tumedad toonid peidavad mustrit, heledad toovad selle esile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös triikimist iga rea järel?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab õmblused sirged ja muster jääb täpne."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda tikandimustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sümbolid näitavad piste tüüpi ja värvi, jooned näitavad suunda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud vanaema ruut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Klassikaline motiiv, mis kasvab ringikujuliselt ja kasutab lehvikuid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane makramee serv?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kasuta juhisena sirget joont või teipi, et sõlmed jääksid ühele kõrgusele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel silmusemärkijaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need aitavad jälgida mustri kordusi ja suurenduste kohti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kahevärvilist heegelmotiivi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvid vahelduvad ridade kaupa ja skeem näitab, millal lõnga vahetada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandi ketipiste?"
+      },
+      {
+        "role": "assistant",
+        "content": "Keti kujuline piste, mis sobib kontuuride ja dekoratiivsete joonte loomiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga jämedus heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jämedam lõng loob reljeefse pinna, peenem lõng annab õhulise tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel ääresilmuseid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need loovad sirgema serva ja lihtsustavad hilisemat kokkuõmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee diagonaalmustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sõlmed tehakse diagonaalselt üksteise alla, moodustades kaldjoone."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikkimisel täispiste?"
+      },
+      {
+        "role": "assistant",
+        "content": "Piste, mis täidab kujundi täielikult ja loob ühtlase värvipinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvitoon tikandi sügavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tumedad toonid loovad varju, heledad toovad esile kõrgemaid kohti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös õmblusvaru triikimist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab tükid sirged ja aitab mustril täpselt kokku sobituda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud pitsimustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab iga silmuse sümbolit ja nende omavahelist seost."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kudumisel parempidine silmus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Põhisilmus, mis loob sileda pinna ja on paljude mustrite alus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane tikkimistihedus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee kõik pisteid sama pikkusega ja hoia niit ühtlase pingega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse heegeldamisel pööramissilmust?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tõstab töö õigele kõrgusele ja hoiab serva sirgena."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri kordusi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kordused on märgitud sulgudesse või tärnide vahele."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on makramee ruutsõlm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Põhisõlm, mis loob tugeva ja tasase pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga koostis kudumi elastsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vill on elastne, puuvill vähem — see määrab, kui palju ese venib."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid pisteid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad pistetüübid loovad tekstuuri ja sügavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muster näitab iga tüki kuju, suurust ja paigutust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud lehvik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mitmest sambast koosnev kaarjas element."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab tööpinge kudumi suurust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pingul kootud ese tuleb väiksem, lõdvalt kootud suurem."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees alustuspulka?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab töö sirgena ja toetab sõlmede ühtlast paigutust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda tikandi värvikaarti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iga värv on märgitud numbriga, mis vastab niiditootja toonile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kudumisel pahempidine silmus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmus, mis loob reljeefse pinna ja kombineerub parempidisega mustriteks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane heegeldatud tekstuur?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hoia silmused sama kõrgusega ja väldi lõnga ülepingutamist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös õmblusvaru avamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See vähendab paksust ja aitab mustril lamedalt püsida."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee sõlmede skeemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nooled näitavad sõlme suunda ja jooned näitavad nööride liikumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandi prantsuse sõlm?"
+      },
+      {
+        "role": "assistant",
+        "content": "Väike ümar sõlm, mis sobib lillekeskuste ja punktide jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvigradient kudumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob sujuva värviülemineku ilma lõngavahetuseta."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel silmusemärkijaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need aitavad jälgida mustri kordusi ja suurendusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud ringmustri skeemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem kasvab keskelt väljapoole ja näitab iga rea suurendusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lapitöö flying geese muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kolmnurkadest koosnev korduv muster, mis meenutab lendavaid hanesid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane tikkimispind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kata ala paralleelsete pistetega, mis on sama pikkusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees lisaniite?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need annavad tööle mahtu ja võimaldavad keerukamaid mustreid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi ringvarrastel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeemi loetakse alati paremalt vasakule, sest töö käib ringis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud kooremuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lehvikute rida, mis loob dekoratiivse ja õhulise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus lõnga tugevust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikemad kiud annavad tugevama ja vastupidavama lõnga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niidipaksuseid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paks niit loob reljeefi, õhuke annab detailse tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö diagonaalset mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tükid asetatakse 45° nurga all, luues liikumise efekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kudumisel kaldkahanemine?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmuste kahandamine, mis kallutab mustrit vasakule või paremale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane heegeldatud pits?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jälgi skeemi täpselt ja hoia silmused sama kõrgusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees topeltsõlme?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob tugevama ja stabiilsema pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda tikandi varjundimustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvid vahelduvad järk-järgult, et luua sujuv üleminek."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lapitöö herringbone muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siksakiline muster, mis meenutab kalasaba."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimisviis mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Käsitsi värvitud lõng loob ebaühtlase, elava pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel abimarkeeringuid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need aitavad jälgida keerulisi mustreid ja suurendusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud kolmemõõtmelist mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused tehakse esisilmusesse või tagasilmusesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandi täispind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ala, mis on täielikult täidetud ühesuguste pistetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane lapitöö serv?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika kõik tükid täpselt ja kasuta õmblusvaru juhikuna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees metallrõngaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need annavad tööle kuju ja toetavad mustri alust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi, kus on palmikud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Palmikujooned näitavad, millal silmuseid ristatakse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud popkornsilmus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mitmest sambast koosnev kühm, mis loob reljeefse pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud ringmustri skeemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem kasvab keskelt väljapoole ja näitab iga rea suurendusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lapitöö flying geese muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kolmnurkadest koosnev korduv muster, mis meenutab lendavaid hanesid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane tikkimispind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kata ala paralleelsete pistetega, mis on sama pikkusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees lisaniite?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need annavad tööle mahtu ja võimaldavad keerukamaid mustreid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi ringvarrastel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeemi loetakse alati paremalt vasakule, sest töö käib ringis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud kooremuster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lehvikute rida, mis loob dekoratiivse ja õhulise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus lõnga tugevust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikemad kiud annavad tugevama ja vastupidavama lõnga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niidipaksuseid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paks niit loob reljeefi, õhuke annab detailse tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö diagonaalset mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tükid asetatakse 45° nurga all, luues liikumise efekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kudumisel kaldkahanemine?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmuste kahandamine, mis kallutab mustrit vasakule või paremale."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane heegeldatud pits?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jälgi skeemi täpselt ja hoia silmused sama kõrgusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees topeltsõlme?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob tugevama ja stabiilsema pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda tikandi varjundimustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvid vahelduvad järk-järgult, et luua sujuv üleminek."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lapitöö herringbone muster?"
+      },
+      {
+        "role": "assistant",
+        "content": "Siksakiline muster, mis meenutab kalasaba."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimisviis mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Käsitsi värvitud lõng loob ebaühtlase, elava pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel abimarkeeringuid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need aitavad jälgida keerulisi mustreid ja suurendusi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud kolmemõõtmelist mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused tehakse esisilmusesse või tagasilmusesse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on tikandi täispind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ala, mis on täielikult täidetud ühesuguste pistetega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas saavutada ühtlane lapitöö serv?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lõika kõik tükid täpselt ja kasuta õmblusvaru juhikuna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees metallrõngaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need annavad tööle kuju ja toetavad mustri alust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi, kus on palmikud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Palmikujooned näitavad, millal silmuseid ristatakse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on heegeldatud popkornsilmus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mitmest sambast koosnev kühm, mis loob reljeefse pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude päritolu kudumi vastupidavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikakiulised looduskiud annavad tugevama ja vähem topiliseks muutuva koe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline mõista lõnga keerdsuunda?"
+      },
+      {
+        "role": "assistant",
+        "content": "S- ja Z-keerd mõjutavad, kas silmused jäävad ühtlased või kipuvad keerduma."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda keerulist pitsimustrit, kus on mitu kordust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jaga muster plokkideks ja jälgi korduste piire."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niidikihte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mitme kihi kasutamine loob sügavuse ja varjuefekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvigradient heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Üleminekud võivad rõhutada mustri laineid või lehvikuid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös foundation paper piecing tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagab täpsema tulemuse keeruliste geomeetriliste kujundite puhul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus on mitu tasandit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab nööride kihte ja sõlmede järjestust eri tasanditel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks on oluline valida õige tikkimisriie?"
+      },
+      {
+        "role": "assistant",
+        "content": "Liiga tihe kangas raskendab pisteid, liiga hõre ei hoia kuju."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga jäikus kudumi struktuuri?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jäigem lõng hoiab vormi, pehme langeb vabamalt."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel lühendatud ridu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need loovad vormi, näiteks õlgade või kanna kujundamiseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud 3D-motiivi skeemi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused tehakse sügavamale või kõrgemale tasandile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel metallniite?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need lisavad sära ja rõhutavad dekoratiivseid elemente."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimistehnika mustri ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Käsitsi värvitud lõng võib luua ebaühtlase, kuid kunstilise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös bias tape’i?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab viimistleda kaarekujulisi servi ilma kortsudeta."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi, kus on mitu palmikut?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iga palmik on eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse heegeldamisel esisilmusesse heegeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob reljeefse pinna ja rõhutab mustrit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu kudumi omadusi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vill lisab soojust, akrüül vastupidavust, siid läiget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel varjundtehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob realistlikuma ja kolmemõõtmelisema tulemuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede kombinatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab iga sõlme tüüpi ja nende järjestust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös quarter inch seam allowance’i?"
+      },
+      {
+        "role": "assistant",
+        "content": "See on standard, mis tagab mustrite kokkusobivuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõned toonid võivad pesus seguneda ja mustrit pehmendada."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel wrap and turn tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See väldib aukude tekkimist lühendatud ridade juures."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda tikandi pistete kombinatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muster näitab, millised pistetüübid moodustavad ühe kujundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse heegeldamisel tagasilmusesse heegeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See loob soonilise ja elastse pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvitoonide kontrast mustri loetavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suur kontrast toob mustri esile, väike muudab selle pehmeks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös fussy cutting tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab paigutada mustri täpselt soovitud kujule."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustri skeemi, kus on keerulised kahandused?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millises suunas kahandus kallutab mustrit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede sümmeetriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sümmeetria loob visuaalselt tasakaalustatud mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud pinna ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikemad kiud annavad ühtlasema ja vähem topilise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid pingutusraame?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suured raamid hoiavad kangast pingul suuremate tööde puhul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö keerulist geomeetrilist mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jaga muster väiksemateks plokkideks ja õmble need eraldi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel magic loop tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab kududa väikeseid ringikujulisi detaile pikkadel varrastel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lühikesed värvijooksud loovad täpilise efekti, pikad triibulise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikandis couching tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab kinnitada paksu või dekoratiivset niiti ilma läbi torkamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse diagonaalsõlmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nooled näitavad diagonaali suunda ja sõlmede järjestust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös applique tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab lisada kujundeid ilma neid väikesteks tükkideks lõikamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab kangakiudude suund lapitöö plokkide stabiilsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Diagonaalsuunas lõigatud kangas venib rohkem ja vajab täpsemat käsitlemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel erinevaid kahandustehnikaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vasakule ja paremale kalduvad kahandused loovad mustris suunatud liikumise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse esisilmuse ja tagasilmuse kombinatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused tehakse ettepoole, et luua reljeefne tekstuur."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel varjundtehnikat lillede kujutamisel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Varjund loob loomuliku valguse ja varju efekti, mis muudab lille kolmemõõtmeliseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga jäikus heegeldatud amigurumi kuju?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jäigem lõng hoiab vormi paremini, pehme lõng muudab kuju ebastabiilseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös foundation piecing tehnikat väikeste detailide puhul?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab tükid täpselt paigas ja väldib kanga venimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse sakilisi servi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millal teha suurendusi ja kahandusi, et luua lainekujuline äär."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede kihilist paigutust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks tikandi ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikk värvijooks võib luua loomuliku varjundi ilma niiti vahetamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "See on elastne ja sobib varrukasuude, kaeluste ja äärte jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud sambaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikendatud sambad on skeemis eraldi sümboliga ja loovad õhulise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel metallist niidijuhikuid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need hoiavad niidi pinget ja takistavad selle narmendumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi tugevust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill annab tugevuse, viskoos lisab läiget ja langevust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös quarter-inch jalga?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagab täpse õmblusvaru ja ühtlase plokkide sobivuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse pööratud silmuseid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pööratud silmused loovad reljeefse pinna ja on skeemis eraldi märgitud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede pingutamisel mõõdulatti?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagab, et kõik sõlmed on sama kõrgusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu tikandi sära?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõned toonid võivad tuhmuda, eriti kui niit sisaldab metallkiude."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe variatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kombinatsioonid loovad erineva elastsuse ja mustri sügavuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse klastreid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Klastrid on mitmest sambast koosnevad grupid, mis tehakse ühte tippu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel varspiste variatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need võimaldavad luua erineva paksusega jooni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus kudumi vastupidavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikemad kiud annavad tugevama ja vähem topilise koe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös värviteooriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kontrast ja harmoonia loovad visuaalselt tasakaalustatud mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse kaldjooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaldjooned tekivad kahanduste ja suurenduste rütmist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede peegeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Peegeldatud sõlmed loovad sümmeetrilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lühikesed värvijooksud loovad täpilise efekti, pikad triibulise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikandis couching tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab kinnitada paksu või dekoratiivset niiti ilma läbi torkamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse diagonaalsõlmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nooled näitavad diagonaali suunda ja sõlmede järjestust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös applique tehnikat?"
+      },
+      {
+        "role": "assistant",
+        "content": "See võimaldab lisada kujundeid ilma neid väikesteks tükkideks lõikamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab kangakiudude suund lapitöö plokkide stabiilsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Diagonaalsuunas lõigatud kangas venib rohkem ja vajab täpsemat käsitlemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel erinevaid kahandustehnikaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vasakule ja paremale kalduvad kahandused loovad mustris suunatud liikumise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse esisilmuse ja tagasilmuse kombinatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused tehakse ettepoole, et luua reljeefne tekstuur."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel varjundtehnikat lillede kujutamisel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Varjund loob loomuliku valguse ja varju efekti, mis muudab lille kolmemõõtmeliseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga jäikus heegeldatud amigurumi kuju?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jäigem lõng hoiab vormi paremini, pehme lõng muudab kuju ebastabiilseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös foundation piecing tehnikat väikeste detailide puhul?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab tükid täpselt paigas ja väldib kanga venimist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse sakilisi servi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millal teha suurendusi ja kahandusi, et luua lainekujuline äär."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede kihilist paigutust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks tikandi ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikk värvijooks võib luua loomuliku varjundi ilma niiti vahetamata."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "See on elastne ja sobib varrukasuude, kaeluste ja äärte jaoks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud sambaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikendatud sambad on skeemis eraldi sümboliga ja loovad õhulise pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel metallist niidijuhikuid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need hoiavad niidi pinget ja takistavad selle narmendumist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi tugevust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill annab tugevuse, viskoos lisab läiget ja langevust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös quarter-inch jalga?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagab täpse õmblusvaru ja ühtlase plokkide sobivuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse pööratud silmuseid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pööratud silmused loovad reljeefse pinna ja on skeemis eraldi märgitud."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede pingutamisel mõõdulatti?"
+      },
+      {
+        "role": "assistant",
+        "content": "See tagab, et kõik sõlmed on sama kõrgusega."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu tikandi sära?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõned toonid võivad tuhmuda, eriti kui niit sisaldab metallkiude."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe variatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kombinatsioonid loovad erineva elastsuse ja mustri sügavuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse klastreid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Klastrid on mitmest sambast koosnevad grupid, mis tehakse ühte tippu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel varspiste variatsioone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need võimaldavad luua erineva paksusega jooni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus kudumi vastupidavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikemad kiud annavad tugevama ja vähem topilise koe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös värviteooriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kontrast ja harmoonia loovad visuaalselt tasakaalustatud mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse kaldjooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaldjooned tekivad kahanduste ja suurenduste rütmist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede peegeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Peegeldatud sõlmed loovad sümmeetrilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks heegeldatud mustrit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ebaühtlane värvijooks võib luua dünaamilise ja elava pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste kihte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad sügavuse ja varjuefekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö mustrit, kus kasutatakse mitut värvitooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvikaart näitab, millised toonid moodustavad mustri rütmi ja tasakaalu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel eri tüüpi kahandusi sama mustri sees?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kahandused kallutavad mustrit eri suundades, luues visuaalse liikumise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi jäikust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill muudab pitsi tugevamaks, viskoos lisab langevust ja siid läiget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste suundi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suunamuutused loovad varju, tekstuuri ja kolmemõõtmelisust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede diagonaalseid rühmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Diagonaalid näitavad mustri liikumist ja sõlmede järjestust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide eelnevat tärgeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tärgeldamine muudab kanga jäigemaks ja lihtsamini käsitletavaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks kudumi sümmeetriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ebaühtlane värvijooks võib luua asümmeetrilise, kuid kunstilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe ja silekoe vaheldust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaheldus loob reljeefi ja aitab esile tuua mustri struktuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud silmuseid ja klastreid koos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused loovad kõrguse ja millised mahu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niidipingeid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pinge mõjutab piste pikkust, reljeefi ja kanga pinget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud amigurumi pinna ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikakiuline lõng loob siledama pinna, lühike kiud võib topiliseks muutuda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide kettiõmblemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab plokid järjekorras ja kiirendab õmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse mitut erinevat pitsimotiivi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iga motiiv on skeemis eraldi märgitud ja kordused näitavad üleminekuid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede kihilist ehitust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimistehnika tikandi detailide selgust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtlaselt värvitud niit annab selge kontuuri, gradient loob pehme ülemineku."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe pööramist keerukates mustrites?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pööratud soonik hoiab mustri vormi ja ei veni välja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse reljeefsilmuseid ja pikendatud sambaid koos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Reljeefsilmused loovad kõrguse, pikendatud sambad õhulisuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste kihte lille kroonlehtede kujutamisel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad sügavuse ja loomuliku varjundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu lapitöö plokkide sobivust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kangad võivad pesus kokku tõmbuda erinevalt ja moonutada mustrit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede sümmeetriat geomeetrilistes mustrites?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sümmeetria loob tasakaalustatud ja harmoonilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse keerulisi palmikurühmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Palmikurühmad on skeemis eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel metallniite ornamentide rõhutamiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Metallniit peegeldab valgust ja tõstab detailid esile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu kudumi hingavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill ja lina hingavad hästi, sünteetika vähem."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide eeltriikimist enne kokkuõmblemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Triikimine hoiab õmblused sirged ja tagab täpse sobivuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitut eri kõrgusega silmust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab iga silmuse kõrgust ja nende järjestust mustris."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel lühendatud ridu vormi loomiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need võimaldavad kujundada kaari, õlgu ja muid kolmemõõtmelisi osi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks tikandi rütmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvijooks võib luua korduvaid mustreid või juhuslikke värvilaike."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede tihedust mustri tugevdamiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tihedam sõlmestik loob tugevama ja vastupidavama pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö plokke, kus kasutatakse diagonaalseid ribasid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Riba suund määrab mustri liikumise ja visuaalse rütmi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede vaheldumist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaheldus loob rütmi ja visuaalset huvi ning muudab mustri dünaamilisemaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimistehnika kudumi ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pooltoonid loovad pehme ülemineku, teravad toonid annavad kontrasti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe ja pitsi kombinatsiooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Soonik hoiab vormi, pits lisab õhulisust ja dekoratiivsust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitmekordseid sambaid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mitmekordsed sambad on skeemis eraldi sümboliga ja loovad kõrgema pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niiditekstuure?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tekstuur lisab sügavust ja muudab mustri visuaalselt rikkamaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu kudumi elastsust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõned kiud tõmbuvad pesus kokku ja muudavad koe jäigemaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide kettiõmblemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See kiirendab tööd ja hoiab tükid õiges järjekorras."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede rühmitamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Rühmad näitavad mustri struktuuri ja sõlmede jaotust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe pööramist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pööratud soonik loob tihedama ja vähem veniva pinna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks heegeldatud motiivi sümmeetriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ebaühtlane värvijooks võib muuta motiivi visuaalselt dünaamiliseks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste kihte?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad sügavuse ja varjuefekti."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda lapitöö mustrit, kus kasutatakse mitut värvitooni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvikaart näitab toonide paigutust ja mustri rütmi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel eri tüüpi kahandusi sama mustri sees?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kahandused kallutavad mustrit eri suundades."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu heegeldatud pitsi jäikust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill lisab tugevust, viskoos langevust ja siid läiget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste suundi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Suunamuutused loovad varju ja kolmemõõtmelisust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda makramee mustrit, kus kasutatakse sõlmede diagonaalseid rühmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Diagonaalid näitavad mustri liikumist ja sõlmede järjestust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide eelnevat tärgeldamist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tärgeldamine muudab kanga jäigemaks ja lihtsamini käsitletavaks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks kudumi sümmeetriat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ebaühtlane värvijooks võib luua asümmeetrilise, kuid kunstilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe ja silekoe vaheldust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaheldus loob reljeefi ja rõhutab mustri struktuuri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse pikendatud silmuseid ja klastreid koos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab, millised silmused loovad kõrguse ja millised mahu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid niidipingeid?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pinge mõjutab piste pikkust, reljeefi ja kanga pinget."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude pikkus heegeldatud amigurumi pinna ühtlust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pikakiuline lõng loob siledama pinna, lühike kiud võib topiliseks muutuda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide kettiõmblemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "See hoiab plokid järjekorras ja kiirendab õmblemist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse mitut erinevat pitsimotiivi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iga motiiv on skeemis eraldi märgitud ja kordused näitavad üleminekuid."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede kihilist ehitust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad kolmemõõtmelise mustri ja lisavad visuaalset sügavust."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvimistehnika tikandi detailide selgust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ühtlaselt värvitud niit annab selge kontuuri, gradient loob pehme ülemineku."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel soonikkoe pööramist keerukates mustrites?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pööratud soonik hoiab mustri vormi ja ei veni välja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse reljeefsilmuseid ja pikendatud sambaid koos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Reljeefsilmused loovad kõrguse, pikendatud sambad õhulisuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel erinevaid piste kihte lille kroonlehtede kujutamisel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kihid loovad sügavuse ja loomuliku varjundi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvipesu lapitöö plokkide sobivust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Erinevad kangad võivad pesus kokku tõmbuda erinevalt ja moonutada mustrit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede sümmeetriat geomeetrilistes mustrites?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sümmeetria loob tasakaalustatud ja harmoonilise mustri."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda kudumismustrit, kus kasutatakse keerulisi palmikurühmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Palmikurühmad on skeemis eraldi märgitud ja ristamised toimuvad kindla rütmiga."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse tikkimisel metallniite ornamentide rõhutamiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Metallniit peegeldab valgust ja tõstab detailid esile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga kiudude segu kudumi hingavust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Puuvill ja lina hingavad hästi, sünteetika vähem."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse lapitöös plokkide eeltriikimist enne kokkuõmblemist?"
+      },
+      {
+        "role": "assistant",
+        "content": "Triikimine hoiab õmblused sirged ja tagab täpse sobivuse."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas lugeda heegeldatud mustrit, kus kasutatakse mitut eri kõrgusega silmust?"
+      },
+      {
+        "role": "assistant",
+        "content": "Skeem näitab iga silmuse kõrgust ja nende järjestust mustris."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse kudumisel lühendatud ridu vormi loomiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Need võimaldavad kujundada kaari, õlgu ja muid kolmemõõtmelisi osi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Kuidas mõjutab lõnga värvijooks tikandi rütmi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Värvijooks võib luua korduvaid mustreid või juhuslikke värvilaike."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Miks kasutatakse makramees sõlmede tihedust mustri tugevdamiseks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tihedam sõlmestik loob tugevama ja vastupidavama pinna."
+      }
+    ]
+  }
+]

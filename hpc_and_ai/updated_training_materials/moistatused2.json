@@ -1,0 +1,1010 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on valge nagu lumi, kuid ei sula?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paber."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis käib küll üles ja alla, kuid jääb ise paigale?"
+      },
+      {
+        "role": "assistant",
+        "content": "Trepp."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati sinu ees, kuid sa ei näe seda kunagi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tulevik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis muutub märjaks, kui kuivab?"
+      },
+      {
+        "role": "assistant",
+        "content": "Rätik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis saab suuremaks, mida rohkem sa sellest ära võtad?"
+      },
+      {
+        "role": "assistant",
+        "content": "Auk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis läheb katki enne, kui seda kasutada saab?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muna."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on täis auke, kuid hoiab ikka vett?"
+      },
+      {
+        "role": "assistant",
+        "content": "Käsn."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on käes, aga ei ole käsi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kindad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on must, kui ostad selle, punane, kui kasutad, ja hall, kui viskad ära?"
+      },
+      {
+        "role": "assistant",
+        "content": "Süsi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis jookseb, aga ei liigu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vesi kraanis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on öösel nähtav, aga päeval kaob?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tähed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis tuleb kord aastas, kaks korda nädalas, aga mitte kunagi päevas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tähe A tähtedest sõnas 'aasta', 'nädal' ja 'päev'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on sinu oma, aga teised kasutavad seda rohkem kui sina?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sinu nimi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis saab märjaks, kui sellele päike paistab?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jää."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on pehme, kuid ei ole padi, ja lendab, kuid ei ole lind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pilv."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis kasvab, aga ei ole elus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Varju suurus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati purunematu, kui seda jagada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaikus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on väiksem kui peenraha, kuid kaalub rohkem kui mägi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aatom."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on midagi, mida saad püüda, kuid mitte visata?"
+      },
+      {
+        "role": "assistant",
+        "content": "Külmetus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis kõnnib ilma jalgadeta ja nutab ilma silmadeta?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pilv."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kogu aeg sinu juures, kuid sa ei märka seda enne, kui see kaob?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hingamine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on terav, kuid ei lõika?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tõde."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on olemas ainult siis, kui sa seda ütled?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vastus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kuldne, kuid ei ole kuld?"
+      },
+      {
+        "role": "assistant",
+        "content": "Päike."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on suurim asi maailmas, mida ei saa näha?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõte."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on must-valge ja loetakse kogu aeg?"
+      },
+      {
+        "role": "assistant",
+        "content": "Raamat."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis saab alguse suurest kirjast ja lõpeb väikese kirjaga, kuid jääb ikka samaks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lause."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on nii kerge, et isegi kõige tugevam inimene ei suuda seda kaua hoida?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hingetõmme."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on olemas enne kasutamist, kuid kaob kasutamise ajal?"
+      },
+      {
+        "role": "assistant",
+        "content": "Küünal."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati katki, kui sellest räägitakse?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vaikus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis ei räägi, kuid vastab alati?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kaja."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on eesel, mis ei ela?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mängueesel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on terve päeva käes, aga öösel pannakse maha?"
+      },
+      {
+        "role": "assistant",
+        "content": "Silmad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on peidus, kui sa seda näed, ja nähtav, kui sa seda ei näe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Unenägu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on ümmargune, kuid ei ole pall, ja särab, kuid ei ole lamp?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kuu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on ühe jalaga ja seisab väga kaua?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laternapost."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis võib täita kogu toa, kuid ei võta ruumi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Valgus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis võib täita kogu toa, kuid ei võta ruumi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Valgus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati ees, kuid ei jõua kunagi kohale?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tulevik."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis liigub edasi-tagasi, kuid ei liigu kunagi paigast?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pendel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on ring, kuid ei ole sõrmus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Päike."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on pikk, kuid ei ole madu; sirge, kuid ei ole joonlaud?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tee."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on kõigil inimestel, kuid keegi ei saa seda näha?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõtted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lihtne avada, kuid raske sulgeda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Süda."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati katuse all, aga vihma ei näe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aken."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis läheb mööda vett, kuid ei saa ujuda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Paat / laev."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on puhas, kui see on must?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tahvel pärast kustutamist."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis ei vaja võtmeid, kuid avab palju uksi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Haridus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati näljane ja sureb, kui seda toita?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tuli."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on väiksemaks muutudes tugevam?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kevad."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on hääleta, kuid kõlab valjult?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mõte."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis jookseb kogu aeg, kuid ei väsi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kell."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on lahke, kuid võib lõigata?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tuul."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on must ja valge ning teeb liikumisega kindlaks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Male."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on ühe silmaga, kuid ei näe midagi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nõel."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on magus, kuid ei ole kommi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Uni pärast pikka päeva."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on punane ja istub puu otsas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Õun."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on roheline ja kasvab maas, kuid ei ole muru?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kurk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on see, mis läheb üles, aga ei tule kunagi alla?"
+      },
+      {
+        "role": "assistant",
+        "content": "Vanus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on igal inimesel üks, kuid keegi ei taha seda kaotada?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kannatlikkus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on pehme, valge ja langeb taevast talvel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lumi."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on väike ja must, aga teeb suured jäljed?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tint."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Sa oled eesti keeles töötav assistent. Kasuta ainult antud konteksti. Ära leiuta uut infot. Vasta lühidalt ja selgelt."
+      },
+      {
+        "role": "user",
+        "content": "Mis on alati sinu taskus, aga sa ei näe seda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tasku sees olev ruum."
+      }
+    ]
+  }
+]
