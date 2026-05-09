@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Dict
@@ -31,11 +32,11 @@ ROUTER_PATHS = [
 ]
 
 ADAPTERS = {
-    "facts": "../adapters/2_290426/facts",
-    "kasitoo": "../adapters/2_290426/kasitoo",
-    "luuletused": "../adapters/2_290426/luuletused",
-    "muistendid": "../adapters/2_290426/muistendid",
-    "tahtpaevad": "../adapters/2_290426/tahtpaevad",
+    "facts": "adapters/2_290426/facts",
+    "kasitoo": "adapters/2_290426/kasitoo",
+    "luuletused": "adapters/2_290426/luuletused",
+    "muistendid": "adapters/2_290426/muistendid",
+    "tahtpaevad": "adapters/2_290426/tahtpaevad",
 }
 
 SYSTEM_MSGS = {
@@ -47,6 +48,8 @@ SYSTEM_MSGS = {
 }
 
 STATE_PATH = Path("conversation_state.json")
+
+SEARXNG_URL = os.getenv("SEARXNG_URL", "http://searxng:8080")
 
 
 # =============================================================================
@@ -168,8 +171,13 @@ def should_search(question: str, topic: str, confidence: float) -> bool:
 def search(query):
     try:
         r = requests.get(
-            "http://localhost:8080/search",
-            params={"q": query, "format": "json"},
+            f"{SEARXNG_URL}/search",
+            params={
+                "q": query,
+                "format": "json",
+                "language": "et",
+                "safesearch": 2,
+            },
             timeout=10,
         )
         data = r.json()
