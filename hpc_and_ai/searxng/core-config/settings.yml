@@ -1,0 +1,19 @@
+use_default_settings: true
+
+server:
+  secret_key: "change-this-secret"
+  bind_address: "0.0.0.0"
+
+search:
+  formats:
+    - html
+    - json
+    - csv
+    - rss
+  safesearch: 2
+
+# Temporarily disable wikidata engine to avoid HTTP 403 suspensions
+# Use list format expected by SearxNG settings loader
+engines:
+  - name: wikidata
+    enabled: false
