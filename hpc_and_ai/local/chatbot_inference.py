@@ -219,6 +219,20 @@ def build_prompt(tokenizer, question, topic, search_ctx=None,
     else:
         user = question
 
+    if search_ctx:
+        user = f"{user}\n\nOtsingukontekst:\n{search_ctx}"
+
+    messages = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": user},
+    ]
+
+    return tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
+    )
+
 
 @torch.no_grad()
 def generate(tokenizer, model, prompt):
