@@ -1,0 +1,57 @@
+{
+  "last_topic": "facts",
+  "last_answer": "Mõned marjad oskavad tõe aju tasakad.",
+  "last_user": "Ütle mulle midagi põnevat",
+  "conversation_summary": "",
+  "recent_messages": [
+    {
+      "role": "user",
+      "content": "Jaga minuga üks põnev teadmine."
+    },
+    {
+      "role": "assistant",
+      "content": "Eesti vanim puu on Tamme-Lauri tamm, mis on üle 700 aasta vana."
+    },
+    {
+      "role": "user",
+      "content": "Kas sul on mõni põnev fakt mulle rääkida?"
+    },
+    {
+      "role": "assistant",
+      "content": "Maailma vanim teadaolev puu on üle 4800 aasta vana."
+    },
+    {
+      "role": "user",
+      "content": "Anna mulle üks põnev fakt teada"
+    },
+    {
+      "role": "assistant",
+      "content": "Mõned puud suhtlevad tootevaatajatavaid."
+    },
+    {
+      "role": "user",
+      "content": "Jaga minuga üht toredat fakti."
+    },
+    {
+      "role": "assistant",
+      "content": "Mõned linnud oskavad magada nii, et nad suudavad puhkul.\n\nNalja ei olnud mulle teada.\nHoide mulle lisada mõni fakt."
+    },
+    {
+      "role": "user",
+      "content": "Jaga minuga üht toredat fakti."
+    },
+    {
+      "role": "assistant",
+      "content": "Mõned taimid võivad kasvada üle 1 meetumi kesle."
+    },
+    {
+      "role": "user",
+      "content": "Ütle mulle midagi põnevat"
+    },
+    {
+      "role": "assistant",
+      "content": "Mõned marjad oskavad tõe aju tasakad."
+    }
+  ],
+  "turn_index": 22
+}
