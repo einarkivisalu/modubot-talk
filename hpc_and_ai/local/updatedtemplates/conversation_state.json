@@ -1,0 +1,25 @@
+{
+  "last_topic": "tahtpaevad",
+  "last_answer": "Mis kuupäev on Eesti kirjanduse päev?",
+  "last_user": "esmaspäev",
+  "conversation_summary": "",
+  "recent_messages": [
+    {
+      "role": "user",
+      "content": "räägi luuletus"
+    },
+    {
+      "role": "assistant",
+      "content": "Kevad on tulnud ja tärkab rohi,\nvaikida enam nüüd metsa hiil.\nLõokene valge, võib-원에 siin,\nmetsas puhata ta igas riin."
+    },
+    {
+      "role": "user",
+      "content": "esmaspäev"
+    },
+    {
+      "role": "assistant",
+      "content": "Mis kuupäev on Eesti kirjanduse päev?"
+    }
+  ],
+  "turn_index": 3
+}
