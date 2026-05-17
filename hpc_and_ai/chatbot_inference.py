@@ -104,6 +104,8 @@ SEARCH_USER_AGENT = (
 
 _last_wikipedia_request_time = 0.0
 _wikipedia_request_delay = 1.0
+MAX_SEARCH_RPS = 20
+_min_wikipedia_interval = 1.0 / MAX_SEARCH_RPS
 
 
 # =============================================================================
@@ -336,9 +338,11 @@ def _search_wikipedia(query: str) -> list[str]:
 
     max_retries = 3
     for attempt in range(max_retries):
+        # enforce both adaptive wikipedia delay and a hard cap from RPS
+        effective_interval = max(_wikipedia_request_delay, _min_wikipedia_interval)
         time_since_last_request = time.time() - _last_wikipedia_request_time
-        if time_since_last_request < _wikipedia_request_delay:
-            time.sleep(_wikipedia_request_delay - time_since_last_request)
+        if time_since_last_request < effective_interval:
+            time.sleep(effective_interval - time_since_last_request)
 
         try:
             _last_wikipedia_request_time = time.time()
@@ -377,10 +381,34 @@ def _search_wikipedia(query: str) -> list[str]:
             
         except requests.exceptions.HTTPError as exc:
             if exc.response.status_code in (429, 403):
-                print(f"[SEARCH] Wikipedia blocked (rate limit/policy), retry {attempt+1}/{max_retries}")
-                _wikipedia_request_delay = min(_wikipedia_request_delay * 1.5, 5.0)
+                # Respect server-supplied Retry-After header when present.
+                retry_after = None
+                try:
+                    hdr = exc.response.headers.get("Retry-After")
+                    if hdr:
+                        # integer seconds
+                        if hdr.isdigit():
+                            retry_after = float(int(hdr))
+                        else:
+                            # try HTTP-date parsing
+                            from email.utils import parsedate_to_datetime
+                            dt = parsedate_to_datetime(hdr)
+                            if dt is not None:
+                                retry_after = max(0.0, (dt - __import__("datetime").datetime.utcnow()).total_seconds())
+                except Exception:
+                    retry_after = None
+
+                # compute new adaptive delay: prefer server Retry-After, but never below min interval
+                if retry_after is not None:
+                    _wikipedia_request_delay = max(retry_after, _min_wikipedia_interval)
+                    print(f"[SEARCH] Wikipedia 429/403 received, honoring Retry-After={retry_after}s")
+                else:
+                    _wikipedia_request_delay = min(max(_wikipedia_request_delay * 1.5, _min_wikipedia_interval), 5.0)
+                    print(f"[SEARCH] Wikipedia blocked (rate limit/policy), retry {attempt+1}/{max_retries}, backoff={_wikipedia_request_delay}s")
+
                 if attempt < max_retries - 1:
-                    time.sleep(2 ** attempt)
+                    # sleep using the adaptive delay (but don't oversleep beyond a couple of seconds for retries)
+                    time.sleep(min(_wikipedia_request_delay, 2 ** attempt))
                     continue
             print(f"[SEARCH] Wikipedia error: {exc}")
             return []

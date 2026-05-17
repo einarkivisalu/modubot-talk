@@ -1,17 +1,9 @@
 {
   "last_topic": "facts",
-  "last_answer": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane.\nAI ei saa vastust.",
+  "last_answer": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane.",
   "last_user": "Kes oli Lydia Koidula?",
   "conversation_summary": "",
   "recent_messages": [
-    {
-      "role": "user",
-      "content": "anna mulle koogi retsepti"
-    },
-    {
-      "role": "assistant",
-      "content": "Суviilised silmad on avatud."
-    },
     {
       "role": "user",
       "content": "jutusta mulle üks luuletus"
@@ -51,7 +43,15 @@
     {
       "role": "assistant",
       "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane.\nAI ei saa vastust."
+    },
+    {
+      "role": "user",
+      "content": "Kes oli Lydia Koidula?"
+    },
+    {
+      "role": "assistant",
+      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane."
     }
   ],
-  "turn_index": 32
+  "turn_index": 33
 }
