@@ -334,12 +334,12 @@ def _search_wikipedia(query: str) -> list[str]:
     if not query or len(query) < 2:
         return []
 
-    time_since_last_request = time.time() - _last_wikipedia_request_time
-    if time_since_last_request < _wikipedia_request_delay:
-        time.sleep(_wikipedia_request_delay - time_since_last_request)
-
-    max_retries = 2
+    max_retries = 3
     for attempt in range(max_retries):
+        time_since_last_request = time.time() - _last_wikipedia_request_time
+        if time_since_last_request < _wikipedia_request_delay:
+            time.sleep(_wikipedia_request_delay - time_since_last_request)
+
         try:
             _last_wikipedia_request_time = time.time()
             
@@ -376,14 +376,14 @@ def _search_wikipedia(query: str) -> list[str]:
             return results
             
         except requests.exceptions.HTTPError as exc:
-            if exc.response.status_code == 429:
-                print(f"[SEARCH] Wikipedia rate limited, retry {attempt+1}/{max_retries}")
-                _wikipedia_request_delay = min(_wikipedia_request_delay * 2, 5.0)
-                time.sleep(2 ** attempt)
-                continue
-            else:
-                print(f"[SEARCH] Wikipedia error: {exc}")
-                return []
+            if exc.response.status_code in (429, 403):
+                print(f"[SEARCH] Wikipedia blocked (rate limit/policy), retry {attempt+1}/{max_retries}")
+                _wikipedia_request_delay = min(_wikipedia_request_delay * 1.5, 5.0)
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
+            print(f"[SEARCH] Wikipedia error: {exc}")
+            return []
         except Exception as exc:
             print(f"[SEARCH] Wikipedia error: {exc}")
             return []
