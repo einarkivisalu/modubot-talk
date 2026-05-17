@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 from typing import Dict
 
+
 import joblib
 import numpy as np
 import requests
@@ -103,6 +104,7 @@ SEARCH_USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
 SEARCH_CONTACT = os.getenv("SEARCH_CONTACT", "kontakt@example.com")
+DISABLE_WIKI_SEARCH = os.getenv("DISABLE_WIKI_SEARCH", "0").lower() in ["1", "true", "yes"]
 
 _last_wikipedia_request_time = 0.0
 _wikipedia_request_delay = 1.0
@@ -370,6 +372,10 @@ def _strip_html(value: str) -> str:
 def _search_wikipedia(query: str) -> list[str]:
     """Search Wikipedia (Estonian) for topic information with rate limiting."""
     global _last_wikipedia_request_time, _wikipedia_request_delay
+    
+    if DISABLE_WIKI_SEARCH:
+        print("[SEARCH] Wikipedia search disabled via DISABLE_WIKI_SEARCH env var")
+        return []
     
     if not query or len(query) < 2:
         return []

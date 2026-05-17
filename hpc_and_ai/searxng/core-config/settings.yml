@@ -3,6 +3,7 @@ use_default_settings: true
 server:
   secret_key: "change-this-secret"
   bind_address: "0.0.0.0"
+  enable_metrics: false
 
 search:
   formats:
@@ -12,8 +13,28 @@ search:
     - rss
   safesearch: 2
 
-# Temporarily disable wikidata engine to avoid HTTP 403 suspensions
-# Use list format expected by SearxNG settings loader
+# Disable engines that cause rate-limiting issues
 engines:
-  - name: wikidata
-    enabled: false
+  wikidata:
+    disabled: true
+  wikipedia:
+    disabled: false
+    timeout: 10
+    request_timeout: 10
+  bing:
+    disabled: true
+  google:
+    disabled: true
+
+limiter:
+  enable: true
+  max_request_per_second: 1
+  rate_limit_handler: 'adaptive'
+
+# Bot detection and rate-limiting
+outgoing:
+  # Add contact header for Wikimedia
+  request_timeout: 15
+  max_retries: 2
+  # Headers for Wikimedia compliance
+  # Note: SearxNG will add appropriate headers per-engine

@@ -1,17 +1,9 @@
 {
   "last_topic": "facts",
-  "last_answer": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n']}\") Landeshooned rääkida. yönelik lütfen oletatkaa olevan toivottava vastau.طلع participaron participaroninterventoJumlahte huvitava fakti põnevad huvitavad faktid.",
+  "last_answer": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n） இருந்த .",
   "last_user": "Kes oli Lydia Koidula?",
   "conversation_summary": "",
   "recent_messages": [
-    {
-      "role": "user",
-      "content": "Kes oli Lydia Koidula?"
-    },
-    {
-      "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane juuri Tallinnis."
-    },
     {
       "role": "user",
       "content": "Kes oli Lydia Koidula?"
@@ -51,7 +43,15 @@
     {
       "role": "assistant",
       "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n']}\") Landeshooned rääkida. yönelik lütfen oletatkaa olevan toivottava vastau.طلع participaron participaroninterventoJumlahte huvitava fakti põnevad huvitavad faktid."
+    },
+    {
+      "role": "user",
+      "content": "Kes oli Lydia Koidula?"
+    },
+    {
+      "role": "assistant",
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n） இருந்த ."
     }
   ],
-  "turn_index": 35
+  "turn_index": 36
 }
