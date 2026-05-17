@@ -1,7 +1,7 @@
 {
   "last_topic": "facts",
-  "last_answer": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n） இருந்த .",
-  "last_user": "Kes oli Lydia Koidula?",
+  "last_answer": "Lennart Meri oli rahvusiku hoonter ja faktuaalikut Eesti rahvatзінades.",
+  "last_user": "Kes on Lennart Meri?",
   "conversation_summary": "",
   "recent_messages": [
     {
@@ -10,48 +10,48 @@
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane.\nThe end last phrase is irrelevant.\nervimine\nervimineervimineervimineervimineervimineervimineervimine"
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\nكين\n</h3>지난நிலையில். faltிரி."
     },
     {
       "role": "user",
-      "content": "Kes oli Lydia Koidula?"
+      "content": "Kes on Lydia Koidula?"
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane.\nAI ei saa vastust."
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane."
     },
     {
       "role": "user",
-      "content": "Kes oli Lydia Koidula?"
+      "content": "Kes on Lydia Koidula?"
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane."
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane."
     },
     {
       "role": "user",
-      "content": "Kes oli Lydia Koidula?"
+      "content": "cd c:\\modubot\\modubot-talk"
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n\nutule Unfall tegi mõni põnev fakt.\nutule\nutule"
+      "content": "Kuidas lugeda keerulisi mustreid, kus kasutatakse mitut värvitooni?"
     },
     {
       "role": "user",
-      "content": "Kes oli Lydia Koidula?"
+      "content": "$env:DISABLE_WIKI_SEARCH=\"1\""
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n']}\") Landeshooned rääkida. yönelik lütfen oletatkaa olevan toivottava vastau.طلع participaron participaroninterventoJumlahte huvitava fakti põnevad huvitavad faktid."
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane."
     },
     {
       "role": "user",
-      "content": "Kes oli Lydia Koidula?"
+      "content": "Kes on Lennart Meri?"
     },
     {
       "role": "assistant",
-      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n） இருந்த ."
+      "content": "Lennart Meri oli rahvusiku hoonter ja faktuaalikut Eesti rahvatзінades."
     }
   ],
-  "turn_index": 36
+  "turn_index": 42
 }

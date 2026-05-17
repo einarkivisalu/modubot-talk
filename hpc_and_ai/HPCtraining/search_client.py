@@ -300,17 +300,19 @@ def search_web(query: str, limit: int = 5, language: str = "et", safesearch: int
     cleaned_query = build_search_query(query)
     last_searxng_error = None
 
-    for base_url in _candidate_searxng_urls():
-        try:
-            results = _search_searxng(base_url, cleaned_query, language, safesearch)
-            if results:
-                print(f"[SEARCH] searxng -> {base_url}")
-                return results[:limit]
-        except Exception as exc:
-            last_searxng_error = exc
+    # Skip external search if Wikipedia search is disabled (IP likely rate-limited)
+    if not DISABLE_WIKI_SEARCH:
+        for base_url in _candidate_searxng_urls():
+            try:
+                results = _search_searxng(base_url, cleaned_query, language, safesearch)
+                if results:
+                    print(f"[SEARCH] searxng -> {base_url}")
+                    return results[:limit]
+            except Exception as exc:
+                last_searxng_error = exc
 
-    if last_searxng_error is not None:
-        print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
+        if last_searxng_error is not None:
+            print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
 
     if "ilm" in cleaned_query.lower() or "weather" in cleaned_query.lower():
         weather_results = _search_weather(cleaned_query)
@@ -323,7 +325,10 @@ def search_web(query: str, limit: int = 5, language: str = "et", safesearch: int
         print("[SEARCH] fallback -> wikipedia API")
         return wiki_results[:limit]
 
-    print("[SEARCH] all methods failed")
+    if DISABLE_WIKI_SEARCH:
+        print("[SEARCH] external search disabled (DISABLE_WIKI_SEARCH=1)")
+    else:
+        print("[SEARCH] all methods failed")
     return []
 
 
