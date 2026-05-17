@@ -1,17 +1,9 @@
 {
   "last_topic": "facts",
-  "last_answer": "Juulus on talvisad madamnă algervooma Eestis.\nYes, it's a spring season in Estonia.\nviol\ntriggered.\nYes, it is spring.",
-  "last_user": "mis ilm on täna tallinnas?",
+  "last_answer": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane juuri Tallinnis.",
+  "last_user": "Kes oli Lydia Koidula?",
   "conversation_summary": "",
   "recent_messages": [
-    {
-      "role": "user",
-      "content": "Mis ilm on tna Tallinnas?"
-    },
-    {
-      "role": "assistant",
-      "content": "Mõned marjad oskavad tõe aju tasakad.\n\n\n கடைસાયды айта()?; Қалай חgetQuery?\næ"
-    },
     {
       "role": "user",
       "content": "mis ilm on täna Tallinnas?"
@@ -51,7 +43,15 @@
     {
       "role": "assistant",
       "content": "Juulus on talvisad madamnă algervooma Eestis.\nYes, it's a spring season in Estonia.\nviol\ntriggered.\nYes, it is spring."
+    },
+    {
+      "role": "user",
+      "content": "Kes oli Lydia Koidula?"
+    },
+    {
+      "role": "assistant",
+      "content": "Lydia Koidula oli rahvusiku vanimad oma küünlingide ajal algava teadlane juuri Tallinnis."
     }
   ],
-  "turn_index": 29
+  "turn_index": 30
 }
