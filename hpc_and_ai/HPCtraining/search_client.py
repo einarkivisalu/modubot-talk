@@ -1,6 +1,7 @@
 import os
 import re
 import html
+import time
 import requests
 
 
@@ -11,6 +12,9 @@ SEARCH_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+
+_last_wikipedia_request_time = 0.0
+_wikipedia_request_delay = 1.0
 
 
 def build_search_query(question: str) -> str:
@@ -70,43 +74,69 @@ def _strip_html(value: str) -> str:
 
 
 def _search_wikipedia(query: str) -> list[dict]:
-    """Search Wikipedia (Estonian) for topic information."""
-    try:
-        r = requests.get(
-            "https://et.wikipedia.org/w/api.php",
-            params={
-                "action": "query",
-                "list": "search",
-                "srsearch": query,
-                "srnamespace": 0,
-                "srlimit": 3,
-                "format": "json",
-            },
-            headers={
-                "User-Agent": SEARCH_USER_AGENT,
-            },
-            timeout=SEARCH_TIMEOUT,
-        )
-        r.raise_for_status()
-        data = r.json()
-
-        results = []
-        for item in data.get("query", {}).get("search", []):
-            title = item.get("title", "").strip()
-            snippet = _strip_html(item.get("snippet", "")).strip()
-            if title and snippet:
-                results.append(
-                    {
-                        "title": title,
-                        "url": f"https://et.wikipedia.org/wiki/{title.replace(' ', '_')}",
-                        "content": snippet,
-                    }
-                )
-
-        return results
-    except Exception as exc:
-        print(f"[SEARCH] Wikipedia error: {exc}")
+    """Search Wikipedia (Estonian) for topic information with rate limiting."""
+    global _last_wikipedia_request_time, _wikipedia_request_delay
+    
+    if not query or len(query) < 2:
         return []
+
+    time_since_last_request = time.time() - _last_wikipedia_request_time
+    if time_since_last_request < _wikipedia_request_delay:
+        time.sleep(_wikipedia_request_delay - time_since_last_request)
+
+    max_retries = 2
+    for attempt in range(max_retries):
+        try:
+            _last_wikipedia_request_time = time.time()
+            
+            r = requests.get(
+                "https://et.wikipedia.org/w/api.php",
+                params={
+                    "action": "query",
+                    "list": "search",
+                    "srsearch": query,
+                    "srnamespace": 0,
+                    "srlimit": 3,
+                    "format": "json",
+                },
+                headers={
+                    "User-Agent": SEARCH_USER_AGENT,
+                },
+                timeout=SEARCH_TIMEOUT,
+            )
+            r.raise_for_status()
+            data = r.json()
+
+            results = []
+            for item in data.get("query", {}).get("search", []):
+                title = item.get("title", "").strip()
+                snippet = _strip_html(item.get("snippet", "")).strip()
+                if title and snippet:
+                    results.append(
+                        {
+                            "title": title,
+                            "url": f"https://et.wikipedia.org/wiki/{title.replace(' ', '_')}",
+                            "content": snippet,
+                        }
+                    )
+
+            return results
+            
+        except requests.exceptions.HTTPError as exc:
+            if exc.response.status_code == 429:
+                print(f"[SEARCH] Wikipedia rate limited, retry {attempt+1}/{max_retries}")
+                _wikipedia_request_delay = min(_wikipedia_request_delay * 2, 5.0)
+                time.sleep(2 ** attempt)
+                continue
+            else:
+                print(f"[SEARCH] Wikipedia error: {exc}")
+                return []
+        except Exception as exc:
+            print(f"[SEARCH] Wikipedia error: {exc}")
+            return []
+    
+    print("[SEARCH] Wikipedia max retries exceeded")
+    return []
 
 
 def _search_weather(query: str = "") -> list[dict]:
