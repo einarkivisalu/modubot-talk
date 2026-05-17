@@ -605,17 +605,19 @@ def search(query: str) -> str:
     cleaned_query = build_search_query(query)
     last_searxng_error = None
 
-    for base_url in _candidate_searxng_urls():
-        try:
-            results = _search_searxng(base_url, cleaned_query)
-            if results:
-                print(f"[SEARCH] searxng -> {base_url}")
-                return "\n\n".join(results)
-        except Exception as exc:
-            last_searxng_error = exc
+    # Skip external search if Wikipedia search is disabled (IP likely rate-limited)
+    if not DISABLE_WIKI_SEARCH:
+        for base_url in _candidate_searxng_urls():
+            try:
+                results = _search_searxng(base_url, cleaned_query)
+                if results:
+                    print(f"[SEARCH] searxng -> {base_url}")
+                    return "\n\n".join(results)
+            except Exception as exc:
+                last_searxng_error = exc
 
-    if last_searxng_error is not None:
-        print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
+        if last_searxng_error is not None:
+            print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
 
     weather_results = _search_weather(cleaned_query)
     if weather_results:
@@ -627,7 +629,10 @@ def search(query: str) -> str:
         print("[SEARCH] fallback -> wikipedia API")
         return "\n\n".join(wiki_results)
 
-    print("[SEARCH] all methods failed, using only internal knowledge")
+    if DISABLE_WIKI_SEARCH:
+        print("[SEARCH] external search disabled (DISABLE_WIKI_SEARCH=1), using internal knowledge only")
+    else:
+        print("[SEARCH] all methods failed, using only internal knowledge")
     return ""
 
 
