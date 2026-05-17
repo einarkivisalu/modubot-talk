@@ -325,20 +325,36 @@ def _strip_html(value: str) -> str:
 
 
 def _search_duckduckgo(query: str) -> list[str]:
+    headers = {
+        "User-Agent": SEARCH_USER_AGENT,
+        "Accept-Language": "et-EE,et;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Referer": "https://duckduckgo.com/",
+    }
+    
     r = requests.get(
         "https://duckduckgo.com/html/",
         params={"q": query, "kl": "et-et"},
-        headers={"User-Agent": SEARCH_USER_AGENT},
+        headers=headers,
         timeout=SEARCH_TIMEOUT,
     )
     r.raise_for_status()
     page = r.text
+
+    if not page or len(page) < 100:
+        print(f"[SEARCH] DuckDuckGo returned empty/too small response ({len(page)} bytes)")
+        return []
 
     title_matches = re.findall(
         r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
         page,
         flags=re.IGNORECASE | re.DOTALL,
     )
+    
+    if not title_matches:
+        print(f"[SEARCH] DuckDuckGo returned no matches. Sample HTML: {page[1000:1200]}")
+        return []
+
     snippet_matches = re.findall(
         r'class="result__snippet"[^>]*>(.*?)</(?:a|div)>',
         page,
@@ -383,10 +399,8 @@ def search(query: str) -> str:
     except Exception as exc:
         print(f"[SEARCH] duckduckgo unavailable: {exc}")
 
-    return (
-        "Live-otsing ebaõnnestus. "
-        "Kasuta ainult olemasolevat konteksti ja ära inventeeri täpseid reaalajas fakte."
-    )
+    print("[SEARCH] all methods failed, using only internal knowledge")
+    return ""
 
 
 # =============================================================================
