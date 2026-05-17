@@ -69,54 +69,92 @@ def _strip_html(value: str) -> str:
     return re.sub(r"<[^>]+>", "", html.unescape(value)).strip()
 
 
-def _search_duckduckgo(query: str) -> list[dict]:
-    headers = {
-        "User-Agent": SEARCH_USER_AGENT,
-        "Accept-Language": "et-EE,et;q=0.9",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Referer": "https://duckduckgo.com/",
-    }
-    
-    r = requests.get(
-        "https://duckduckgo.com/html/",
-        params={"q": query, "kl": "et-et"},
-        headers=headers,
-        timeout=SEARCH_TIMEOUT,
-    )
-    r.raise_for_status()
-    page = r.text
-
-    if not page or len(page) < 100:
-        print(f"[SEARCH] DuckDuckGo returned empty/too small response ({len(page)} bytes)")
-        return []
-
-    title_matches = re.findall(
-        r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
-        page,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
-
-    if not title_matches:
-        print(f"[SEARCH] DuckDuckGo returned no matches. Sample HTML: {page[1000:1200]}")
-        return []
-
-    snippet_matches = re.findall(
-        r'class="result__snippet"[^>]*>(.*?)</(?:a|div)>',
-        page,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
-
-    results: list[dict] = []
-    for index, (url, title) in enumerate(title_matches[:SEARCH_LIMIT]):
-        snippet = snippet_matches[index] if index < len(snippet_matches) else ""
-        results.append(
-            {
-                "title": _strip_html(title),
-                "url": html.unescape(url).strip(),
-                "content": _strip_html(snippet),
-            }
+def _search_wikipedia(query: str) -> list[dict]:
+    """Search Wikipedia for topic information."""
+    try:
+        r = requests.get(
+            "https://en.wikipedia.org/w/api.php",
+            params={
+                "action": "query",
+                "list": "search",
+                "srsearch": query,
+                "srnamespace": 0,
+                "srlimit": 3,
+                "format": "json",
+            },
+            timeout=SEARCH_TIMEOUT,
         )
-    return results
+        r.raise_for_status()
+        data = r.json()
+
+        results = []
+        for item in data.get("query", {}).get("search", []):
+            title = item.get("title", "").strip()
+            snippet = _strip_html(item.get("snippet", "")).strip()
+            if title and snippet:
+                results.append(
+                    {
+                        "title": title,
+                        "url": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}",
+                        "content": snippet,
+                    }
+                )
+
+        return results
+    except Exception as exc:
+        print(f"[SEARCH] Wikipedia error: {exc}")
+        return []
+
+
+def _search_weather() -> list[dict]:
+    """Get weather for Tallinn."""
+    try:
+        r = requests.get(
+            "https://api.open-meteo.com/v1/forecast",
+            params={
+                "latitude": 59.4370,
+                "longitude": 24.7536,
+                "current": "temperature_2m,weather_code,wind_speed_10m",
+                "temperature_unit": "celsius",
+                "timezone": "Europe/Tallinn",
+            },
+            timeout=SEARCH_TIMEOUT,
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        current = data.get("current", {})
+        temp = current.get("temperature_2m", "?")
+        wind = current.get("wind_speed_10m", "?")
+        weather_code = current.get("weather_code", 0)
+
+        conditions = {
+            0: "selge",
+            1: "peaaegu selge",
+            2: "osaliselt pilvine",
+            3: "pilvine",
+            45: "udu",
+            48: "külmuva udu",
+            51: "kerge vihmane",
+            61: "vihmane",
+            71: "kerge lumesadu",
+            81: "intensiivne vihm",
+        }
+
+        condition = conditions.get(weather_code, "tundmatu")
+        result_text = f"Tallinna ilm: {temp}°C, {condition}, tuul {wind} m/s"
+
+        return [
+            {
+                "title": "Tallinna ilm",
+                "url": "https://open-meteo.com/",
+                "content": result_text,
+            }
+        ]
+
+    except Exception as exc:
+        print(f"[SEARCH] Weather API error: {exc}")
+        return []
 
 
 def search_web(query: str, limit: int = 5, language: str = "et", safesearch: int = 2) -> list[dict]:
@@ -135,13 +173,16 @@ def search_web(query: str, limit: int = 5, language: str = "et", safesearch: int
     if last_searxng_error is not None:
         print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
 
-    try:
-        results = _search_duckduckgo(cleaned_query)
-        if results:
-            print("[SEARCH] fallback -> duckduckgo")
-            return results[:limit]
-    except Exception as exc:
-        print(f"[SEARCH] duckduckgo unavailable: {exc}")
+    if "ilm" in cleaned_query.lower() or "weather" in cleaned_query.lower():
+        weather_results = _search_weather()
+        if weather_results:
+            print("[SEARCH] fallback -> weather API")
+            return weather_results[:limit]
+
+    wiki_results = _search_wikipedia(cleaned_query)
+    if wiki_results:
+        print("[SEARCH] fallback -> wikipedia API")
+        return wiki_results[:limit]
 
     print("[SEARCH] all methods failed")
     return []
