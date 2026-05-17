@@ -4,6 +4,7 @@ import difflib
 import html
 import re
 import time
+import random
 from dataclasses import dataclass, asdict, field
 from pathlib import Path
 from typing import Any
@@ -131,6 +132,18 @@ def _save_search_cache() -> None:
 
 # load cache at import
 _load_search_cache()
+_GLOBAL_WIKI_BLOCK_UNTIL = 0.0
+
+def _save_block_html(query: str, body: str, prefix: str = "search_block") -> None:
+    try:
+        ts = int(time.time())
+        fname = Path(f"{prefix}_{ts}.html")
+        with open(fname, "w", encoding="utf-8") as f:
+            f.write(f"<!-- query: {query} -->\n")
+            f.write(body)
+        print(f"[SEARCH] saved blocking HTML to {fname}")
+    except Exception:
+        pass
 
 
 # =============================================================================
@@ -363,6 +376,12 @@ def _search_wikipedia(query: str) -> list[str]:
 
     max_retries = 3
 
+    # short-circuit when globally blocked
+    global _GLOBAL_WIKI_BLOCK_UNTIL
+    if time.time() < _GLOBAL_WIKI_BLOCK_UNTIL:
+        print("[SEARCH] Wikipedia temporarily blocked locally; skipping wiki lookup")
+        return []
+
     # check cache first
     try:
         entry = _search_cache.get(query)
@@ -397,6 +416,20 @@ def _search_wikipedia(query: str) -> list[str]:
                 timeout=SEARCH_TIMEOUT,
             )
             r.raise_for_status()
+            # If the API responded with HTML (block page) instead of JSON, treat as block
+            ctype = r.headers.get("content-type", "").lower()
+            if "application/json" not in ctype:
+                try:
+                    body = r.text
+                    _save_block_html(query, body)
+                except Exception:
+                    pass
+                # set a conservative local block interval (5-10 minutes with jitter)
+                dur = 300 + random.uniform(0, 120)
+                _GLOBAL_WIKI_BLOCK_UNTIL = time.time() + dur
+                print(f"[SEARCH] Detected non-JSON response from Wikipedia; pausing wiki lookups for {int(dur)}s")
+                return []
+
             data = r.json()
 
             results = []
@@ -444,7 +477,6 @@ def _search_wikipedia(query: str) -> list[str]:
                                 retry_after = max(0.0, (dt - __import__("datetime").datetime.utcnow()).total_seconds())
                 except Exception:
                     retry_after = None
-
                 # compute new adaptive delay: prefer server Retry-After, but never below min interval
                 if retry_after is not None:
                     _wikipedia_request_delay = max(retry_after, _min_wikipedia_interval)
@@ -453,8 +485,20 @@ def _search_wikipedia(query: str) -> list[str]:
                     _wikipedia_request_delay = min(max(_wikipedia_request_delay * 1.5, _min_wikipedia_interval), 5.0)
                     print(f"[SEARCH] Wikipedia blocked (rate limit/policy), retry {attempt+1}/{max_retries}, backoff={_wikipedia_request_delay}s")
 
+                # Save blocking HTML body if available
+                try:
+                    body = exc.response.text
+                    _save_block_html(query, body)
+                except Exception:
+                    pass
+
+                # set a conservative local block interval (5 minutes + jitter)
+                block_dur = max(60, int(_wikipedia_request_delay * 60))
+                block_dur = 300 + random.uniform(0, 120)
+                _GLOBAL_WIKI_BLOCK_UNTIL = time.time() + block_dur
+                print(f"[SEARCH] Local block set for {int(block_dur)}s due to repeated 4xx responses")
+
                 if attempt < max_retries - 1:
-                    # sleep using the adaptive delay (but don't oversleep beyond a couple of seconds for retries)
                     time.sleep(min(_wikipedia_request_delay, 2 ** attempt))
                     continue
             print(f"[SEARCH] Wikipedia error: {exc}")

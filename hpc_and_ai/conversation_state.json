@@ -1,17 +1,9 @@
 {
   "last_topic": "facts",
-  "last_answer": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n\nutule Unfall tegi mõni põnev fakt.\nutule\nutule",
+  "last_answer": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n']}\") Landeshooned rääkida. yönelik lütfen oletatkaa olevan toivottava vastau.طلع participaron participaroninterventoJumlahte huvitava fakti põnevad huvitavad faktid.",
   "last_user": "Kes oli Lydia Koidula?",
   "conversation_summary": "",
   "recent_messages": [
-    {
-      "role": "user",
-      "content": "mis ilm on täna tallinnas?"
-    },
-    {
-      "role": "assistant",
-      "content": "Juulus on talvisad madamnă algervooma Eestis.\nYes, it's a spring season in Estonia.\nviol\ntriggered.\nYes, it is spring."
-    },
     {
       "role": "user",
       "content": "Kes oli Lydia Koidula?"
@@ -51,7 +43,15 @@
     {
       "role": "assistant",
       "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n\nutule Unfall tegi mõni põnev fakt.\nutule\nutule"
+    },
+    {
+      "role": "user",
+      "content": "Kes oli Lydia Koidula?"
+    },
+    {
+      "role": "assistant",
+      "content": "Lydia Koidula oli rahvusiku vanimad küünlingide ajal algava teadlane.\n']}\") Landeshooned rääkida. yönelik lütfen oletatkaa olevan toivottava vastau.طلع participaron participaroninterventoJumlahte huvitava fakti põnevad huvitavad faktid."
     }
   ],
-  "turn_index": 34
+  "turn_index": 35
 }
