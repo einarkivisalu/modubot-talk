@@ -1,17 +1,9 @@
 {
   "last_topic": "facts",
   "last_answer": "Mõned marjad oskavad tõe aju tasakad.",
-  "last_user": "Ütle mulle midagi põnevat",
+  "last_user": "Tere, mis ilm on täna tallinnas?",
   "conversation_summary": "",
   "recent_messages": [
-    {
-      "role": "user",
-      "content": "Jaga minuga üks põnev teadmine."
-    },
-    {
-      "role": "assistant",
-      "content": "Eesti vanim puu on Tamme-Lauri tamm, mis on üle 700 aasta vana."
-    },
     {
       "role": "user",
       "content": "Kas sul on mõni põnev fakt mulle rääkida?"
@@ -51,7 +43,15 @@
     {
       "role": "assistant",
       "content": "Mõned marjad oskavad tõe aju tasakad."
+    },
+    {
+      "role": "user",
+      "content": "Tere, mis ilm on täna tallinnas?"
+    },
+    {
+      "role": "assistant",
+      "content": "Mõned marjad oskavad tõe aju tasakad."
     }
   ],
-  "turn_index": 22
+  "turn_index": 23
 }

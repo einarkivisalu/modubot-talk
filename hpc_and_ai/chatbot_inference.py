@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import difflib
+import html
 import re
 from dataclasses import dataclass, asdict, field
 from pathlib import Path
@@ -95,6 +96,12 @@ BASE_SYSTEM = (
 )
 
 SEARXNG_URL = os.getenv("SEARXNG_URL", "http://searxng:8080")
+SEARCH_TIMEOUT = 10
+SEARCH_LIMIT = 5
+SEARCH_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
 
 
 # =============================================================================
@@ -261,30 +268,125 @@ def should_search(question: str, topic: str, confidence: float, continuation: bo
     return False
 
 
-def search(query):
-    try:
-        r = requests.get(
-            f"{SEARXNG_URL}/search",
-            params={
-                "q": query,
-                "format": "json",
-                "language": "et",
-                "safesearch": 2,
-            },
-            timeout=10,
+def build_search_query(question: str) -> str:
+    query = re.sub(r"^(tere|tsau|hei|palun|aitäh)[,\s]+", "", question.strip(), flags=re.IGNORECASE)
+    query = re.sub(r"\s+", " ", query)
+    return query.strip(" ?!.,")
+
+
+def _candidate_searxng_urls() -> list[str]:
+    candidates = [
+        SEARXNG_URL,
+        "http://localhost:8080",
+        "http://127.0.0.1:8080",
+        "http://host.docker.internal:8080",
+        "http://searxng:8080",
+    ]
+
+    unique: list[str] = []
+    seen: set[str] = set()
+    for url in candidates:
+        normalized = url.rstrip("/")
+        if normalized and normalized not in seen:
+            seen.add(normalized)
+            unique.append(normalized)
+    return unique
+
+
+def _search_searxng(base_url: str, query: str) -> list[str]:
+    r = requests.get(
+        f"{base_url}/search",
+        params={
+            "q": query,
+            "format": "json",
+            "language": "et",
+            "safesearch": 2,
+        },
+        headers={"User-Agent": SEARCH_USER_AGENT},
+        timeout=SEARCH_TIMEOUT,
+    )
+    r.raise_for_status()
+    data = r.json()
+
+    results = []
+    for item in data.get("results", [])[:SEARCH_LIMIT]:
+        title = item.get("title", "").strip()
+        content = item.get("content", "").strip() or item.get("snippet", "").strip()
+        url = item.get("url", "").strip()
+        block = "\n".join(part for part in [title, content, url] if part)
+        if block:
+            results.append(block)
+
+    return results
+
+
+def _strip_html(value: str) -> str:
+    return re.sub(r"<[^>]+>", "", html.unescape(value)).strip()
+
+
+def _search_duckduckgo(query: str) -> list[str]:
+    r = requests.get(
+        "https://duckduckgo.com/html/",
+        params={"q": query, "kl": "et-et"},
+        headers={"User-Agent": SEARCH_USER_AGENT},
+        timeout=SEARCH_TIMEOUT,
+    )
+    r.raise_for_status()
+    page = r.text
+
+    title_matches = re.findall(
+        r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+        page,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    snippet_matches = re.findall(
+        r'class="result__snippet"[^>]*>(.*?)</(?:a|div)>',
+        page,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+    results: list[str] = []
+    for index, (url, title) in enumerate(title_matches[:SEARCH_LIMIT]):
+        snippet = snippet_matches[index] if index < len(snippet_matches) else ""
+        block = "\n".join(
+            part
+            for part in [_strip_html(title), _strip_html(snippet), html.unescape(url).strip()]
+            if part
         )
-        r.raise_for_status()
-        data = r.json()
+        if block:
+            results.append(block)
 
-        results = []
-        for item in data.get("results", [])[:5]:
-            results.append(f"{item.get('title','')}\n{item.get('content','')}")
+    return results
 
-        return "\n\n".join(results)
 
-    except Exception as e:
-        print(f"[SEARCH ERROR] {e}")
-        return ""
+def search(query: str) -> str:
+    cleaned_query = build_search_query(query)
+    last_searxng_error = None
+
+    for base_url in _candidate_searxng_urls():
+        try:
+            results = _search_searxng(base_url, cleaned_query)
+            if results:
+                print(f"[SEARCH] searxng -> {base_url}")
+                return "\n\n".join(results)
+        except Exception as exc:
+            last_searxng_error = exc
+
+    if last_searxng_error is not None:
+        print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
+
+    try:
+        results = _search_duckduckgo(cleaned_query)
+        if results:
+            print("[SEARCH] fallback -> duckduckgo")
+            return "\n\n".join(results)
+    except Exception as exc:
+        print(f"[SEARCH] duckduckgo unavailable: {exc}")
+
+    return (
+        "Live-otsing ebaõnnestus. "
+        "Kasuta ainult olemasolevat konteksti ja ära inventeeri täpseid reaalajas fakte."
+    )
 
 
 # =============================================================================
