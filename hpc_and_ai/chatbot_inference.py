@@ -254,7 +254,8 @@ def should_search(question: str, topic: str, confidence: float, continuation: bo
     strong = [
         "ilm", "täna", "praegu", "mis kell",
         "uudised", "internet", "otsi", "otsi internetist",
-        "veebist", "search", "kust", "kus", "googli"
+        "veebist", "search", "kust", "kus", "googli",
+        "kes", "mis", "mitu", "kus", "millal", "miks",
     ]
 
     if any(s in q for s in strong):
@@ -323,16 +324,19 @@ def _strip_html(value: str) -> str:
 
 
 def _search_wikipedia(query: str) -> list[str]:
-    """Search Wikipedia for topic information."""
+    """Search Wikipedia (Estonian) for topic information."""
+    if not query or len(query) < 2:
+        return []
+
     try:
         r = requests.get(
-            "https://en.wikipedia.org/w/api.php",
+            "https://et.wikipedia.org/w/api.php",
             params={
                 "action": "query",
                 "list": "search",
                 "srsearch": query,
                 "srnamespace": 0,
-                "srlimit": 3,
+                "srlimit": 5,
                 "format": "json",
             },
             timeout=SEARCH_TIMEOUT,
@@ -344,9 +348,14 @@ def _search_wikipedia(query: str) -> list[str]:
         for item in data.get("query", {}).get("search", []):
             title = item.get("title", "").strip()
             snippet = _strip_html(item.get("snippet", "")).strip()
-            if title and snippet:
+            if title and snippet and len(snippet) > 10:
                 results.append(f"{title}\n{snippet}")
 
+        if results:
+            print(f"[SEARCH] Wikipedia found {len(results)} result(s)")
+        else:
+            print("[SEARCH] Wikipedia found no results")
+        
         return results
     except Exception as exc:
         print(f"[SEARCH] Wikipedia error: {exc}")
@@ -358,12 +367,39 @@ def _search_weather(query: str) -> list[str]:
     if not any(w in query.lower() for w in ["ilm", "temp", "weather", "rain", "snow"]):
         return []
 
+    cities = {
+        "tallinn": (59.4370, 24.7536),
+        "tartu": (58.3806, 26.7219),
+        "pärnu": (58.3853, 24.5014),
+        "haapsalu": (58.9455, 23.5447),
+        "narva": (59.3742, 28.1948),
+        "kuressaare": (58.2548, 22.4898),
+        "rakvere": (59.3528, 26.3597),
+        "kärdla": (59.0097, 23.1940),
+        "viljandi": (58.3645, 25.5889),
+        "põltsamaa": (58.7514, 25.9706),
+        "estonia": (58.5953, 25.0136),
+        "tallinna": (59.4370, 24.7536),
+        "tallinnas": (59.4370, 24.7536),
+    }
+
+    lat, lon = None, None
+    query_lower = query.lower()
+
+    for city_name, coords in cities.items():
+        if city_name in query_lower:
+            lat, lon = coords
+            break
+
+    if lat is None or lon is None:
+        return []
+
     try:
         r = requests.get(
             "https://api.open-meteo.com/v1/forecast",
             params={
-                "latitude": 59.4370,
-                "longitude": 24.7536,
+                "latitude": lat,
+                "longitude": lon,
                 "current": "temperature_2m,weather_code,wind_speed_10m",
                 "temperature_unit": "celsius",
                 "timezone": "Europe/Tallinn",
@@ -392,7 +428,17 @@ def _search_weather(query: str) -> list[str]:
         }
 
         condition = conditions.get(weather_code, "tundmatu")
-        result = f"Tallinna ilm: {temp}°C, {condition}, tuul {wind} m/s"
+
+        city_found = None
+        for city_name, coords in cities.items():
+            if coords == (lat, lon):
+                city_found = city_name.replace("a", "").replace("s", "").title()
+                break
+
+        if not city_found:
+            city_found = "Otsitud kohas"
+
+        result = f"{city_found} ilm: {temp}°C, {condition}, tuul {wind} m/s"
         return [result]
 
     except Exception as exc:

@@ -70,10 +70,10 @@ def _strip_html(value: str) -> str:
 
 
 def _search_wikipedia(query: str) -> list[dict]:
-    """Search Wikipedia for topic information."""
+    """Search Wikipedia (Estonian) for topic information."""
     try:
         r = requests.get(
-            "https://en.wikipedia.org/w/api.php",
+            "https://et.wikipedia.org/w/api.php",
             params={
                 "action": "query",
                 "list": "search",
@@ -95,7 +95,7 @@ def _search_wikipedia(query: str) -> list[dict]:
                 results.append(
                     {
                         "title": title,
-                        "url": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}",
+                        "url": f"https://et.wikipedia.org/wiki/{title.replace(' ', '_')}",
                         "content": snippet,
                     }
                 )
@@ -106,14 +106,40 @@ def _search_wikipedia(query: str) -> list[dict]:
         return []
 
 
-def _search_weather() -> list[dict]:
-    """Get weather for Tallinn."""
+def _search_weather(query: str = "") -> list[dict]:
+    """Get weather for any Estonian city."""
+    cities = {
+        "tallinn": (59.4370, 24.7536),
+        "tartu": (58.3806, 26.7219),
+        "pärnu": (58.3853, 24.5014),
+        "haapsalu": (58.9455, 23.5447),
+        "narva": (59.3742, 28.1948),
+        "kuressaare": (58.2548, 22.4898),
+        "rakvere": (59.3528, 26.3597),
+        "kärdla": (59.0097, 23.1940),
+        "viljandi": (58.3645, 25.5889),
+        "põltsamaa": (58.7514, 25.9706),
+        "estonia": (58.5953, 25.0136),
+        "tallinna": (59.4370, 24.7536),
+        "tallinnas": (59.4370, 24.7536),
+    }
+
+    lat, lon = 59.4370, 24.7536
+    city_name = "Tallinn"
+    query_lower = query.lower()
+
+    for city_key, coords in cities.items():
+        if city_key in query_lower:
+            lat, lon = coords
+            city_name = city_key.replace("a", "").replace("s", "").title()
+            break
+
     try:
         r = requests.get(
             "https://api.open-meteo.com/v1/forecast",
             params={
-                "latitude": 59.4370,
-                "longitude": 24.7536,
+                "latitude": lat,
+                "longitude": lon,
                 "current": "temperature_2m,weather_code,wind_speed_10m",
                 "temperature_unit": "celsius",
                 "timezone": "Europe/Tallinn",
@@ -142,11 +168,11 @@ def _search_weather() -> list[dict]:
         }
 
         condition = conditions.get(weather_code, "tundmatu")
-        result_text = f"Tallinna ilm: {temp}°C, {condition}, tuul {wind} m/s"
+        result_text = f"{city_name} ilm: {temp}°C, {condition}, tuul {wind} m/s"
 
         return [
             {
-                "title": "Tallinna ilm",
+                "title": f"{city_name} ilm",
                 "url": "https://open-meteo.com/",
                 "content": result_text,
             }
@@ -174,7 +200,7 @@ def search_web(query: str, limit: int = 5, language: str = "et", safesearch: int
         print(f"[SEARCH] searxng unavailable, using fallback: {last_searxng_error}")
 
     if "ilm" in cleaned_query.lower() or "weather" in cleaned_query.lower():
-        weather_results = _search_weather()
+        weather_results = _search_weather(cleaned_query)
         if weather_results:
             print("[SEARCH] fallback -> weather API")
             return weather_results[:limit]
