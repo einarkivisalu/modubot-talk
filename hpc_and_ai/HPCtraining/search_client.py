@@ -82,6 +82,9 @@ def _search_wikipedia(query: str) -> list[dict]:
                 "srlimit": 3,
                 "format": "json",
             },
+            headers={
+                "User-Agent": SEARCH_USER_AGENT,
+            },
             timeout=SEARCH_TIMEOUT,
         )
         r.raise_for_status()
