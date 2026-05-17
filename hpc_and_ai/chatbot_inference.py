@@ -101,11 +101,36 @@ SEARCH_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+SEARCH_CONTACT = os.getenv("SEARCH_CONTACT", "kontakt@example.com")
 
 _last_wikipedia_request_time = 0.0
 _wikipedia_request_delay = 1.0
-MAX_SEARCH_RPS = 20
+MAX_SEARCH_RPS = int(os.getenv("MAX_SEARCH_RPS", "1"))
 _min_wikipedia_interval = 1.0 / MAX_SEARCH_RPS
+
+# Simple on-disk cache to avoid repeated identical queries
+SEARCH_CACHE_PATH = Path("search_cache.json")
+SEARCH_CACHE_TTL = int(os.getenv("SEARCH_CACHE_TTL", "3600"))
+_search_cache: dict = {}
+
+def _load_search_cache() -> None:
+    global _search_cache
+    try:
+        if SEARCH_CACHE_PATH.exists():
+            with open(SEARCH_CACHE_PATH, "r", encoding="utf-8") as f:
+                _search_cache = json.load(f)
+    except Exception:
+        _search_cache = {}
+
+def _save_search_cache() -> None:
+    try:
+        with open(SEARCH_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(_search_cache, f, ensure_ascii=False)
+    except Exception:
+        pass
+
+# load cache at import
+_load_search_cache()
 
 
 # =============================================================================
@@ -337,6 +362,14 @@ def _search_wikipedia(query: str) -> list[str]:
         return []
 
     max_retries = 3
+
+    # check cache first
+    try:
+        entry = _search_cache.get(query)
+        if entry and (time.time() - float(entry.get("ts", 0))) < SEARCH_CACHE_TTL:
+            return entry.get("results", [])
+    except Exception:
+        pass
     for attempt in range(max_retries):
         # enforce both adaptive wikipedia delay and a hard cap from RPS
         effective_interval = max(_wikipedia_request_delay, _min_wikipedia_interval)
@@ -359,6 +392,7 @@ def _search_wikipedia(query: str) -> list[str]:
                 },
                 headers={
                     "User-Agent": SEARCH_USER_AGENT,
+                    "From": SEARCH_CONTACT,
                 },
                 timeout=SEARCH_TIMEOUT,
             )
@@ -374,6 +408,11 @@ def _search_wikipedia(query: str) -> list[str]:
 
             if results:
                 print(f"[SEARCH] Wikipedia found {len(results)} result(s)")
+                try:
+                    _search_cache[query] = {"ts": time.time(), "results": results}
+                    _save_search_cache()
+                except Exception:
+                    pass
             else:
                 print("[SEARCH] Wikipedia found no results")
             
@@ -384,6 +423,14 @@ def _search_wikipedia(query: str) -> list[str]:
                 # Respect server-supplied Retry-After header when present.
                 retry_after = None
                 try:
+                    # log response headers for debugging
+                    try:
+                        print("[SEARCH] Wikipedia response headers:")
+                        for k, v in exc.response.headers.items():
+                            print(f"  {k}: {v}")
+                    except Exception:
+                        pass
+
                     hdr = exc.response.headers.get("Retry-After")
                     if hdr:
                         # integer seconds

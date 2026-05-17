@@ -13,9 +13,11 @@ SEARCH_USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
 
+SEARCH_CONTACT = os.getenv("SEARCH_CONTACT", "kontakt@example.com")
+
 _last_wikipedia_request_time = 0.0
 _wikipedia_request_delay = 1.0
-MAX_SEARCH_RPS = 20
+MAX_SEARCH_RPS = int(os.getenv("MAX_SEARCH_RPS", "1"))
 _min_wikipedia_interval = 1.0 / MAX_SEARCH_RPS
 
 
@@ -105,6 +107,7 @@ def _search_wikipedia(query: str) -> list[dict]:
                 },
                 headers={
                     "User-Agent": SEARCH_USER_AGENT,
+                    "From": SEARCH_CONTACT,
                 },
                 timeout=SEARCH_TIMEOUT,
             )
@@ -128,7 +131,14 @@ def _search_wikipedia(query: str) -> list[dict]:
             
         except requests.exceptions.HTTPError as exc:
             if exc.response.status_code in (429, 403):
-                # Respect server-supplied Retry-After header when present.
+                # log response headers for debugging and Respect server-supplied Retry-After header when present.
+                try:
+                    print("[SEARCH] Wikipedia response headers:")
+                    for k, v in exc.response.headers.items():
+                        print(f"  {k}: {v}")
+                except Exception:
+                    pass
+
                 retry_after = None
                 try:
                     hdr = exc.response.headers.get("Retry-After")
